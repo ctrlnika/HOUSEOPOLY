@@ -77,6 +77,7 @@ function Challenge() {
     setYears([]);
     setPolicy(baselinePolicy(configForEvent(nextBase, eventDeck(nextBorough.code)[0] as (typeof deck)[number])));
     setPhase("plan");
+    window.setTimeout(() => window.scrollTo({ top: 0, behavior: "smooth" }), 20);
   }
 
   function finishResolution() {
@@ -97,6 +98,10 @@ function Challenge() {
   function nextYear() {
     if (years.length >= 5) {
       setPhase("final");
+      window.setTimeout(() => {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+        reportHeading.current?.focus();
+      }, 20);
       return;
     }
     const nextEvent = deck[years.length] as (typeof deck)[number];
