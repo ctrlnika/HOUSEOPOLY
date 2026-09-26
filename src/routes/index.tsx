@@ -93,6 +93,7 @@ function Landing() {
               </Link>
               <Link
                 to="/challenge"
+                search={{}}
                 className="group flex items-center justify-between border-2 border-alert px-6 py-4 text-alert transition-transform hover:-translate-y-0.5"
               >
                 <span className="display text-2xl">Play HOUSEOPOLY</span>
@@ -319,6 +320,7 @@ function Landing() {
           </div>
           <Link
             to="/challenge"
+            search={{}}
             className="shrink-0 border-2 border-alert bg-alert px-8 py-5 text-center text-accent-foreground"
           >
             <span className="display text-2xl">Take your seat →</span>

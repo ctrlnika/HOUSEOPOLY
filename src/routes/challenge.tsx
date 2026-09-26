@@ -23,7 +23,7 @@ type Phase = "setup" | "plan" | "resolving" | "report" | "final";
 
 export const Route = createFileRoute("/challenge")({
   validateSearch: (search: Record<string, unknown>) => ({
-    b: typeof search.b === "string" ? search.b : undefined,
+    b: typeof search["b"] === "string" ? search["b"] : undefined,
   }),
   head: () => ({
     meta: [
