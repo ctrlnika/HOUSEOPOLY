@@ -92,7 +92,8 @@ function Landing() {
                 <span aria-hidden="true" className="display text-2xl">↗</span>
               </Link>
               <Link
-                to="/challenge"
+                to="/auction"
+                search={{}}
                 className="group flex items-center justify-between border-2 border-alert px-6 py-4 text-alert transition-transform hover:-translate-y-0.5"
               >
                 <span className="display text-2xl">Play HOUSEOPOLY</span>
@@ -300,29 +301,39 @@ function Landing() {
         </div>
       </section>
 
-      {/* ---------------- CHALLENGE TEASER ---------------- */}
+      {/* ---------------- GAME TEASER ---------------- */}
       <section className="mx-auto max-w-[1400px] px-4 py-20 md:px-8">
         <div className="flex flex-col items-start justify-between gap-8 border-2 border-alert p-8 md:flex-row md:items-center md:p-12">
           <div>
             <span className="pixel text-xs uppercase tracking-[0.2em] text-alert">
-              Housing Director Challenge
+              Council vs Speculator
             </span>
             <h2 className="display mt-4 text-4xl md:text-6xl">
-              Five years. One borough.
+              Six lots. One pot of money.
               <br />
-              A budget under pressure.
+              Ninety seconds.
             </h2>
             <p className="mt-4 max-w-xl text-muted-foreground">
-              Take the chair. Split the money between accommodation, repairs, re-lets and new
-              homes, then live with what happens.
+              Outbid the landlords, the short-let operators and the offshore funds. Every home you
+              win comes back into council stock. Every home you lose sends families into a hotel.
             </p>
           </div>
-          <Link
-            to="/challenge"
-            className="shrink-0 border-2 border-alert bg-alert px-8 py-5 text-center text-accent-foreground"
-          >
-            <span className="display text-2xl">Take your seat →</span>
-          </Link>
+          <div className="flex shrink-0 flex-col gap-3">
+            <Link
+              to="/auction"
+              search={{}}
+              className="border-2 border-alert bg-alert px-8 py-5 text-center text-accent-foreground"
+            >
+              <span className="display text-2xl">Enter the saleroom →</span>
+            </Link>
+            <Link
+              to="/challenge"
+              search={{}}
+              className="border-2 border-border px-8 py-3 text-center text-sm text-muted-foreground"
+            >
+              Or play the five-year strategy mode
+            </Link>
+          </div>
         </div>
       </section>
     </>
