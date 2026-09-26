@@ -92,7 +92,8 @@ function Landing() {
                 <span aria-hidden="true" className="display text-2xl">↗</span>
               </Link>
               <Link
-                to="/challenge"
+                to="/auction"
+                search={{}}
                 className="group flex items-center justify-between border-2 border-alert px-6 py-4 text-alert transition-transform hover:-translate-y-0.5"
               >
                 <span className="display text-2xl">Play HOUSEOPOLY</span>
