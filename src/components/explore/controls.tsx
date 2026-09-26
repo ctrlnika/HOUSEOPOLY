@@ -184,7 +184,8 @@ export function AssumptionEditor({
             onChange={(n) => setA({ ...a, [x.id]: n })}
             description={`${x.status.charAt(0).toUpperCase() + x.status.slice(1)}. ${x.explanation}`}
           />
-        ))}
+          );
+        })}
       </div>
     </details>
   );
