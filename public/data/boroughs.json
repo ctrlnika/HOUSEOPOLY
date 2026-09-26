@@ -1,0 +1,1421 @@
+[
+  {
+    "code": "E09000002",
+    "name": "Barking & Dagenham",
+    "ta": 1067.0,
+    "households": 80887.0,
+    "rate": 13.191242103181,
+    "sourceLocator": "TA1!A28:G28",
+    "status": "observed",
+    "gross": 14203000.0,
+    "income": 11599000.0,
+    "net": 2604000.0,
+    "expenditureLocator": "RO4_LA_Data_202425 row 16",
+    "allVacants": 1576.0,
+    "allVacantsDate": "2024-10-07",
+    "councilVacants": 536.0,
+    "councilVacantsDate": "2025-03-31",
+    "history": [
+      {
+        "date": "2024-03-31",
+        "value": 1210.0
+      },
+      {
+        "date": "2024-06-30",
+        "value": null
+      },
+      {
+        "date": "2024-09-30",
+        "value": 1044.0
+      },
+      {
+        "date": "2024-12-31",
+        "value": 1043.0
+      },
+      {
+        "date": "2025-03-31",
+        "value": 1067.0
+      }
+    ],
+    "annualAverage": null,
+    "taUnitCost": null,
+    "stockGrowth": -0.11818181818181817,
+    "scenarioReady": false
+  },
+  {
+    "code": "E09000003",
+    "name": "Barnet",
+    "ta": 2819.0,
+    "households": 159133.0,
+    "rate": 17.7147417568952,
+    "sourceLocator": "TA1!A29:G29",
+    "status": "observed",
+    "gross": 70481160.0,
+    "income": 59060390.0,
+    "net": 11420770.0,
+    "expenditureLocator": "RO4_LA_Data_202425 row 17",
+    "allVacants": 5185.0,
+    "allVacantsDate": "2024-10-07",
+    "councilVacants": 149.0,
+    "councilVacantsDate": "2025-03-31",
+    "history": [
+      {
+        "date": "2024-03-31",
+        "value": 2295.0
+      },
+      {
+        "date": "2024-06-30",
+        "value": 2463.0
+      },
+      {
+        "date": "2024-09-30",
+        "value": 2623.0
+      },
+      {
+        "date": "2024-12-31",
+        "value": 2709.0
+      },
+      {
+        "date": "2025-03-31",
+        "value": 2819.0
+      }
+    ],
+    "annualAverage": 2653.5,
+    "taUnitCost": 26561.582815149803,
+    "stockGrowth": 0.22832244008714597,
+    "scenarioReady": true
+  },
+  {
+    "code": "E09000004",
+    "name": "Bexley",
+    "ta": 387.0,
+    "households": 102865.0,
+    "rate": 3.76221260875905,
+    "sourceLocator": "TA1!A36:G36",
+    "status": "observed",
+    "gross": 10683000.0,
+    "income": 5235000.0,
+    "net": 5448000.0,
+    "expenditureLocator": "RO4_LA_Data_202425 row 27",
+    "allVacants": 1932.0,
+    "allVacantsDate": "2024-10-07",
+    "councilVacants": 70.0,
+    "councilVacantsDate": "2025-03-31",
+    "history": [
+      {
+        "date": "2024-03-31",
+        "value": 580.0
+      },
+      {
+        "date": "2024-06-30",
+        "value": 552.0
+      },
+      {
+        "date": "2024-09-30",
+        "value": 495.0
+      },
+      {
+        "date": "2024-12-31",
+        "value": 437.0
+      },
+      {
+        "date": "2025-03-31",
+        "value": 387.0
+      }
+    ],
+    "annualAverage": 467.75,
+    "taUnitCost": 22839.12346338856,
+    "stockGrowth": -0.3327586206896552,
+    "scenarioReady": true
+  },
+  {
+    "code": "E09000005",
+    "name": "Brent",
+    "ta": null,
+    "households": 120849.0,
+    "rate": null,
+    "sourceLocator": "TA1!A49:G49",
+    "status": "missing",
+    "gross": 67161000.0,
+    "income": 34622000.0,
+    "net": 32539000.0,
+    "expenditureLocator": "RO4_LA_Data_202425 row 40",
+    "allVacants": 2604.0,
+    "allVacantsDate": "2024-10-07",
+    "councilVacants": 391.0,
+    "councilVacantsDate": "2025-03-31",
+    "history": [
+      {
+        "date": "2024-03-31",
+        "value": null
+      },
+      {
+        "date": "2024-06-30",
+        "value": null
+      },
+      {
+        "date": "2024-09-30",
+        "value": null
+      },
+      {
+        "date": "2024-12-31",
+        "value": null
+      },
+      {
+        "date": "2025-03-31",
+        "value": null
+      }
+    ],
+    "annualAverage": null,
+    "taUnitCost": null,
+    "stockGrowth": null,
+    "scenarioReady": false
+  },
+  {
+    "code": "E09000006",
+    "name": "Bromley",
+    "ta": 1796.0,
+    "households": 144795.0,
+    "rate": 12.4037432231776,
+    "sourceLocator": "TA1!A54:G54",
+    "status": "observed",
+    "gross": 35721000.0,
+    "income": 15442000.0,
+    "net": 20279000.0,
+    "expenditureLocator": "RO4_LA_Data_202425 row 45",
+    "allVacants": 3722.0,
+    "allVacantsDate": "2024-10-07",
+    "councilVacants": 0.0,
+    "councilVacantsDate": "2025-03-31",
+    "history": [
+      {
+        "date": "2024-03-31",
+        "value": 1646.0
+      },
+      {
+        "date": "2024-06-30",
+        "value": 1765.0
+      },
+      {
+        "date": "2024-09-30",
+        "value": 1876.0
+      },
+      {
+        "date": "2024-12-31",
+        "value": 1845.0
+      },
+      {
+        "date": "2025-03-31",
+        "value": 1796.0
+      }
+    ],
+    "annualAverage": 1820.5,
+    "taUnitCost": 19621.532546003844,
+    "stockGrowth": 0.09113001215066818,
+    "scenarioReady": true
+  },
+  {
+    "code": "E09000007",
+    "name": "Camden",
+    "ta": null,
+    "households": 120624.0,
+    "rate": null,
+    "sourceLocator": "TA1!A63:G63",
+    "status": "missing",
+    "gross": 33678000.0,
+    "income": 11948000.0,
+    "net": 21730000.0,
+    "expenditureLocator": "RO4_LA_Data_202425 row 59",
+    "allVacants": 4208.0,
+    "allVacantsDate": "2024-10-07",
+    "councilVacants": 951.0,
+    "councilVacantsDate": "2025-03-31",
+    "history": [
+      {
+        "date": "2024-03-31",
+        "value": null
+      },
+      {
+        "date": "2024-06-30",
+        "value": null
+      },
+      {
+        "date": "2024-09-30",
+        "value": null
+      },
+      {
+        "date": "2024-12-31",
+        "value": null
+      },
+      {
+        "date": "2025-03-31",
+        "value": null
+      }
+    ],
+    "annualAverage": null,
+    "taUnitCost": null,
+    "stockGrowth": null,
+    "scenarioReady": false
+  },
+  {
+    "code": "E09000001",
+    "name": "City of London",
+    "ta": 30.0,
+    "households": 4369.0,
+    "rate": 6.86655985351339,
+    "sourceLocator": "TA1!A77:G77",
+    "status": "observed",
+    "gross": 1487000.0,
+    "income": 1739000.0,
+    "net": -252000.0,
+    "expenditureLocator": "RO4_LA_Data_202425 row 75",
+    "allVacants": 197.0,
+    "allVacantsDate": "2024-10-07",
+    "councilVacants": 22.0,
+    "councilVacantsDate": "2025-03-31",
+    "history": [
+      {
+        "date": "2024-03-31",
+        "value": 33.0
+      },
+      {
+        "date": "2024-06-30",
+        "value": 34.0
+      },
+      {
+        "date": "2024-09-30",
+        "value": 32.0
+      },
+      {
+        "date": "2024-12-31",
+        "value": 33.0
+      },
+      {
+        "date": "2025-03-31",
+        "value": 30.0
+      }
+    ],
+    "annualAverage": 32.25,
+    "taUnitCost": 46108.52713178295,
+    "stockGrowth": -0.09090909090909094,
+    "scenarioReady": true
+  },
+  {
+    "code": "E09000008",
+    "name": "Croydon",
+    "ta": 3562.0,
+    "households": 158189.0,
+    "rate": 22.5173684643054,
+    "sourceLocator": "TA1!A83:G83",
+    "status": "observed",
+    "gross": 81219570.0,
+    "income": 46832090.0,
+    "net": 34387480.0,
+    "expenditureLocator": "RO4_LA_Data_202425 row 83",
+    "allVacants": 3651.0,
+    "allVacantsDate": "2024-10-07",
+    "councilVacants": 295.0,
+    "councilVacantsDate": "2025-03-31",
+    "history": [
+      {
+        "date": "2024-03-31",
+        "value": null
+      },
+      {
+        "date": "2024-06-30",
+        "value": 3193.0
+      },
+      {
+        "date": "2024-09-30",
+        "value": 3518.0
+      },
+      {
+        "date": "2024-12-31",
+        "value": 3504.0
+      },
+      {
+        "date": "2025-03-31",
+        "value": 3562.0
+      }
+    ],
+    "annualAverage": 3444.25,
+    "taUnitCost": 23581.20635842346,
+    "stockGrowth": null,
+    "scenarioReady": false
+  },
+  {
+    "code": "E09000009",
+    "name": "Ealing",
+    "ta": 3049.0,
+    "households": 124298.0,
+    "rate": 24.5297591272587,
+    "sourceLocator": "TA1!A95:G95",
+    "status": "observed",
+    "gross": 72919100.0,
+    "income": 60159180.0,
+    "net": 12759920.0,
+    "expenditureLocator": "RO4_LA_Data_202425 row 108",
+    "allVacants": 3462.0,
+    "allVacantsDate": "2024-10-07",
+    "councilVacants": 757.0,
+    "councilVacantsDate": "2025-03-31",
+    "history": [
+      {
+        "date": "2024-03-31",
+        "value": 3013.0
+      },
+      {
+        "date": "2024-06-30",
+        "value": 3204.0
+      },
+      {
+        "date": "2024-09-30",
+        "value": 3219.0
+      },
+      {
+        "date": "2024-12-31",
+        "value": 3230.0
+      },
+      {
+        "date": "2025-03-31",
+        "value": 3049.0
+      }
+    ],
+    "annualAverage": 3175.5,
+    "taUnitCost": 22963.02944418202,
+    "stockGrowth": 0.011948224361101989,
+    "scenarioReady": true
+  },
+  {
+    "code": "E09000010",
+    "name": "Enfield",
+    "ta": 3033.0,
+    "households": 133082.0,
+    "rate": 22.7904600171323,
+    "sourceLocator": "TA1!A107:G107",
+    "status": "observed",
+    "gross": 62487160.0,
+    "income": 33215000.0,
+    "net": 29272159.999999996,
+    "expenditureLocator": "RO4_LA_Data_202425 row 124",
+    "allVacants": 3626.0,
+    "allVacantsDate": "2024-10-07",
+    "councilVacants": 457.0,
+    "councilVacantsDate": "2025-03-31",
+    "history": [
+      {
+        "date": "2024-03-31",
+        "value": 3137.0
+      },
+      {
+        "date": "2024-06-30",
+        "value": 3067.0
+      },
+      {
+        "date": "2024-09-30",
+        "value": 3085.0
+      },
+      {
+        "date": "2024-12-31",
+        "value": 3085.0
+      },
+      {
+        "date": "2025-03-31",
+        "value": 3033.0
+      }
+    ],
+    "annualAverage": 3067.5,
+    "taUnitCost": 20370.71230643847,
+    "stockGrowth": -0.03315269365635953,
+    "scenarioReady": true
+  },
+  {
+    "code": "E09000011",
+    "name": "Greenwich",
+    "ta": 1893.0,
+    "households": 118733.0,
+    "rate": 15.9433350458592,
+    "sourceLocator": "TA1!A123:G123",
+    "status": "observed",
+    "gross": 29470000.0,
+    "income": 21556000.0,
+    "net": 7914000.0,
+    "expenditureLocator": "RO4_LA_Data_202425 row 149",
+    "allVacants": 2864.0,
+    "allVacantsDate": "2024-10-07",
+    "councilVacants": 272.0,
+    "councilVacantsDate": "2025-03-31",
+    "history": [
+      {
+        "date": "2024-03-31",
+        "value": 1761.0
+      },
+      {
+        "date": "2024-06-30",
+        "value": 1808.0
+      },
+      {
+        "date": "2024-09-30",
+        "value": 1859.0
+      },
+      {
+        "date": "2024-12-31",
+        "value": 1830.0
+      },
+      {
+        "date": "2025-03-31",
+        "value": 1893.0
+      }
+    ],
+    "annualAverage": 1847.5,
+    "taUnitCost": 15951.28552097429,
+    "stockGrowth": 0.07495741056218064,
+    "scenarioReady": true
+  },
+  {
+    "code": "E09000012",
+    "name": "Hackney",
+    "ta": 3567.0,
+    "households": 126079.0,
+    "rate": 28.2917853092109,
+    "sourceLocator": "TA1!A125:G125",
+    "status": "observed",
+    "gross": 68187000.0,
+    "income": 37054000.0,
+    "net": 31133000.0,
+    "expenditureLocator": "RO4_LA_Data_202425 row 151",
+    "allVacants": 2513.0,
+    "allVacantsDate": "2024-10-07",
+    "councilVacants": 159.0,
+    "councilVacantsDate": "2025-03-31",
+    "history": [
+      {
+        "date": "2024-03-31",
+        "value": 3287.0
+      },
+      {
+        "date": "2024-06-30",
+        "value": 3358.0
+      },
+      {
+        "date": "2024-09-30",
+        "value": 3445.0
+      },
+      {
+        "date": "2024-12-31",
+        "value": 3506.0
+      },
+      {
+        "date": "2025-03-31",
+        "value": 3567.0
+      }
+    ],
+    "annualAverage": 3469.0,
+    "taUnitCost": 19656.096857884117,
+    "stockGrowth": 0.08518405841192567,
+    "scenarioReady": true
+  },
+  {
+    "code": "E09000013",
+    "name": "Hammersmith & Fulham",
+    "ta": null,
+    "households": 84248.0,
+    "rate": null,
+    "sourceLocator": "TA1!A127:G127",
+    "status": "missing",
+    "gross": 37589000.0,
+    "income": 19357000.0,
+    "net": 18232000.0,
+    "expenditureLocator": "RO4_LA_Data_202425 row 153",
+    "allVacants": 1182.0,
+    "allVacantsDate": "2024-10-07",
+    "councilVacants": 206.0,
+    "councilVacantsDate": "2025-03-31",
+    "history": [
+      {
+        "date": "2024-03-31",
+        "value": 1373.0
+      },
+      {
+        "date": "2024-06-30",
+        "value": 1382.0
+      },
+      {
+        "date": "2024-09-30",
+        "value": 1403.0
+      },
+      {
+        "date": "2024-12-31",
+        "value": 1421.0
+      },
+      {
+        "date": "2025-03-31",
+        "value": null
+      }
+    ],
+    "annualAverage": null,
+    "taUnitCost": null,
+    "stockGrowth": null,
+    "scenarioReady": false
+  },
+  {
+    "code": "E09000014",
+    "name": "Haringey",
+    "ta": 2689.0,
+    "households": 111797.0,
+    "rate": 24.0525237707631,
+    "sourceLocator": "TA1!A129:G129",
+    "status": "observed",
+    "gross": 55526000.0,
+    "income": 30359000.0,
+    "net": 25167000.0,
+    "expenditureLocator": "RO4_LA_Data_202425 row 158",
+    "allVacants": 3332.0,
+    "allVacantsDate": "2024-10-07",
+    "councilVacants": 1033.0,
+    "councilVacantsDate": "2025-03-31",
+    "history": [
+      {
+        "date": "2024-03-31",
+        "value": 2625.0
+      },
+      {
+        "date": "2024-06-30",
+        "value": 2661.0
+      },
+      {
+        "date": "2024-09-30",
+        "value": 2644.0
+      },
+      {
+        "date": "2024-12-31",
+        "value": 2643.0
+      },
+      {
+        "date": "2025-03-31",
+        "value": 2689.0
+      }
+    ],
+    "annualAverage": 2659.25,
+    "taUnitCost": 20880.323399454734,
+    "stockGrowth": 0.024380952380952392,
+    "scenarioReady": true
+  },
+  {
+    "code": "E09000015",
+    "name": "Harrow",
+    "ta": null,
+    "households": 88263.0,
+    "rate": null,
+    "sourceLocator": "TA1!A131:G131",
+    "status": "missing",
+    "gross": 23145000.0,
+    "income": 14621000.0,
+    "net": 8524000.0,
+    "expenditureLocator": "RO4_LA_Data_202425 row 160",
+    "allVacants": 2889.0,
+    "allVacantsDate": "2024-10-07",
+    "councilVacants": 168.0,
+    "councilVacantsDate": "2025-03-31",
+    "history": [
+      {
+        "date": "2024-03-31",
+        "value": 1087.0
+      },
+      {
+        "date": "2024-06-30",
+        "value": null
+      },
+      {
+        "date": "2024-09-30",
+        "value": null
+      },
+      {
+        "date": "2024-12-31",
+        "value": 1320.0
+      },
+      {
+        "date": "2025-03-31",
+        "value": null
+      }
+    ],
+    "annualAverage": null,
+    "taUnitCost": null,
+    "stockGrowth": null,
+    "scenarioReady": false
+  },
+  {
+    "code": "E09000016",
+    "name": "Havering",
+    "ta": 1334.0,
+    "households": 109066.0,
+    "rate": 12.2311261071278,
+    "sourceLocator": "TA1!A136:G136",
+    "status": "observed",
+    "gross": 15993000.0,
+    "income": 5522000.0,
+    "net": 10471000.0,
+    "expenditureLocator": "RO4_LA_Data_202425 row 165",
+    "allVacants": 2122.0,
+    "allVacantsDate": "2024-10-07",
+    "councilVacants": 110.0,
+    "councilVacantsDate": "2025-03-31",
+    "history": [
+      {
+        "date": "2024-03-31",
+        "value": 1180.0
+      },
+      {
+        "date": "2024-06-30",
+        "value": 1236.0
+      },
+      {
+        "date": "2024-09-30",
+        "value": 1267.0
+      },
+      {
+        "date": "2024-12-31",
+        "value": 1303.0
+      },
+      {
+        "date": "2025-03-31",
+        "value": 1334.0
+      }
+    ],
+    "annualAverage": 1285.0,
+    "taUnitCost": 12445.91439688716,
+    "stockGrowth": 0.13050847457627124,
+    "scenarioReady": true
+  },
+  {
+    "code": "E09000017",
+    "name": "Hillingdon",
+    "ta": null,
+    "households": 113740.0,
+    "rate": null,
+    "sourceLocator": "TA1!A140:G140",
+    "status": "missing",
+    "gross": 21366000.0,
+    "income": 8599000.0,
+    "net": 12767000.0,
+    "expenditureLocator": "RO4_LA_Data_202425 row 172",
+    "allVacants": 1899.0,
+    "allVacantsDate": "2024-10-07",
+    "councilVacants": 201.0,
+    "councilVacantsDate": "2025-03-31",
+    "history": [
+      {
+        "date": "2024-03-31",
+        "value": 1466.0
+      },
+      {
+        "date": "2024-06-30",
+        "value": 1476.0
+      },
+      {
+        "date": "2024-09-30",
+        "value": 1455.0
+      },
+      {
+        "date": "2024-12-31",
+        "value": 1412.0
+      },
+      {
+        "date": "2025-03-31",
+        "value": null
+      }
+    ],
+    "annualAverage": null,
+    "taUnitCost": null,
+    "stockGrowth": null,
+    "scenarioReady": false
+  },
+  {
+    "code": "E09000018",
+    "name": "Hounslow",
+    "ta": 491.0,
+    "households": 103324.0,
+    "rate": 4.75204211993341,
+    "sourceLocator": "TA1!A143:G143",
+    "status": "observed",
+    "gross": 14882000.0,
+    "income": 5167000.0,
+    "net": 9715000.0,
+    "expenditureLocator": "RO4_LA_Data_202425 row 175",
+    "allVacants": 3583.0,
+    "allVacantsDate": "2024-10-07",
+    "councilVacants": 288.0,
+    "councilVacantsDate": "2025-03-31",
+    "history": [
+      {
+        "date": "2024-03-31",
+        "value": 724.0
+      },
+      {
+        "date": "2024-06-30",
+        "value": null
+      },
+      {
+        "date": "2024-09-30",
+        "value": 611.0
+      },
+      {
+        "date": "2024-12-31",
+        "value": 585.0
+      },
+      {
+        "date": "2025-03-31",
+        "value": 491.0
+      }
+    ],
+    "annualAverage": null,
+    "taUnitCost": null,
+    "stockGrowth": -0.32182320441988954,
+    "scenarioReady": false
+  },
+  {
+    "code": "E09000019",
+    "name": "Islington",
+    "ta": 1778.0,
+    "households": 110076.0,
+    "rate": 16.152476470802,
+    "sourceLocator": "TA1!A149:G149",
+    "status": "observed",
+    "gross": 27859910.0,
+    "income": 16710110.0,
+    "net": 11149800.0,
+    "expenditureLocator": "RO4_LA_Data_202425 row 183",
+    "allVacants": 2077.0,
+    "allVacantsDate": "2024-10-07",
+    "councilVacants": 444.0,
+    "councilVacantsDate": "2025-03-31",
+    "history": [
+      {
+        "date": "2024-03-31",
+        "value": 1238.0
+      },
+      {
+        "date": "2024-06-30",
+        "value": 1412.0
+      },
+      {
+        "date": "2024-09-30",
+        "value": 1551.0
+      },
+      {
+        "date": "2024-12-31",
+        "value": 1622.0
+      },
+      {
+        "date": "2025-03-31",
+        "value": 1778.0
+      }
+    ],
+    "annualAverage": 1590.75,
+    "taUnitCost": 17513.694798051234,
+    "stockGrowth": 0.4361873990306946,
+    "scenarioReady": true
+  },
+  {
+    "code": "E09000020",
+    "name": "Kensington & Chelsea",
+    "ta": 2019.0,
+    "households": 76190.0,
+    "rate": 26.4995406221289,
+    "sourceLocator": "TA1!A150:G150",
+    "status": "observed",
+    "gross": 47582000.0,
+    "income": 32205000.0,
+    "net": 15377000.0,
+    "expenditureLocator": "RO4_LA_Data_202425 row 184",
+    "allVacants": 3157.0,
+    "allVacantsDate": "2024-10-07",
+    "councilVacants": 193.0,
+    "councilVacantsDate": "2025-03-31",
+    "history": [
+      {
+        "date": "2024-03-31",
+        "value": null
+      },
+      {
+        "date": "2024-06-30",
+        "value": null
+      },
+      {
+        "date": "2024-09-30",
+        "value": 1991.0
+      },
+      {
+        "date": "2024-12-31",
+        "value": 1970.0
+      },
+      {
+        "date": "2025-03-31",
+        "value": 2019.0
+      }
+    ],
+    "annualAverage": null,
+    "taUnitCost": null,
+    "stockGrowth": null,
+    "scenarioReady": false
+  },
+  {
+    "code": "E09000021",
+    "name": "Kingston upon Thames",
+    "ta": null,
+    "households": 71180.0,
+    "rate": null,
+    "sourceLocator": "TA1!A153:G153",
+    "status": "missing",
+    "gross": 23456000.0,
+    "income": 9895000.0,
+    "net": 13561000.0,
+    "expenditureLocator": "RO4_LA_Data_202425 row 189",
+    "allVacants": 3303.0,
+    "allVacantsDate": "2024-10-07",
+    "councilVacants": 243.0,
+    "councilVacantsDate": "2025-03-31",
+    "history": [
+      {
+        "date": "2024-03-31",
+        "value": 857.0
+      },
+      {
+        "date": "2024-06-30",
+        "value": 888.0
+      },
+      {
+        "date": "2024-09-30",
+        "value": 854.0
+      },
+      {
+        "date": "2024-12-31",
+        "value": null
+      },
+      {
+        "date": "2025-03-31",
+        "value": null
+      }
+    ],
+    "annualAverage": null,
+    "taUnitCost": null,
+    "stockGrowth": null,
+    "scenarioReady": false
+  },
+  {
+    "code": "E09000022",
+    "name": "Lambeth",
+    "ta": null,
+    "households": 141820.0,
+    "rate": null,
+    "sourceLocator": "TA1!A156:G156",
+    "status": "missing",
+    "gross": 114402530.0,
+    "income": 42844810.0,
+    "net": 71557720.0,
+    "expenditureLocator": "RO4_LA_Data_202425 row 194",
+    "allVacants": 3815.0,
+    "allVacantsDate": "2024-10-07",
+    "councilVacants": 543.0,
+    "councilVacantsDate": "2025-03-31",
+    "history": [
+      {
+        "date": "2024-03-31",
+        "value": null
+      },
+      {
+        "date": "2024-06-30",
+        "value": null
+      },
+      {
+        "date": "2024-09-30",
+        "value": null
+      },
+      {
+        "date": "2024-12-31",
+        "value": null
+      },
+      {
+        "date": "2025-03-31",
+        "value": null
+      }
+    ],
+    "annualAverage": null,
+    "taUnitCost": null,
+    "stockGrowth": null,
+    "scenarioReady": false
+  },
+  {
+    "code": "E09000023",
+    "name": "Lewisham",
+    "ta": null,
+    "households": 136319.0,
+    "rate": null,
+    "sourceLocator": "TA1!A161:G161",
+    "status": "missing",
+    "gross": 92990000.0,
+    "income": 54861000.0,
+    "net": 38129000.0,
+    "expenditureLocator": "RO4_LA_Data_202425 row 206",
+    "allVacants": 2253.0,
+    "allVacantsDate": "2024-10-07",
+    "councilVacants": 183.0,
+    "councilVacantsDate": "2025-03-31",
+    "history": [
+      {
+        "date": "2024-03-31",
+        "value": 2702.0
+      },
+      {
+        "date": "2024-06-30",
+        "value": 2888.0
+      },
+      {
+        "date": "2024-09-30",
+        "value": 2729.0
+      },
+      {
+        "date": "2024-12-31",
+        "value": null
+      },
+      {
+        "date": "2025-03-31",
+        "value": null
+      }
+    ],
+    "annualAverage": null,
+    "taUnitCost": null,
+    "stockGrowth": null,
+    "scenarioReady": false
+  },
+  {
+    "code": "E09000024",
+    "name": "Merton",
+    "ta": 697.0,
+    "households": 80445.0,
+    "rate": 8.66430480452483,
+    "sourceLocator": "TA1!A173:G173",
+    "status": "observed",
+    "gross": 23620020.0,
+    "income": 13931660.0,
+    "net": 9688360.0,
+    "expenditureLocator": "RO4_LA_Data_202425 row 223",
+    "allVacants": 2857.0,
+    "allVacantsDate": "2024-10-07",
+    "councilVacants": 3.0,
+    "councilVacantsDate": "2025-03-31",
+    "history": [
+      {
+        "date": "2024-03-31",
+        "value": 529.0
+      },
+      {
+        "date": "2024-06-30",
+        "value": 583.0
+      },
+      {
+        "date": "2024-09-30",
+        "value": 608.0
+      },
+      {
+        "date": "2024-12-31",
+        "value": 654.0
+      },
+      {
+        "date": "2025-03-31",
+        "value": 697.0
+      }
+    ],
+    "annualAverage": 635.5,
+    "taUnitCost": 37167.61605035405,
+    "stockGrowth": 0.3175803402646502,
+    "scenarioReady": true
+  },
+  {
+    "code": "E09000025",
+    "name": "Newham",
+    "ta": 6817.0,
+    "households": 120931.0,
+    "rate": 56.3709884148812,
+    "sourceLocator": "TA1!A184:G184",
+    "status": "observed",
+    "gross": 146830000.0,
+    "income": 78818000.0,
+    "net": 68012000.0,
+    "expenditureLocator": "RO4_LA_Data_202425 row 235",
+    "allVacants": 4004.0,
+    "allVacantsDate": "2024-10-07",
+    "councilVacants": 671.0,
+    "councilVacantsDate": "2025-03-31",
+    "history": [
+      {
+        "date": "2024-03-31",
+        "value": 6350.0
+      },
+      {
+        "date": "2024-06-30",
+        "value": 6528.0
+      },
+      {
+        "date": "2024-09-30",
+        "value": 6667.0
+      },
+      {
+        "date": "2024-12-31",
+        "value": 6933.0
+      },
+      {
+        "date": "2025-03-31",
+        "value": 6817.0
+      }
+    ],
+    "annualAverage": 6736.25,
+    "taUnitCost": 21796.99387641492,
+    "stockGrowth": 0.07354330708661427,
+    "scenarioReady": true
+  },
+  {
+    "code": "E09000026",
+    "name": "Redbridge",
+    "ta": 2821.0,
+    "households": 112438.0,
+    "rate": 25.0893825930735,
+    "sourceLocator": "TA1!A211:G211",
+    "status": "observed",
+    "gross": 57257000.0,
+    "income": 35643000.0,
+    "net": 21614000.0,
+    "expenditureLocator": "RO4_LA_Data_202425 row 276",
+    "allVacants": 2664.0,
+    "allVacantsDate": "2024-10-07",
+    "councilVacants": 19.0,
+    "councilVacantsDate": "2025-03-31",
+    "history": [
+      {
+        "date": "2024-03-31",
+        "value": 2987.0
+      },
+      {
+        "date": "2024-06-30",
+        "value": 2959.0
+      },
+      {
+        "date": "2024-09-30",
+        "value": null
+      },
+      {
+        "date": "2024-12-31",
+        "value": 2797.0
+      },
+      {
+        "date": "2025-03-31",
+        "value": 2821.0
+      }
+    ],
+    "annualAverage": null,
+    "taUnitCost": null,
+    "stockGrowth": -0.05557415467023774,
+    "scenarioReady": false
+  },
+  {
+    "code": "E09000027",
+    "name": "Richmond upon Thames",
+    "ta": 598.0,
+    "households": 86553.0,
+    "rate": 6.90906149989024,
+    "sourceLocator": "TA1!A216:G216",
+    "status": "observed",
+    "gross": 14879000.0,
+    "income": 6431000.0,
+    "net": 8448000.0,
+    "expenditureLocator": "RO4_LA_Data_202425 row 281",
+    "allVacants": 1807.0,
+    "allVacantsDate": "2024-10-07",
+    "councilVacants": 0.0,
+    "councilVacantsDate": "2025-03-31",
+    "history": [
+      {
+        "date": "2024-03-31",
+        "value": 540.0
+      },
+      {
+        "date": "2024-06-30",
+        "value": 539.0
+      },
+      {
+        "date": "2024-09-30",
+        "value": 542.0
+      },
+      {
+        "date": "2024-12-31",
+        "value": 566.0
+      },
+      {
+        "date": "2025-03-31",
+        "value": 598.0
+      }
+    ],
+    "annualAverage": 561.25,
+    "taUnitCost": 26510.46770601336,
+    "stockGrowth": 0.1074074074074074,
+    "scenarioReady": true
+  },
+  {
+    "code": "E09000028",
+    "name": "Southwark",
+    "ta": 4207.0,
+    "households": 139276.0,
+    "rate": 30.2062092535685,
+    "sourceLocator": "TA1!A249:G249",
+    "status": "observed",
+    "gross": 64290000.0,
+    "income": 28598000.0,
+    "net": 35692000.0,
+    "expenditureLocator": "RO4_LA_Data_202425 row 319",
+    "allVacants": 5120.0,
+    "allVacantsDate": "2024-10-07",
+    "councilVacants": 1285.0,
+    "councilVacantsDate": "2025-03-31",
+    "history": [
+      {
+        "date": "2024-03-31",
+        "value": 3792.0
+      },
+      {
+        "date": "2024-06-30",
+        "value": 3828.0
+      },
+      {
+        "date": "2024-09-30",
+        "value": null
+      },
+      {
+        "date": "2024-12-31",
+        "value": 3997.0
+      },
+      {
+        "date": "2025-03-31",
+        "value": 4207.0
+      }
+    ],
+    "annualAverage": null,
+    "taUnitCost": null,
+    "stockGrowth": 0.10944092827004215,
+    "scenarioReady": false
+  },
+  {
+    "code": "E09000029",
+    "name": "Sutton",
+    "ta": 1069.0,
+    "households": 85409.0,
+    "rate": 12.5162453605592,
+    "sourceLocator": "TA1!A263:G263",
+    "status": "observed",
+    "gross": 14125000.0,
+    "income": 6114000.0,
+    "net": 8011000.0,
+    "expenditureLocator": "RO4_LA_Data_202425 row 341",
+    "allVacants": 2486.0,
+    "allVacantsDate": "2024-10-07",
+    "councilVacants": 39.0,
+    "councilVacantsDate": "2025-03-31",
+    "history": [
+      {
+        "date": "2024-03-31",
+        "value": 986.0
+      },
+      {
+        "date": "2024-06-30",
+        "value": 1026.0
+      },
+      {
+        "date": "2024-09-30",
+        "value": 1027.0
+      },
+      {
+        "date": "2024-12-31",
+        "value": 1054.0
+      },
+      {
+        "date": "2025-03-31",
+        "value": 1069.0
+      }
+    ],
+    "annualAverage": 1044.0,
+    "taUnitCost": 13529.693486590038,
+    "stockGrowth": 0.08417849898580121,
+    "scenarioReady": true
+  },
+  {
+    "code": "E09000030",
+    "name": "Tower Hamlets",
+    "ta": 3123.0,
+    "households": 147324.0,
+    "rate": 21.1981754500285,
+    "sourceLocator": "TA1!A280:G280",
+    "status": "observed",
+    "gross": 63548000.0,
+    "income": 45537000.0,
+    "net": 18011000.0,
+    "expenditureLocator": "RO4_LA_Data_202425 row 362",
+    "allVacants": 3415.0,
+    "allVacantsDate": "2024-10-07",
+    "councilVacants": 151.0,
+    "councilVacantsDate": "2025-03-31",
+    "history": [
+      {
+        "date": "2024-03-31",
+        "value": 2971.0
+      },
+      {
+        "date": "2024-06-30",
+        "value": 3038.0
+      },
+      {
+        "date": "2024-09-30",
+        "value": 3159.0
+      },
+      {
+        "date": "2024-12-31",
+        "value": 3191.0
+      },
+      {
+        "date": "2025-03-31",
+        "value": 3123.0
+      }
+    ],
+    "annualAverage": 3127.75,
+    "taUnitCost": 20317.48061705699,
+    "stockGrowth": 0.05116122517670818,
+    "scenarioReady": true
+  },
+  {
+    "code": "E09000031",
+    "name": "Waltham Forest",
+    "ta": 1574.0,
+    "households": 106414.0,
+    "rate": 14.7912868607514,
+    "sourceLocator": "TA1!A287:G287",
+    "status": "observed",
+    "gross": 42432000.0,
+    "income": 19411000.0,
+    "net": 23021000.0,
+    "expenditureLocator": "RO4_LA_Data_202425 row 370",
+    "allVacants": 2564.0,
+    "allVacantsDate": "2024-10-07",
+    "councilVacants": 263.0,
+    "councilVacantsDate": "2025-03-31",
+    "history": [
+      {
+        "date": "2024-03-31",
+        "value": 1175.0
+      },
+      {
+        "date": "2024-06-30",
+        "value": 1282.0
+      },
+      {
+        "date": "2024-09-30",
+        "value": 1443.0
+      },
+      {
+        "date": "2024-12-31",
+        "value": 1546.0
+      },
+      {
+        "date": "2025-03-31",
+        "value": 1574.0
+      }
+    ],
+    "annualAverage": 1461.25,
+    "taUnitCost": 29038.152266894784,
+    "stockGrowth": 0.3395744680851063,
+    "scenarioReady": true
+  },
+  {
+    "code": "E09000032",
+    "name": "Wandsworth",
+    "ta": 3608.0,
+    "households": 139345.0,
+    "rate": 25.8925688040475,
+    "sourceLocator": "TA1!A288:G288",
+    "status": "observed",
+    "gross": 57084000.0,
+    "income": 26070000.0,
+    "net": 31014000.0,
+    "expenditureLocator": "RO4_LA_Data_202425 row 371",
+    "allVacants": 1385.0,
+    "allVacantsDate": "2024-10-07",
+    "councilVacants": 291.0,
+    "councilVacantsDate": "2025-03-31",
+    "history": [
+      {
+        "date": "2024-03-31",
+        "value": 3352.0
+      },
+      {
+        "date": "2024-06-30",
+        "value": 3383.0
+      },
+      {
+        "date": "2024-09-30",
+        "value": 3496.0
+      },
+      {
+        "date": "2024-12-31",
+        "value": 3575.0
+      },
+      {
+        "date": "2025-03-31",
+        "value": 3608.0
+      }
+    ],
+    "annualAverage": 3515.5,
+    "taUnitCost": 16237.804010809274,
+    "stockGrowth": 0.07637231503579955,
+    "scenarioReady": true
+  },
+  {
+    "code": "E09000033",
+    "name": "Westminster",
+    "ta": 4254.0,
+    "households": 129338.0,
+    "rate": 32.8905658043266,
+    "sourceLocator": "TA1!A302:G302",
+    "status": "observed",
+    "gross": 138493880.0,
+    "income": 66002479.99999999,
+    "net": 72491400.0,
+    "expenditureLocator": "RO4_LA_Data_202425 row 398",
+    "allVacants": 2148.0,
+    "allVacantsDate": "2024-10-07",
+    "councilVacants": 462.0,
+    "councilVacantsDate": "2025-03-31",
+    "history": [
+      {
+        "date": "2024-03-31",
+        "value": 3205.0
+      },
+      {
+        "date": "2024-06-30",
+        "value": 3269.0
+      },
+      {
+        "date": "2024-09-30",
+        "value": null
+      },
+      {
+        "date": "2024-12-31",
+        "value": 3996.0
+      },
+      {
+        "date": "2025-03-31",
+        "value": 4254.0
+      }
+    ],
+    "annualAverage": null,
+    "taUnitCost": null,
+    "stockGrowth": 0.32730109204368185,
+    "scenarioReady": false
+  }
+]

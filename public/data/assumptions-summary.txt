@@ -1,0 +1,90 @@
+HOUSE LONDON — model 1.0
+Illustrative scenario assumptions, not a council forecast.
+
+Annual net stock pressure: 0.07354330708661427 fraction / year
+Status: proxy; range -0.1–0.2
+Newham March-to-March stock change continued hypothetically. Applied to the common reference path, never to the player's reduced stock.
+Sources: ta-202403, ta-202503
+
+Eligible council homes: 150 homes
+Status: illustrative; range 0–600
+Assumed actionable pool, not extracted from the 671 council vacancies. Eligibility, prior commitments and demolition status have not been verified.
+Sources: None; illustrative
+
+All-in restoration cost: 40000 GBP / home
+Status: illustrative; range 10000–150000
+Includes works and processing once; occupied-home repair spend is separate.
+Sources: None; illustrative
+
+Annual restoration capacity: 60 homes / year
+Status: illustrative; range 0–200
+Delivery ceiling; funded homes mature next turn.
+Sources: None; illustrative
+
+All-in acquisition cost: 450000 GBP / home
+Status: illustrative; range 200000–900000
+Assumed purchase, transaction and initial works cost. Not a verified borough house price.
+Sources: None; illustrative
+
+Annual acquisition capacity: 100 homes / year
+Status: illustrative; range 0–300
+Acquisitions are for settled housing, not for use as temporary accommodation.
+Sources: None; illustrative
+
+Suitable acquisition share: 0.85 fraction
+Status: illustrative; range 0–1
+Rounded down per delivered cohort. Unsuitable homes incur operating costs but never create placements.
+Sources: None; illustrative
+
+Delivery lag: 1 years
+Status: illustrative; range 1–3
+Applies to restored and acquired homes. Year-one commitments arrive no earlier than year two.
+Sources: None; illustrative
+
+Added-home operating cost: 3500 GBP / home / year
+Status: illustrative; range 0–10000
+Charged on all completed additional homes every year, including unplaced homes. No rental income or terminal asset value credited.
+Sources: None; illustrative
+
+Opening qualifying repair backlog: 1200 homes
+Status: illustrative; range 0–5000
+Synthetic count of occupied homes with one qualifying repair case; not inferred from complaints or non-decency.
+Sources: None; illustrative
+
+New qualifying repair cases: 180 homes / year
+Status: illustrative; range 0–1000
+New cases added before current-year repairs.
+Sources: None; illustrative
+
+Repairs share of improvement allocation: 0.8 fraction
+Status: illustrative; range 0–1
+Remainder funds retrofit. Retrofit improves homes and never reduces TA stock directly.
+Sources: None; illustrative
+
+Cost per qualifying repair: 5000 GBP / home
+Status: illustrative; range 1000–25000
+One case per qualifying home; no health-outcome conversion.
+Sources: None; illustrative
+
+Annual repair capacity: 500 homes / year
+Status: illustrative; range 0–2000
+Current-year repair work completes at turn end.
+Sources: None; illustrative
+
+Cost per retrofit: 20000 GBP / home
+Status: illustrative; range 5000–50000
+No energy savings or extra homes assumed.
+Sources: None; illustrative
+
+Eligible retrofit pool: 500 homes
+Status: illustrative; range 0–3000
+Separate from restoration pool and occupied repair backlog.
+Sources: None; illustrative
+
+Annual retrofit capacity: 100 homes / year
+Status: illustrative; range 0–500
+Maximum current-year retrofit completions.
+Sources: None; illustrative
+
+TA cost proxy: gross direct RO4 spending / average four quarterly TA stocks.
+Envelope: 120% of observed gross direct TA spend. Fixed 2024–25 prices. No inflation, interest, rental income or terminal asset value.

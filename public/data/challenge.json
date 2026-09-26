@@ -1,0 +1,16 @@
+{
+  "boroughCode": "E09000025",
+  "mode": "forward-scenario",
+  "openingDate": "2025-03-31",
+  "endDate": "2030-03-31",
+  "observedOpeningTA": 6817.0,
+  "annualEnvelope": 176196000.0,
+  "baselinePolicy": {
+    "ta": 146830000.0,
+    "voids": 0,
+    "acquire": 0,
+    "repairs": 0
+  },
+  "assumptionsVersion": "1.0",
+  "note": "Hypothetical forward scenario from a 2025 baseline, not a forecast or a record of actual 2025–30 decisions. Simplified envelope is 120% of observed gross direct TA expenditure."
+}

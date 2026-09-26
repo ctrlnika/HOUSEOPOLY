@@ -1,0 +1,32 @@
+[
+  {
+    "id": "ta_households_quarter_end",
+    "unit": "households",
+    "definition": "Households in temporary accommodation at quarter end, attributed to responsible authority."
+  },
+  {
+    "id": "ta_gross_expenditure",
+    "unit": "GBP",
+    "definition": "Sum of six RO4 TA accommodation C3 fields; excludes TA administration."
+  },
+  {
+    "id": "ta_income_expenditure",
+    "unit": "GBP",
+    "definition": "Corresponding C6 income."
+  },
+  {
+    "id": "ta_net_expenditure",
+    "unit": "GBP",
+    "definition": "Corresponding C7 net current expenditure."
+  },
+  {
+    "id": "allVacants",
+    "unit": "dwellings",
+    "definition": "All-tenure vacant dwellings for council tax purposes."
+  },
+  {
+    "id": "councilVacants",
+    "unit": "dwellings",
+    "definition": "LA-owned vacant dwellings within authority area, not a verified eligible pool."
+  }
+]
