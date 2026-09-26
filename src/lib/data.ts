@@ -17,9 +17,9 @@ export const register = registerRaw;
 export const evidence = evidenceRaw;
 export const challenge = challengeRaw;
 
-export const defaultAssumptions: Assumptions = Object.fromEntries(
+export const defaultAssumptions = Object.fromEntries(
   assumptionsRaw.map((a) => [a.id, a.value]),
-);
+) as Assumptions;
 
 /* ------------------------------------------------------------------ *
  * London-level reference values, derived only from observed records.
