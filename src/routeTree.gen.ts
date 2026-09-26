@@ -11,9 +11,8 @@
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as IndexRouteImport } from './routes/index'
 import { Route as AuctionRouteImport } from './routes/auction'
-import { Route as ChallengeRouteImport } from './routes/challenge'
 import { Route as ExploreRouteImport } from './routes/explore'
-import { Route as MethodologyRouteImport } from './routes/methodology'
+import { Route as SourcesRouteImport } from './routes/sources'
 
 const IndexRoute = IndexRouteImport.update({
   id: '/',
@@ -25,58 +24,49 @@ const AuctionRoute = AuctionRouteImport.update({
   path: '/auction',
   getParentRoute: () => rootRouteImport,
 } as any)
-const ChallengeRoute = ChallengeRouteImport.update({
-  id: '/challenge',
-  path: '/challenge',
-  getParentRoute: () => rootRouteImport,
-} as any)
 const ExploreRoute = ExploreRouteImport.update({
   id: '/explore',
   path: '/explore',
   getParentRoute: () => rootRouteImport,
 } as any)
-const MethodologyRoute = MethodologyRouteImport.update({
-  id: '/methodology',
-  path: '/methodology',
+const SourcesRoute = SourcesRouteImport.update({
+  id: '/sources',
+  path: '/sources',
   getParentRoute: () => rootRouteImport,
 } as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
   '/auction': typeof AuctionRoute
-  '/challenge': typeof ChallengeRoute
   '/explore': typeof ExploreRoute
-  '/methodology': typeof MethodologyRoute
+  '/sources': typeof SourcesRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/auction': typeof AuctionRoute
-  '/challenge': typeof ChallengeRoute
   '/explore': typeof ExploreRoute
-  '/methodology': typeof MethodologyRoute
+  '/sources': typeof SourcesRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
   '/auction': typeof AuctionRoute
-  '/challenge': typeof ChallengeRoute
   '/explore': typeof ExploreRoute
-  '/methodology': typeof MethodologyRoute
+  '/sources': typeof SourcesRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/' | '/auction' | '/challenge' | '/explore' | '/methodology'
+  fullPaths: '/' | '/auction' | '/explore' | '/sources'
   fileRoutesByTo: FileRoutesByTo
-  to: '/' | '/auction' | '/challenge' | '/explore' | '/methodology'
-  id: '__root__' | '/' | '/auction' | '/challenge' | '/explore' | '/methodology'
+  to: '/' | '/auction' | '/explore' | '/sources'
+  id: '__root__' | '/' | '/auction' | '/explore' | '/sources'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
   AuctionRoute: typeof AuctionRoute
-  ChallengeRoute: typeof ChallengeRoute
   ExploreRoute: typeof ExploreRoute
-  MethodologyRoute: typeof MethodologyRoute
+  SourcesRoute: typeof SourcesRoute
 }
 
 declare module '@tanstack/react-router' {
@@ -95,13 +85,6 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof AuctionRouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/challenge': {
-      id: '/challenge'
-      path: '/challenge'
-      fullPath: '/challenge'
-      preLoaderRoute: typeof ChallengeRouteImport
-      parentRoute: typeof rootRouteImport
-    }
     '/explore': {
       id: '/explore'
       path: '/explore'
@@ -109,11 +92,11 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof ExploreRouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/methodology': {
-      id: '/methodology'
-      path: '/methodology'
-      fullPath: '/methodology'
-      preLoaderRoute: typeof MethodologyRouteImport
+    '/sources': {
+      id: '/sources'
+      path: '/sources'
+      fullPath: '/sources'
+      preLoaderRoute: typeof SourcesRouteImport
       parentRoute: typeof rootRouteImport
     }
   }
@@ -122,9 +105,8 @@ declare module '@tanstack/react-router' {
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
   AuctionRoute: AuctionRoute,
-  ChallengeRoute: ChallengeRoute,
   ExploreRoute: ExploreRoute,
-  MethodologyRoute: MethodologyRoute,
+  SourcesRoute: SourcesRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)
