@@ -1,4 +1,6 @@
-export type Assumptions = Record<string,number>;
+/** Named scenario assumptions. Values are editable; keys are fixed by assumptions.json. */
+export type AssumptionKey = 'growth'|'voidPool'|'voidCost'|'voidCap'|'purchaseCost'|'acquireCap'|'suitability'|'lag'|'operatingCost'|'repairBacklog'|'newRepairs'|'repairShare'|'repairCost'|'repairCap'|'retrofitCost'|'retrofitPool'|'retrofitCap';
+export type Assumptions = Record<AssumptionKey,number>;
 export type Policy = {ta:number;voids:number;acquire:number;repairs:number};
 export type Config = {openingTA:number;unitCost:number;envelope:number;assumptions:Assumptions};
 export type Queue = {due:number;homes:number;eligible:number};
