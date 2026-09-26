@@ -137,13 +137,25 @@ export function makeConfig(b: Borough, a: Assumptions): Config {
 export const fmt = (n: number | null | undefined) =>
   n == null ? "Not available" : Math.round(n).toLocaleString("en-GB");
 
-export const money = (n: number) =>
-  new Intl.NumberFormat("en-GB", {
-    style: "currency",
-    currency: "GBP",
-    maximumFractionDigits: 1,
-    notation: "compact",
-  }).format(n);
+/**
+ * Compact currency, written by hand rather than with Intl compact notation:
+ * server and browser ICU data disagree on trailing zeros ("£40K" vs "£40.0K"),
+ * which breaks hydration.
+ */
+export const money = (n: number) => {
+  const sign = n < 0 ? "-" : "";
+  const v = Math.abs(n);
+  const unit = v >= 1e9 ? 1e9 : v >= 1e6 ? 1e6 : v >= 1e3 ? 1e3 : 1;
+  const suffix = unit === 1e9 ? "bn" : unit === 1e6 ? "m" : unit === 1e3 ? "k" : "";
+  const scaled = v / unit;
+  const text =
+    unit === 1
+      ? Math.round(scaled).toString()
+      : scaled >= 100
+        ? Math.round(scaled).toString()
+        : scaled.toFixed(1).replace(/\.0$/, "");
+  return `${sign}£${text}${suffix}`;
+};
 
 export const moneyExact = (n: number) =>
   new Intl.NumberFormat("en-GB", {
