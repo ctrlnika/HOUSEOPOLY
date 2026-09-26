@@ -170,7 +170,9 @@ export function AssumptionEditor({
         </p>
       </div>
       <div className="mt-4 grid gap-x-8 gap-y-2 md:grid-cols-2">
-        {assumptionSpecs.map((x) => (
+        {assumptionSpecs.map((spec) => {
+          const x = spec as typeof spec & { id: keyof Assumptions };
+          return (
           <NumericSlider
             key={x.id}
             label={x.label}
