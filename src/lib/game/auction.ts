@@ -337,12 +337,6 @@ export function buildAuction(b: Borough): AuctionSetup {
   const purchaseCost = defaultAssumptions["purchaseCost"] ?? 450000;
   const repairShare = defaultAssumptions["repairShare"] ?? 0.5;
 
-  // Capital pot: a share of the borough's annual temporary accommodation bill,
-  // floored so every borough gets a playable auction. Illustrative, not a budget.
-  const budget = Math.max(
-    round(purchaseCost * 9, 500000),
-    round(b.grossEff * 0.45, 500000),
-  );
 
   const pool = [...TEMPLATES];
   const lots: Lot[] = [];
