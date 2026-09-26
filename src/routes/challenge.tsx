@@ -22,9 +22,8 @@ import { baselinePolicy, configForEvent, eventDeck, runEventBaseline } from "@/l
 type Phase = "setup" | "plan" | "resolving" | "report" | "final";
 
 export const Route = createFileRoute("/challenge")({
-  validateSearch: (search: Record<string, unknown>) => ({
-    b: typeof search["b"] === "string" ? search["b"] : undefined,
-  }),
+  validateSearch: (search: Record<string, unknown>): { b?: string } =>
+    typeof search["b"] === "string" ? { b: search["b"] } : {},
   head: () => ({
     meta: [
       { title: "Play the Housing Director Challenge — HOUSEOPOLY" },
