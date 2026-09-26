@@ -1,0 +1,63 @@
+{
+  "schemaVersion": "1.0",
+  "dataVersion": "2026-09-26",
+  "modelVersion": "1.0",
+  "buildTimestamp": "2026-09-26T12:00:00Z",
+  "coverage": {
+    "start": "2024-03-31",
+    "end": "2025-03-31"
+  },
+  "includedAuthorities": [
+    "E09000002",
+    "E09000003",
+    "E09000004",
+    "E09000005",
+    "E09000006",
+    "E09000007",
+    "E09000001",
+    "E09000008",
+    "E09000009",
+    "E09000010",
+    "E09000011",
+    "E09000012",
+    "E09000013",
+    "E09000014",
+    "E09000015",
+    "E09000016",
+    "E09000017",
+    "E09000018",
+    "E09000019",
+    "E09000020",
+    "E09000021",
+    "E09000022",
+    "E09000023",
+    "E09000024",
+    "E09000025",
+    "E09000026",
+    "E09000027",
+    "E09000028",
+    "E09000029",
+    "E09000030",
+    "E09000031",
+    "E09000032",
+    "E09000033"
+  ],
+  "exclusions": [],
+  "londonTotal": 73090.0,
+  "boroughSum": 58282.0,
+  "londonTotalNote": "Published London aggregate includes rounding and estimates; borough sum may differ.",
+  "mapBins": [
+    5,
+    10,
+    20,
+    30
+  ],
+  "mapDenominator": "2018-based household projections for 2020, as supplied in TA1",
+  "readiness": {
+    "challenge": true,
+    "borough": "E09000025",
+    "comparisonMode": "forward-scenario",
+    "reason": "Matched four-quarter TA occupancy proxy and 2024–25 RO4 direct accommodation spending; one year of stock history. Delivery and repair inputs remain illustrative."
+  },
+  "selectionNote": "Uses revised 2024–25 releases as a consistent annual baseline, not the latest TA snapshot. More recent 2025–26 data exist; refreshing them requires a new matched financial calibration."
+}

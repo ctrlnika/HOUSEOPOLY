@@ -1,0 +1,5710 @@
+[
+  {
+    "boroughCode": "E12000007",
+    "metricId": "ta_households_quarter_end",
+    "period": {
+      "start": "2024-03-31",
+      "end": "2024-03-31",
+      "kind": "quarter_end"
+    },
+    "value": 65200.0,
+    "unit": "households",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ta-202403",
+    "sourceLocator": "TA1!E9",
+    "qualityNotes": []
+  },
+  {
+    "boroughCode": "E09000002",
+    "metricId": "ta_households_quarter_end",
+    "period": {
+      "start": "2024-03-31",
+      "end": "2024-03-31",
+      "kind": "quarter_end"
+    },
+    "value": 1210.0,
+    "unit": "households",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ta-202403",
+    "sourceLocator": "TA1!E28",
+    "qualityNotes": []
+  },
+  {
+    "boroughCode": "E09000003",
+    "metricId": "ta_households_quarter_end",
+    "period": {
+      "start": "2024-03-31",
+      "end": "2024-03-31",
+      "kind": "quarter_end"
+    },
+    "value": 2295.0,
+    "unit": "households",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ta-202403",
+    "sourceLocator": "TA1!E29",
+    "qualityNotes": []
+  },
+  {
+    "boroughCode": "E09000004",
+    "metricId": "ta_households_quarter_end",
+    "period": {
+      "start": "2024-03-31",
+      "end": "2024-03-31",
+      "kind": "quarter_end"
+    },
+    "value": 580.0,
+    "unit": "households",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ta-202403",
+    "sourceLocator": "TA1!E36",
+    "qualityNotes": []
+  },
+  {
+    "boroughCode": "E09000005",
+    "metricId": "ta_households_quarter_end",
+    "period": {
+      "start": "2024-03-31",
+      "end": "2024-03-31",
+      "kind": "quarter_end"
+    },
+    "value": null,
+    "unit": "households",
+    "status": "missing",
+    "missingReason": "..",
+    "sourceId": "ta-202403",
+    "sourceLocator": "TA1!E49",
+    "qualityNotes": []
+  },
+  {
+    "boroughCode": "E09000006",
+    "metricId": "ta_households_quarter_end",
+    "period": {
+      "start": "2024-03-31",
+      "end": "2024-03-31",
+      "kind": "quarter_end"
+    },
+    "value": 1646.0,
+    "unit": "households",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ta-202403",
+    "sourceLocator": "TA1!E54",
+    "qualityNotes": []
+  },
+  {
+    "boroughCode": "E09000007",
+    "metricId": "ta_households_quarter_end",
+    "period": {
+      "start": "2024-03-31",
+      "end": "2024-03-31",
+      "kind": "quarter_end"
+    },
+    "value": null,
+    "unit": "households",
+    "status": "missing",
+    "missingReason": "..",
+    "sourceId": "ta-202403",
+    "sourceLocator": "TA1!E63",
+    "qualityNotes": []
+  },
+  {
+    "boroughCode": "E09000001",
+    "metricId": "ta_households_quarter_end",
+    "period": {
+      "start": "2024-03-31",
+      "end": "2024-03-31",
+      "kind": "quarter_end"
+    },
+    "value": 33.0,
+    "unit": "households",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ta-202403",
+    "sourceLocator": "TA1!E77",
+    "qualityNotes": []
+  },
+  {
+    "boroughCode": "E09000008",
+    "metricId": "ta_households_quarter_end",
+    "period": {
+      "start": "2024-03-31",
+      "end": "2024-03-31",
+      "kind": "quarter_end"
+    },
+    "value": null,
+    "unit": "households",
+    "status": "missing",
+    "missingReason": "..",
+    "sourceId": "ta-202403",
+    "sourceLocator": "TA1!E83",
+    "qualityNotes": []
+  },
+  {
+    "boroughCode": "E09000009",
+    "metricId": "ta_households_quarter_end",
+    "period": {
+      "start": "2024-03-31",
+      "end": "2024-03-31",
+      "kind": "quarter_end"
+    },
+    "value": 3013.0,
+    "unit": "households",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ta-202403",
+    "sourceLocator": "TA1!E95",
+    "qualityNotes": []
+  },
+  {
+    "boroughCode": "E09000010",
+    "metricId": "ta_households_quarter_end",
+    "period": {
+      "start": "2024-03-31",
+      "end": "2024-03-31",
+      "kind": "quarter_end"
+    },
+    "value": 3137.0,
+    "unit": "households",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ta-202403",
+    "sourceLocator": "TA1!E107",
+    "qualityNotes": []
+  },
+  {
+    "boroughCode": "E09000011",
+    "metricId": "ta_households_quarter_end",
+    "period": {
+      "start": "2024-03-31",
+      "end": "2024-03-31",
+      "kind": "quarter_end"
+    },
+    "value": 1761.0,
+    "unit": "households",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ta-202403",
+    "sourceLocator": "TA1!E123",
+    "qualityNotes": []
+  },
+  {
+    "boroughCode": "E09000012",
+    "metricId": "ta_households_quarter_end",
+    "period": {
+      "start": "2024-03-31",
+      "end": "2024-03-31",
+      "kind": "quarter_end"
+    },
+    "value": 3287.0,
+    "unit": "households",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ta-202403",
+    "sourceLocator": "TA1!E125",
+    "qualityNotes": []
+  },
+  {
+    "boroughCode": "E09000013",
+    "metricId": "ta_households_quarter_end",
+    "period": {
+      "start": "2024-03-31",
+      "end": "2024-03-31",
+      "kind": "quarter_end"
+    },
+    "value": 1373.0,
+    "unit": "households",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ta-202403",
+    "sourceLocator": "TA1!E127",
+    "qualityNotes": []
+  },
+  {
+    "boroughCode": "E09000014",
+    "metricId": "ta_households_quarter_end",
+    "period": {
+      "start": "2024-03-31",
+      "end": "2024-03-31",
+      "kind": "quarter_end"
+    },
+    "value": 2625.0,
+    "unit": "households",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ta-202403",
+    "sourceLocator": "TA1!E129",
+    "qualityNotes": []
+  },
+  {
+    "boroughCode": "E09000015",
+    "metricId": "ta_households_quarter_end",
+    "period": {
+      "start": "2024-03-31",
+      "end": "2024-03-31",
+      "kind": "quarter_end"
+    },
+    "value": 1087.0,
+    "unit": "households",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ta-202403",
+    "sourceLocator": "TA1!E131",
+    "qualityNotes": []
+  },
+  {
+    "boroughCode": "E09000016",
+    "metricId": "ta_households_quarter_end",
+    "period": {
+      "start": "2024-03-31",
+      "end": "2024-03-31",
+      "kind": "quarter_end"
+    },
+    "value": 1180.0,
+    "unit": "households",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ta-202403",
+    "sourceLocator": "TA1!E136",
+    "qualityNotes": []
+  },
+  {
+    "boroughCode": "E09000017",
+    "metricId": "ta_households_quarter_end",
+    "period": {
+      "start": "2024-03-31",
+      "end": "2024-03-31",
+      "kind": "quarter_end"
+    },
+    "value": 1466.0,
+    "unit": "households",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ta-202403",
+    "sourceLocator": "TA1!E140",
+    "qualityNotes": []
+  },
+  {
+    "boroughCode": "E09000018",
+    "metricId": "ta_households_quarter_end",
+    "period": {
+      "start": "2024-03-31",
+      "end": "2024-03-31",
+      "kind": "quarter_end"
+    },
+    "value": 724.0,
+    "unit": "households",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ta-202403",
+    "sourceLocator": "TA1!E143",
+    "qualityNotes": []
+  },
+  {
+    "boroughCode": "E09000019",
+    "metricId": "ta_households_quarter_end",
+    "period": {
+      "start": "2024-03-31",
+      "end": "2024-03-31",
+      "kind": "quarter_end"
+    },
+    "value": 1238.0,
+    "unit": "households",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ta-202403",
+    "sourceLocator": "TA1!E149",
+    "qualityNotes": []
+  },
+  {
+    "boroughCode": "E09000020",
+    "metricId": "ta_households_quarter_end",
+    "period": {
+      "start": "2024-03-31",
+      "end": "2024-03-31",
+      "kind": "quarter_end"
+    },
+    "value": null,
+    "unit": "households",
+    "status": "missing",
+    "missingReason": "..",
+    "sourceId": "ta-202403",
+    "sourceLocator": "TA1!E150",
+    "qualityNotes": []
+  },
+  {
+    "boroughCode": "E09000021",
+    "metricId": "ta_households_quarter_end",
+    "period": {
+      "start": "2024-03-31",
+      "end": "2024-03-31",
+      "kind": "quarter_end"
+    },
+    "value": 857.0,
+    "unit": "households",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ta-202403",
+    "sourceLocator": "TA1!E153",
+    "qualityNotes": []
+  },
+  {
+    "boroughCode": "E09000022",
+    "metricId": "ta_households_quarter_end",
+    "period": {
+      "start": "2024-03-31",
+      "end": "2024-03-31",
+      "kind": "quarter_end"
+    },
+    "value": null,
+    "unit": "households",
+    "status": "missing",
+    "missingReason": "..",
+    "sourceId": "ta-202403",
+    "sourceLocator": "TA1!E156",
+    "qualityNotes": []
+  },
+  {
+    "boroughCode": "E09000023",
+    "metricId": "ta_households_quarter_end",
+    "period": {
+      "start": "2024-03-31",
+      "end": "2024-03-31",
+      "kind": "quarter_end"
+    },
+    "value": 2702.0,
+    "unit": "households",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ta-202403",
+    "sourceLocator": "TA1!E161",
+    "qualityNotes": []
+  },
+  {
+    "boroughCode": "E09000024",
+    "metricId": "ta_households_quarter_end",
+    "period": {
+      "start": "2024-03-31",
+      "end": "2024-03-31",
+      "kind": "quarter_end"
+    },
+    "value": 529.0,
+    "unit": "households",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ta-202403",
+    "sourceLocator": "TA1!E173",
+    "qualityNotes": []
+  },
+  {
+    "boroughCode": "E09000025",
+    "metricId": "ta_households_quarter_end",
+    "period": {
+      "start": "2024-03-31",
+      "end": "2024-03-31",
+      "kind": "quarter_end"
+    },
+    "value": 6350.0,
+    "unit": "households",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ta-202403",
+    "sourceLocator": "TA1!E184",
+    "qualityNotes": []
+  },
+  {
+    "boroughCode": "E09000026",
+    "metricId": "ta_households_quarter_end",
+    "period": {
+      "start": "2024-03-31",
+      "end": "2024-03-31",
+      "kind": "quarter_end"
+    },
+    "value": 2987.0,
+    "unit": "households",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ta-202403",
+    "sourceLocator": "TA1!E211",
+    "qualityNotes": []
+  },
+  {
+    "boroughCode": "E09000027",
+    "metricId": "ta_households_quarter_end",
+    "period": {
+      "start": "2024-03-31",
+      "end": "2024-03-31",
+      "kind": "quarter_end"
+    },
+    "value": 540.0,
+    "unit": "households",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ta-202403",
+    "sourceLocator": "TA1!E216",
+    "qualityNotes": []
+  },
+  {
+    "boroughCode": "E09000028",
+    "metricId": "ta_households_quarter_end",
+    "period": {
+      "start": "2024-03-31",
+      "end": "2024-03-31",
+      "kind": "quarter_end"
+    },
+    "value": 3792.0,
+    "unit": "households",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ta-202403",
+    "sourceLocator": "TA1!E249",
+    "qualityNotes": []
+  },
+  {
+    "boroughCode": "E09000029",
+    "metricId": "ta_households_quarter_end",
+    "period": {
+      "start": "2024-03-31",
+      "end": "2024-03-31",
+      "kind": "quarter_end"
+    },
+    "value": 986.0,
+    "unit": "households",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ta-202403",
+    "sourceLocator": "TA1!E263",
+    "qualityNotes": []
+  },
+  {
+    "boroughCode": "E09000030",
+    "metricId": "ta_households_quarter_end",
+    "period": {
+      "start": "2024-03-31",
+      "end": "2024-03-31",
+      "kind": "quarter_end"
+    },
+    "value": 2971.0,
+    "unit": "households",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ta-202403",
+    "sourceLocator": "TA1!E280",
+    "qualityNotes": []
+  },
+  {
+    "boroughCode": "E09000031",
+    "metricId": "ta_households_quarter_end",
+    "period": {
+      "start": "2024-03-31",
+      "end": "2024-03-31",
+      "kind": "quarter_end"
+    },
+    "value": 1175.0,
+    "unit": "households",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ta-202403",
+    "sourceLocator": "TA1!E287",
+    "qualityNotes": []
+  },
+  {
+    "boroughCode": "E09000032",
+    "metricId": "ta_households_quarter_end",
+    "period": {
+      "start": "2024-03-31",
+      "end": "2024-03-31",
+      "kind": "quarter_end"
+    },
+    "value": 3352.0,
+    "unit": "households",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ta-202403",
+    "sourceLocator": "TA1!E288",
+    "qualityNotes": []
+  },
+  {
+    "boroughCode": "E09000033",
+    "metricId": "ta_households_quarter_end",
+    "period": {
+      "start": "2024-03-31",
+      "end": "2024-03-31",
+      "kind": "quarter_end"
+    },
+    "value": 3205.0,
+    "unit": "households",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ta-202403",
+    "sourceLocator": "TA1!E302",
+    "qualityNotes": []
+  },
+  {
+    "boroughCode": "E12000007",
+    "metricId": "ta_households_quarter_end",
+    "period": {
+      "start": "2024-06-30",
+      "end": "2024-06-30",
+      "kind": "quarter_end"
+    },
+    "value": 68940.0,
+    "unit": "households",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ta-202406",
+    "sourceLocator": "TA1!E9",
+    "qualityNotes": []
+  },
+  {
+    "boroughCode": "E09000002",
+    "metricId": "ta_households_quarter_end",
+    "period": {
+      "start": "2024-06-30",
+      "end": "2024-06-30",
+      "kind": "quarter_end"
+    },
+    "value": null,
+    "unit": "households",
+    "status": "missing",
+    "missingReason": "..",
+    "sourceId": "ta-202406",
+    "sourceLocator": "TA1!E28",
+    "qualityNotes": []
+  },
+  {
+    "boroughCode": "E09000003",
+    "metricId": "ta_households_quarter_end",
+    "period": {
+      "start": "2024-06-30",
+      "end": "2024-06-30",
+      "kind": "quarter_end"
+    },
+    "value": 2463.0,
+    "unit": "households",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ta-202406",
+    "sourceLocator": "TA1!E29",
+    "qualityNotes": []
+  },
+  {
+    "boroughCode": "E09000004",
+    "metricId": "ta_households_quarter_end",
+    "period": {
+      "start": "2024-06-30",
+      "end": "2024-06-30",
+      "kind": "quarter_end"
+    },
+    "value": 552.0,
+    "unit": "households",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ta-202406",
+    "sourceLocator": "TA1!E36",
+    "qualityNotes": []
+  },
+  {
+    "boroughCode": "E09000005",
+    "metricId": "ta_households_quarter_end",
+    "period": {
+      "start": "2024-06-30",
+      "end": "2024-06-30",
+      "kind": "quarter_end"
+    },
+    "value": null,
+    "unit": "households",
+    "status": "missing",
+    "missingReason": "..",
+    "sourceId": "ta-202406",
+    "sourceLocator": "TA1!E49",
+    "qualityNotes": []
+  },
+  {
+    "boroughCode": "E09000006",
+    "metricId": "ta_households_quarter_end",
+    "period": {
+      "start": "2024-06-30",
+      "end": "2024-06-30",
+      "kind": "quarter_end"
+    },
+    "value": 1765.0,
+    "unit": "households",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ta-202406",
+    "sourceLocator": "TA1!E54",
+    "qualityNotes": []
+  },
+  {
+    "boroughCode": "E09000007",
+    "metricId": "ta_households_quarter_end",
+    "period": {
+      "start": "2024-06-30",
+      "end": "2024-06-30",
+      "kind": "quarter_end"
+    },
+    "value": null,
+    "unit": "households",
+    "status": "missing",
+    "missingReason": "..",
+    "sourceId": "ta-202406",
+    "sourceLocator": "TA1!E63",
+    "qualityNotes": []
+  },
+  {
+    "boroughCode": "E09000001",
+    "metricId": "ta_households_quarter_end",
+    "period": {
+      "start": "2024-06-30",
+      "end": "2024-06-30",
+      "kind": "quarter_end"
+    },
+    "value": 34.0,
+    "unit": "households",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ta-202406",
+    "sourceLocator": "TA1!E77",
+    "qualityNotes": []
+  },
+  {
+    "boroughCode": "E09000008",
+    "metricId": "ta_households_quarter_end",
+    "period": {
+      "start": "2024-06-30",
+      "end": "2024-06-30",
+      "kind": "quarter_end"
+    },
+    "value": 3193.0,
+    "unit": "households",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ta-202406",
+    "sourceLocator": "TA1!E83",
+    "qualityNotes": []
+  },
+  {
+    "boroughCode": "E09000009",
+    "metricId": "ta_households_quarter_end",
+    "period": {
+      "start": "2024-06-30",
+      "end": "2024-06-30",
+      "kind": "quarter_end"
+    },
+    "value": 3204.0,
+    "unit": "households",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ta-202406",
+    "sourceLocator": "TA1!E95",
+    "qualityNotes": []
+  },
+  {
+    "boroughCode": "E09000010",
+    "metricId": "ta_households_quarter_end",
+    "period": {
+      "start": "2024-06-30",
+      "end": "2024-06-30",
+      "kind": "quarter_end"
+    },
+    "value": 3067.0,
+    "unit": "households",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ta-202406",
+    "sourceLocator": "TA1!E107",
+    "qualityNotes": []
+  },
+  {
+    "boroughCode": "E09000011",
+    "metricId": "ta_households_quarter_end",
+    "period": {
+      "start": "2024-06-30",
+      "end": "2024-06-30",
+      "kind": "quarter_end"
+    },
+    "value": 1808.0,
+    "unit": "households",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ta-202406",
+    "sourceLocator": "TA1!E123",
+    "qualityNotes": []
+  },
+  {
+    "boroughCode": "E09000012",
+    "metricId": "ta_households_quarter_end",
+    "period": {
+      "start": "2024-06-30",
+      "end": "2024-06-30",
+      "kind": "quarter_end"
+    },
+    "value": 3358.0,
+    "unit": "households",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ta-202406",
+    "sourceLocator": "TA1!E125",
+    "qualityNotes": []
+  },
+  {
+    "boroughCode": "E09000013",
+    "metricId": "ta_households_quarter_end",
+    "period": {
+      "start": "2024-06-30",
+      "end": "2024-06-30",
+      "kind": "quarter_end"
+    },
+    "value": 1382.0,
+    "unit": "households",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ta-202406",
+    "sourceLocator": "TA1!E127",
+    "qualityNotes": []
+  },
+  {
+    "boroughCode": "E09000014",
+    "metricId": "ta_households_quarter_end",
+    "period": {
+      "start": "2024-06-30",
+      "end": "2024-06-30",
+      "kind": "quarter_end"
+    },
+    "value": 2661.0,
+    "unit": "households",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ta-202406",
+    "sourceLocator": "TA1!E129",
+    "qualityNotes": []
+  },
+  {
+    "boroughCode": "E09000015",
+    "metricId": "ta_households_quarter_end",
+    "period": {
+      "start": "2024-06-30",
+      "end": "2024-06-30",
+      "kind": "quarter_end"
+    },
+    "value": null,
+    "unit": "households",
+    "status": "missing",
+    "missingReason": "..",
+    "sourceId": "ta-202406",
+    "sourceLocator": "TA1!E131",
+    "qualityNotes": []
+  },
+  {
+    "boroughCode": "E09000016",
+    "metricId": "ta_households_quarter_end",
+    "period": {
+      "start": "2024-06-30",
+      "end": "2024-06-30",
+      "kind": "quarter_end"
+    },
+    "value": 1236.0,
+    "unit": "households",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ta-202406",
+    "sourceLocator": "TA1!E136",
+    "qualityNotes": []
+  },
+  {
+    "boroughCode": "E09000017",
+    "metricId": "ta_households_quarter_end",
+    "period": {
+      "start": "2024-06-30",
+      "end": "2024-06-30",
+      "kind": "quarter_end"
+    },
+    "value": 1476.0,
+    "unit": "households",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ta-202406",
+    "sourceLocator": "TA1!E140",
+    "qualityNotes": []
+  },
+  {
+    "boroughCode": "E09000018",
+    "metricId": "ta_households_quarter_end",
+    "period": {
+      "start": "2024-06-30",
+      "end": "2024-06-30",
+      "kind": "quarter_end"
+    },
+    "value": null,
+    "unit": "households",
+    "status": "missing",
+    "missingReason": "..",
+    "sourceId": "ta-202406",
+    "sourceLocator": "TA1!E143",
+    "qualityNotes": []
+  },
+  {
+    "boroughCode": "E09000019",
+    "metricId": "ta_households_quarter_end",
+    "period": {
+      "start": "2024-06-30",
+      "end": "2024-06-30",
+      "kind": "quarter_end"
+    },
+    "value": 1412.0,
+    "unit": "households",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ta-202406",
+    "sourceLocator": "TA1!E149",
+    "qualityNotes": []
+  },
+  {
+    "boroughCode": "E09000020",
+    "metricId": "ta_households_quarter_end",
+    "period": {
+      "start": "2024-06-30",
+      "end": "2024-06-30",
+      "kind": "quarter_end"
+    },
+    "value": null,
+    "unit": "households",
+    "status": "missing",
+    "missingReason": "..",
+    "sourceId": "ta-202406",
+    "sourceLocator": "TA1!E150",
+    "qualityNotes": []
+  },
+  {
+    "boroughCode": "E09000021",
+    "metricId": "ta_households_quarter_end",
+    "period": {
+      "start": "2024-06-30",
+      "end": "2024-06-30",
+      "kind": "quarter_end"
+    },
+    "value": 888.0,
+    "unit": "households",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ta-202406",
+    "sourceLocator": "TA1!E153",
+    "qualityNotes": []
+  },
+  {
+    "boroughCode": "E09000022",
+    "metricId": "ta_households_quarter_end",
+    "period": {
+      "start": "2024-06-30",
+      "end": "2024-06-30",
+      "kind": "quarter_end"
+    },
+    "value": null,
+    "unit": "households",
+    "status": "missing",
+    "missingReason": "..",
+    "sourceId": "ta-202406",
+    "sourceLocator": "TA1!E156",
+    "qualityNotes": []
+  },
+  {
+    "boroughCode": "E09000023",
+    "metricId": "ta_households_quarter_end",
+    "period": {
+      "start": "2024-06-30",
+      "end": "2024-06-30",
+      "kind": "quarter_end"
+    },
+    "value": 2888.0,
+    "unit": "households",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ta-202406",
+    "sourceLocator": "TA1!E161",
+    "qualityNotes": []
+  },
+  {
+    "boroughCode": "E09000024",
+    "metricId": "ta_households_quarter_end",
+    "period": {
+      "start": "2024-06-30",
+      "end": "2024-06-30",
+      "kind": "quarter_end"
+    },
+    "value": 583.0,
+    "unit": "households",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ta-202406",
+    "sourceLocator": "TA1!E173",
+    "qualityNotes": []
+  },
+  {
+    "boroughCode": "E09000025",
+    "metricId": "ta_households_quarter_end",
+    "period": {
+      "start": "2024-06-30",
+      "end": "2024-06-30",
+      "kind": "quarter_end"
+    },
+    "value": 6528.0,
+    "unit": "households",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ta-202406",
+    "sourceLocator": "TA1!E184",
+    "qualityNotes": []
+  },
+  {
+    "boroughCode": "E09000026",
+    "metricId": "ta_households_quarter_end",
+    "period": {
+      "start": "2024-06-30",
+      "end": "2024-06-30",
+      "kind": "quarter_end"
+    },
+    "value": 2959.0,
+    "unit": "households",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ta-202406",
+    "sourceLocator": "TA1!E211",
+    "qualityNotes": []
+  },
+  {
+    "boroughCode": "E09000027",
+    "metricId": "ta_households_quarter_end",
+    "period": {
+      "start": "2024-06-30",
+      "end": "2024-06-30",
+      "kind": "quarter_end"
+    },
+    "value": 539.0,
+    "unit": "households",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ta-202406",
+    "sourceLocator": "TA1!E216",
+    "qualityNotes": []
+  },
+  {
+    "boroughCode": "E09000028",
+    "metricId": "ta_households_quarter_end",
+    "period": {
+      "start": "2024-06-30",
+      "end": "2024-06-30",
+      "kind": "quarter_end"
+    },
+    "value": 3828.0,
+    "unit": "households",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ta-202406",
+    "sourceLocator": "TA1!E249",
+    "qualityNotes": []
+  },
+  {
+    "boroughCode": "E09000029",
+    "metricId": "ta_households_quarter_end",
+    "period": {
+      "start": "2024-06-30",
+      "end": "2024-06-30",
+      "kind": "quarter_end"
+    },
+    "value": 1026.0,
+    "unit": "households",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ta-202406",
+    "sourceLocator": "TA1!E263",
+    "qualityNotes": []
+  },
+  {
+    "boroughCode": "E09000030",
+    "metricId": "ta_households_quarter_end",
+    "period": {
+      "start": "2024-06-30",
+      "end": "2024-06-30",
+      "kind": "quarter_end"
+    },
+    "value": 3038.0,
+    "unit": "households",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ta-202406",
+    "sourceLocator": "TA1!E280",
+    "qualityNotes": []
+  },
+  {
+    "boroughCode": "E09000031",
+    "metricId": "ta_households_quarter_end",
+    "period": {
+      "start": "2024-06-30",
+      "end": "2024-06-30",
+      "kind": "quarter_end"
+    },
+    "value": 1282.0,
+    "unit": "households",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ta-202406",
+    "sourceLocator": "TA1!E287",
+    "qualityNotes": []
+  },
+  {
+    "boroughCode": "E09000032",
+    "metricId": "ta_households_quarter_end",
+    "period": {
+      "start": "2024-06-30",
+      "end": "2024-06-30",
+      "kind": "quarter_end"
+    },
+    "value": 3383.0,
+    "unit": "households",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ta-202406",
+    "sourceLocator": "TA1!E288",
+    "qualityNotes": []
+  },
+  {
+    "boroughCode": "E09000033",
+    "metricId": "ta_households_quarter_end",
+    "period": {
+      "start": "2024-06-30",
+      "end": "2024-06-30",
+      "kind": "quarter_end"
+    },
+    "value": 3269.0,
+    "unit": "households",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ta-202406",
+    "sourceLocator": "TA1!E302",
+    "qualityNotes": []
+  },
+  {
+    "boroughCode": "E12000007",
+    "metricId": "ta_households_quarter_end",
+    "period": {
+      "start": "2024-09-30",
+      "end": "2024-09-30",
+      "kind": "quarter_end"
+    },
+    "value": 70400.0,
+    "unit": "households",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ta-202409",
+    "sourceLocator": "TA1!E9",
+    "qualityNotes": []
+  },
+  {
+    "boroughCode": "E09000002",
+    "metricId": "ta_households_quarter_end",
+    "period": {
+      "start": "2024-09-30",
+      "end": "2024-09-30",
+      "kind": "quarter_end"
+    },
+    "value": 1044.0,
+    "unit": "households",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ta-202409",
+    "sourceLocator": "TA1!E28",
+    "qualityNotes": []
+  },
+  {
+    "boroughCode": "E09000003",
+    "metricId": "ta_households_quarter_end",
+    "period": {
+      "start": "2024-09-30",
+      "end": "2024-09-30",
+      "kind": "quarter_end"
+    },
+    "value": 2623.0,
+    "unit": "households",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ta-202409",
+    "sourceLocator": "TA1!E29",
+    "qualityNotes": []
+  },
+  {
+    "boroughCode": "E09000004",
+    "metricId": "ta_households_quarter_end",
+    "period": {
+      "start": "2024-09-30",
+      "end": "2024-09-30",
+      "kind": "quarter_end"
+    },
+    "value": 495.0,
+    "unit": "households",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ta-202409",
+    "sourceLocator": "TA1!E36",
+    "qualityNotes": []
+  },
+  {
+    "boroughCode": "E09000005",
+    "metricId": "ta_households_quarter_end",
+    "period": {
+      "start": "2024-09-30",
+      "end": "2024-09-30",
+      "kind": "quarter_end"
+    },
+    "value": null,
+    "unit": "households",
+    "status": "missing",
+    "missingReason": "..",
+    "sourceId": "ta-202409",
+    "sourceLocator": "TA1!E49",
+    "qualityNotes": []
+  },
+  {
+    "boroughCode": "E09000006",
+    "metricId": "ta_households_quarter_end",
+    "period": {
+      "start": "2024-09-30",
+      "end": "2024-09-30",
+      "kind": "quarter_end"
+    },
+    "value": 1876.0,
+    "unit": "households",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ta-202409",
+    "sourceLocator": "TA1!E54",
+    "qualityNotes": []
+  },
+  {
+    "boroughCode": "E09000007",
+    "metricId": "ta_households_quarter_end",
+    "period": {
+      "start": "2024-09-30",
+      "end": "2024-09-30",
+      "kind": "quarter_end"
+    },
+    "value": null,
+    "unit": "households",
+    "status": "missing",
+    "missingReason": "..",
+    "sourceId": "ta-202409",
+    "sourceLocator": "TA1!E63",
+    "qualityNotes": []
+  },
+  {
+    "boroughCode": "E09000001",
+    "metricId": "ta_households_quarter_end",
+    "period": {
+      "start": "2024-09-30",
+      "end": "2024-09-30",
+      "kind": "quarter_end"
+    },
+    "value": 32.0,
+    "unit": "households",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ta-202409",
+    "sourceLocator": "TA1!E77",
+    "qualityNotes": []
+  },
+  {
+    "boroughCode": "E09000008",
+    "metricId": "ta_households_quarter_end",
+    "period": {
+      "start": "2024-09-30",
+      "end": "2024-09-30",
+      "kind": "quarter_end"
+    },
+    "value": 3518.0,
+    "unit": "households",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ta-202409",
+    "sourceLocator": "TA1!E83",
+    "qualityNotes": []
+  },
+  {
+    "boroughCode": "E09000009",
+    "metricId": "ta_households_quarter_end",
+    "period": {
+      "start": "2024-09-30",
+      "end": "2024-09-30",
+      "kind": "quarter_end"
+    },
+    "value": 3219.0,
+    "unit": "households",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ta-202409",
+    "sourceLocator": "TA1!E95",
+    "qualityNotes": []
+  },
+  {
+    "boroughCode": "E09000010",
+    "metricId": "ta_households_quarter_end",
+    "period": {
+      "start": "2024-09-30",
+      "end": "2024-09-30",
+      "kind": "quarter_end"
+    },
+    "value": 3085.0,
+    "unit": "households",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ta-202409",
+    "sourceLocator": "TA1!E107",
+    "qualityNotes": []
+  },
+  {
+    "boroughCode": "E09000011",
+    "metricId": "ta_households_quarter_end",
+    "period": {
+      "start": "2024-09-30",
+      "end": "2024-09-30",
+      "kind": "quarter_end"
+    },
+    "value": 1859.0,
+    "unit": "households",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ta-202409",
+    "sourceLocator": "TA1!E123",
+    "qualityNotes": []
+  },
+  {
+    "boroughCode": "E09000012",
+    "metricId": "ta_households_quarter_end",
+    "period": {
+      "start": "2024-09-30",
+      "end": "2024-09-30",
+      "kind": "quarter_end"
+    },
+    "value": 3445.0,
+    "unit": "households",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ta-202409",
+    "sourceLocator": "TA1!E125",
+    "qualityNotes": []
+  },
+  {
+    "boroughCode": "E09000013",
+    "metricId": "ta_households_quarter_end",
+    "period": {
+      "start": "2024-09-30",
+      "end": "2024-09-30",
+      "kind": "quarter_end"
+    },
+    "value": 1403.0,
+    "unit": "households",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ta-202409",
+    "sourceLocator": "TA1!E127",
+    "qualityNotes": []
+  },
+  {
+    "boroughCode": "E09000014",
+    "metricId": "ta_households_quarter_end",
+    "period": {
+      "start": "2024-09-30",
+      "end": "2024-09-30",
+      "kind": "quarter_end"
+    },
+    "value": 2644.0,
+    "unit": "households",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ta-202409",
+    "sourceLocator": "TA1!E129",
+    "qualityNotes": []
+  },
+  {
+    "boroughCode": "E09000015",
+    "metricId": "ta_households_quarter_end",
+    "period": {
+      "start": "2024-09-30",
+      "end": "2024-09-30",
+      "kind": "quarter_end"
+    },
+    "value": null,
+    "unit": "households",
+    "status": "missing",
+    "missingReason": "..",
+    "sourceId": "ta-202409",
+    "sourceLocator": "TA1!E131",
+    "qualityNotes": []
+  },
+  {
+    "boroughCode": "E09000016",
+    "metricId": "ta_households_quarter_end",
+    "period": {
+      "start": "2024-09-30",
+      "end": "2024-09-30",
+      "kind": "quarter_end"
+    },
+    "value": 1267.0,
+    "unit": "households",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ta-202409",
+    "sourceLocator": "TA1!E136",
+    "qualityNotes": []
+  },
+  {
+    "boroughCode": "E09000017",
+    "metricId": "ta_households_quarter_end",
+    "period": {
+      "start": "2024-09-30",
+      "end": "2024-09-30",
+      "kind": "quarter_end"
+    },
+    "value": 1455.0,
+    "unit": "households",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ta-202409",
+    "sourceLocator": "TA1!E140",
+    "qualityNotes": []
+  },
+  {
+    "boroughCode": "E09000018",
+    "metricId": "ta_households_quarter_end",
+    "period": {
+      "start": "2024-09-30",
+      "end": "2024-09-30",
+      "kind": "quarter_end"
+    },
+    "value": 611.0,
+    "unit": "households",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ta-202409",
+    "sourceLocator": "TA1!E143",
+    "qualityNotes": []
+  },
+  {
+    "boroughCode": "E09000019",
+    "metricId": "ta_households_quarter_end",
+    "period": {
+      "start": "2024-09-30",
+      "end": "2024-09-30",
+      "kind": "quarter_end"
+    },
+    "value": 1551.0,
+    "unit": "households",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ta-202409",
+    "sourceLocator": "TA1!E149",
+    "qualityNotes": []
+  },
+  {
+    "boroughCode": "E09000020",
+    "metricId": "ta_households_quarter_end",
+    "period": {
+      "start": "2024-09-30",
+      "end": "2024-09-30",
+      "kind": "quarter_end"
+    },
+    "value": 1991.0,
+    "unit": "households",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ta-202409",
+    "sourceLocator": "TA1!E150",
+    "qualityNotes": []
+  },
+  {
+    "boroughCode": "E09000021",
+    "metricId": "ta_households_quarter_end",
+    "period": {
+      "start": "2024-09-30",
+      "end": "2024-09-30",
+      "kind": "quarter_end"
+    },
+    "value": 854.0,
+    "unit": "households",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ta-202409",
+    "sourceLocator": "TA1!E153",
+    "qualityNotes": []
+  },
+  {
+    "boroughCode": "E09000022",
+    "metricId": "ta_households_quarter_end",
+    "period": {
+      "start": "2024-09-30",
+      "end": "2024-09-30",
+      "kind": "quarter_end"
+    },
+    "value": null,
+    "unit": "households",
+    "status": "missing",
+    "missingReason": "..",
+    "sourceId": "ta-202409",
+    "sourceLocator": "TA1!E156",
+    "qualityNotes": []
+  },
+  {
+    "boroughCode": "E09000023",
+    "metricId": "ta_households_quarter_end",
+    "period": {
+      "start": "2024-09-30",
+      "end": "2024-09-30",
+      "kind": "quarter_end"
+    },
+    "value": 2729.0,
+    "unit": "households",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ta-202409",
+    "sourceLocator": "TA1!E161",
+    "qualityNotes": []
+  },
+  {
+    "boroughCode": "E09000024",
+    "metricId": "ta_households_quarter_end",
+    "period": {
+      "start": "2024-09-30",
+      "end": "2024-09-30",
+      "kind": "quarter_end"
+    },
+    "value": 608.0,
+    "unit": "households",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ta-202409",
+    "sourceLocator": "TA1!E173",
+    "qualityNotes": []
+  },
+  {
+    "boroughCode": "E09000025",
+    "metricId": "ta_households_quarter_end",
+    "period": {
+      "start": "2024-09-30",
+      "end": "2024-09-30",
+      "kind": "quarter_end"
+    },
+    "value": 6667.0,
+    "unit": "households",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ta-202409",
+    "sourceLocator": "TA1!E184",
+    "qualityNotes": []
+  },
+  {
+    "boroughCode": "E09000026",
+    "metricId": "ta_households_quarter_end",
+    "period": {
+      "start": "2024-09-30",
+      "end": "2024-09-30",
+      "kind": "quarter_end"
+    },
+    "value": null,
+    "unit": "households",
+    "status": "missing",
+    "missingReason": "..",
+    "sourceId": "ta-202409",
+    "sourceLocator": "TA1!E211",
+    "qualityNotes": []
+  },
+  {
+    "boroughCode": "E09000027",
+    "metricId": "ta_households_quarter_end",
+    "period": {
+      "start": "2024-09-30",
+      "end": "2024-09-30",
+      "kind": "quarter_end"
+    },
+    "value": 542.0,
+    "unit": "households",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ta-202409",
+    "sourceLocator": "TA1!E216",
+    "qualityNotes": []
+  },
+  {
+    "boroughCode": "E09000028",
+    "metricId": "ta_households_quarter_end",
+    "period": {
+      "start": "2024-09-30",
+      "end": "2024-09-30",
+      "kind": "quarter_end"
+    },
+    "value": null,
+    "unit": "households",
+    "status": "missing",
+    "missingReason": "..",
+    "sourceId": "ta-202409",
+    "sourceLocator": "TA1!E249",
+    "qualityNotes": []
+  },
+  {
+    "boroughCode": "E09000029",
+    "metricId": "ta_households_quarter_end",
+    "period": {
+      "start": "2024-09-30",
+      "end": "2024-09-30",
+      "kind": "quarter_end"
+    },
+    "value": 1027.0,
+    "unit": "households",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ta-202409",
+    "sourceLocator": "TA1!E263",
+    "qualityNotes": []
+  },
+  {
+    "boroughCode": "E09000030",
+    "metricId": "ta_households_quarter_end",
+    "period": {
+      "start": "2024-09-30",
+      "end": "2024-09-30",
+      "kind": "quarter_end"
+    },
+    "value": 3159.0,
+    "unit": "households",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ta-202409",
+    "sourceLocator": "TA1!E280",
+    "qualityNotes": []
+  },
+  {
+    "boroughCode": "E09000031",
+    "metricId": "ta_households_quarter_end",
+    "period": {
+      "start": "2024-09-30",
+      "end": "2024-09-30",
+      "kind": "quarter_end"
+    },
+    "value": 1443.0,
+    "unit": "households",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ta-202409",
+    "sourceLocator": "TA1!E287",
+    "qualityNotes": []
+  },
+  {
+    "boroughCode": "E09000032",
+    "metricId": "ta_households_quarter_end",
+    "period": {
+      "start": "2024-09-30",
+      "end": "2024-09-30",
+      "kind": "quarter_end"
+    },
+    "value": 3496.0,
+    "unit": "households",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ta-202409",
+    "sourceLocator": "TA1!E288",
+    "qualityNotes": []
+  },
+  {
+    "boroughCode": "E09000033",
+    "metricId": "ta_households_quarter_end",
+    "period": {
+      "start": "2024-09-30",
+      "end": "2024-09-30",
+      "kind": "quarter_end"
+    },
+    "value": null,
+    "unit": "households",
+    "status": "missing",
+    "missingReason": "..",
+    "sourceId": "ta-202409",
+    "sourceLocator": "TA1!E302",
+    "qualityNotes": []
+  },
+  {
+    "boroughCode": "E12000007",
+    "metricId": "ta_households_quarter_end",
+    "period": {
+      "start": "2024-12-31",
+      "end": "2024-12-31",
+      "kind": "quarter_end"
+    },
+    "value": 72130.0,
+    "unit": "households",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ta-202412",
+    "sourceLocator": "TA1!E9",
+    "qualityNotes": []
+  },
+  {
+    "boroughCode": "E09000002",
+    "metricId": "ta_households_quarter_end",
+    "period": {
+      "start": "2024-12-31",
+      "end": "2024-12-31",
+      "kind": "quarter_end"
+    },
+    "value": 1043.0,
+    "unit": "households",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ta-202412",
+    "sourceLocator": "TA1!E28",
+    "qualityNotes": []
+  },
+  {
+    "boroughCode": "E09000003",
+    "metricId": "ta_households_quarter_end",
+    "period": {
+      "start": "2024-12-31",
+      "end": "2024-12-31",
+      "kind": "quarter_end"
+    },
+    "value": 2709.0,
+    "unit": "households",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ta-202412",
+    "sourceLocator": "TA1!E29",
+    "qualityNotes": []
+  },
+  {
+    "boroughCode": "E09000004",
+    "metricId": "ta_households_quarter_end",
+    "period": {
+      "start": "2024-12-31",
+      "end": "2024-12-31",
+      "kind": "quarter_end"
+    },
+    "value": 437.0,
+    "unit": "households",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ta-202412",
+    "sourceLocator": "TA1!E36",
+    "qualityNotes": []
+  },
+  {
+    "boroughCode": "E09000005",
+    "metricId": "ta_households_quarter_end",
+    "period": {
+      "start": "2024-12-31",
+      "end": "2024-12-31",
+      "kind": "quarter_end"
+    },
+    "value": null,
+    "unit": "households",
+    "status": "missing",
+    "missingReason": "..",
+    "sourceId": "ta-202412",
+    "sourceLocator": "TA1!E49",
+    "qualityNotes": []
+  },
+  {
+    "boroughCode": "E09000006",
+    "metricId": "ta_households_quarter_end",
+    "period": {
+      "start": "2024-12-31",
+      "end": "2024-12-31",
+      "kind": "quarter_end"
+    },
+    "value": 1845.0,
+    "unit": "households",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ta-202412",
+    "sourceLocator": "TA1!E54",
+    "qualityNotes": []
+  },
+  {
+    "boroughCode": "E09000007",
+    "metricId": "ta_households_quarter_end",
+    "period": {
+      "start": "2024-12-31",
+      "end": "2024-12-31",
+      "kind": "quarter_end"
+    },
+    "value": null,
+    "unit": "households",
+    "status": "missing",
+    "missingReason": "..",
+    "sourceId": "ta-202412",
+    "sourceLocator": "TA1!E63",
+    "qualityNotes": []
+  },
+  {
+    "boroughCode": "E09000001",
+    "metricId": "ta_households_quarter_end",
+    "period": {
+      "start": "2024-12-31",
+      "end": "2024-12-31",
+      "kind": "quarter_end"
+    },
+    "value": 33.0,
+    "unit": "households",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ta-202412",
+    "sourceLocator": "TA1!E77",
+    "qualityNotes": []
+  },
+  {
+    "boroughCode": "E09000008",
+    "metricId": "ta_households_quarter_end",
+    "period": {
+      "start": "2024-12-31",
+      "end": "2024-12-31",
+      "kind": "quarter_end"
+    },
+    "value": 3504.0,
+    "unit": "households",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ta-202412",
+    "sourceLocator": "TA1!E83",
+    "qualityNotes": []
+  },
+  {
+    "boroughCode": "E09000009",
+    "metricId": "ta_households_quarter_end",
+    "period": {
+      "start": "2024-12-31",
+      "end": "2024-12-31",
+      "kind": "quarter_end"
+    },
+    "value": 3230.0,
+    "unit": "households",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ta-202412",
+    "sourceLocator": "TA1!E95",
+    "qualityNotes": []
+  },
+  {
+    "boroughCode": "E09000010",
+    "metricId": "ta_households_quarter_end",
+    "period": {
+      "start": "2024-12-31",
+      "end": "2024-12-31",
+      "kind": "quarter_end"
+    },
+    "value": 3085.0,
+    "unit": "households",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ta-202412",
+    "sourceLocator": "TA1!E107",
+    "qualityNotes": []
+  },
+  {
+    "boroughCode": "E09000011",
+    "metricId": "ta_households_quarter_end",
+    "period": {
+      "start": "2024-12-31",
+      "end": "2024-12-31",
+      "kind": "quarter_end"
+    },
+    "value": 1830.0,
+    "unit": "households",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ta-202412",
+    "sourceLocator": "TA1!E123",
+    "qualityNotes": []
+  },
+  {
+    "boroughCode": "E09000012",
+    "metricId": "ta_households_quarter_end",
+    "period": {
+      "start": "2024-12-31",
+      "end": "2024-12-31",
+      "kind": "quarter_end"
+    },
+    "value": 3506.0,
+    "unit": "households",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ta-202412",
+    "sourceLocator": "TA1!E125",
+    "qualityNotes": []
+  },
+  {
+    "boroughCode": "E09000013",
+    "metricId": "ta_households_quarter_end",
+    "period": {
+      "start": "2024-12-31",
+      "end": "2024-12-31",
+      "kind": "quarter_end"
+    },
+    "value": 1421.0,
+    "unit": "households",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ta-202412",
+    "sourceLocator": "TA1!E127",
+    "qualityNotes": []
+  },
+  {
+    "boroughCode": "E09000014",
+    "metricId": "ta_households_quarter_end",
+    "period": {
+      "start": "2024-12-31",
+      "end": "2024-12-31",
+      "kind": "quarter_end"
+    },
+    "value": 2643.0,
+    "unit": "households",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ta-202412",
+    "sourceLocator": "TA1!E129",
+    "qualityNotes": []
+  },
+  {
+    "boroughCode": "E09000015",
+    "metricId": "ta_households_quarter_end",
+    "period": {
+      "start": "2024-12-31",
+      "end": "2024-12-31",
+      "kind": "quarter_end"
+    },
+    "value": 1320.0,
+    "unit": "households",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ta-202412",
+    "sourceLocator": "TA1!E131",
+    "qualityNotes": []
+  },
+  {
+    "boroughCode": "E09000016",
+    "metricId": "ta_households_quarter_end",
+    "period": {
+      "start": "2024-12-31",
+      "end": "2024-12-31",
+      "kind": "quarter_end"
+    },
+    "value": 1303.0,
+    "unit": "households",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ta-202412",
+    "sourceLocator": "TA1!E136",
+    "qualityNotes": []
+  },
+  {
+    "boroughCode": "E09000017",
+    "metricId": "ta_households_quarter_end",
+    "period": {
+      "start": "2024-12-31",
+      "end": "2024-12-31",
+      "kind": "quarter_end"
+    },
+    "value": 1412.0,
+    "unit": "households",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ta-202412",
+    "sourceLocator": "TA1!E140",
+    "qualityNotes": []
+  },
+  {
+    "boroughCode": "E09000018",
+    "metricId": "ta_households_quarter_end",
+    "period": {
+      "start": "2024-12-31",
+      "end": "2024-12-31",
+      "kind": "quarter_end"
+    },
+    "value": 585.0,
+    "unit": "households",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ta-202412",
+    "sourceLocator": "TA1!E143",
+    "qualityNotes": []
+  },
+  {
+    "boroughCode": "E09000019",
+    "metricId": "ta_households_quarter_end",
+    "period": {
+      "start": "2024-12-31",
+      "end": "2024-12-31",
+      "kind": "quarter_end"
+    },
+    "value": 1622.0,
+    "unit": "households",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ta-202412",
+    "sourceLocator": "TA1!E149",
+    "qualityNotes": []
+  },
+  {
+    "boroughCode": "E09000020",
+    "metricId": "ta_households_quarter_end",
+    "period": {
+      "start": "2024-12-31",
+      "end": "2024-12-31",
+      "kind": "quarter_end"
+    },
+    "value": 1970.0,
+    "unit": "households",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ta-202412",
+    "sourceLocator": "TA1!E150",
+    "qualityNotes": []
+  },
+  {
+    "boroughCode": "E09000021",
+    "metricId": "ta_households_quarter_end",
+    "period": {
+      "start": "2024-12-31",
+      "end": "2024-12-31",
+      "kind": "quarter_end"
+    },
+    "value": null,
+    "unit": "households",
+    "status": "missing",
+    "missingReason": "..",
+    "sourceId": "ta-202412",
+    "sourceLocator": "TA1!E153",
+    "qualityNotes": []
+  },
+  {
+    "boroughCode": "E09000022",
+    "metricId": "ta_households_quarter_end",
+    "period": {
+      "start": "2024-12-31",
+      "end": "2024-12-31",
+      "kind": "quarter_end"
+    },
+    "value": null,
+    "unit": "households",
+    "status": "missing",
+    "missingReason": "..",
+    "sourceId": "ta-202412",
+    "sourceLocator": "TA1!E156",
+    "qualityNotes": []
+  },
+  {
+    "boroughCode": "E09000023",
+    "metricId": "ta_households_quarter_end",
+    "period": {
+      "start": "2024-12-31",
+      "end": "2024-12-31",
+      "kind": "quarter_end"
+    },
+    "value": null,
+    "unit": "households",
+    "status": "missing",
+    "missingReason": "..",
+    "sourceId": "ta-202412",
+    "sourceLocator": "TA1!E161",
+    "qualityNotes": []
+  },
+  {
+    "boroughCode": "E09000024",
+    "metricId": "ta_households_quarter_end",
+    "period": {
+      "start": "2024-12-31",
+      "end": "2024-12-31",
+      "kind": "quarter_end"
+    },
+    "value": 654.0,
+    "unit": "households",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ta-202412",
+    "sourceLocator": "TA1!E173",
+    "qualityNotes": []
+  },
+  {
+    "boroughCode": "E09000025",
+    "metricId": "ta_households_quarter_end",
+    "period": {
+      "start": "2024-12-31",
+      "end": "2024-12-31",
+      "kind": "quarter_end"
+    },
+    "value": 6933.0,
+    "unit": "households",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ta-202412",
+    "sourceLocator": "TA1!E184",
+    "qualityNotes": []
+  },
+  {
+    "boroughCode": "E09000026",
+    "metricId": "ta_households_quarter_end",
+    "period": {
+      "start": "2024-12-31",
+      "end": "2024-12-31",
+      "kind": "quarter_end"
+    },
+    "value": 2797.0,
+    "unit": "households",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ta-202412",
+    "sourceLocator": "TA1!E211",
+    "qualityNotes": []
+  },
+  {
+    "boroughCode": "E09000027",
+    "metricId": "ta_households_quarter_end",
+    "period": {
+      "start": "2024-12-31",
+      "end": "2024-12-31",
+      "kind": "quarter_end"
+    },
+    "value": 566.0,
+    "unit": "households",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ta-202412",
+    "sourceLocator": "TA1!E216",
+    "qualityNotes": []
+  },
+  {
+    "boroughCode": "E09000028",
+    "metricId": "ta_households_quarter_end",
+    "period": {
+      "start": "2024-12-31",
+      "end": "2024-12-31",
+      "kind": "quarter_end"
+    },
+    "value": 3997.0,
+    "unit": "households",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ta-202412",
+    "sourceLocator": "TA1!E249",
+    "qualityNotes": []
+  },
+  {
+    "boroughCode": "E09000029",
+    "metricId": "ta_households_quarter_end",
+    "period": {
+      "start": "2024-12-31",
+      "end": "2024-12-31",
+      "kind": "quarter_end"
+    },
+    "value": 1054.0,
+    "unit": "households",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ta-202412",
+    "sourceLocator": "TA1!E263",
+    "qualityNotes": []
+  },
+  {
+    "boroughCode": "E09000030",
+    "metricId": "ta_households_quarter_end",
+    "period": {
+      "start": "2024-12-31",
+      "end": "2024-12-31",
+      "kind": "quarter_end"
+    },
+    "value": 3191.0,
+    "unit": "households",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ta-202412",
+    "sourceLocator": "TA1!E280",
+    "qualityNotes": []
+  },
+  {
+    "boroughCode": "E09000031",
+    "metricId": "ta_households_quarter_end",
+    "period": {
+      "start": "2024-12-31",
+      "end": "2024-12-31",
+      "kind": "quarter_end"
+    },
+    "value": 1546.0,
+    "unit": "households",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ta-202412",
+    "sourceLocator": "TA1!E287",
+    "qualityNotes": []
+  },
+  {
+    "boroughCode": "E09000032",
+    "metricId": "ta_households_quarter_end",
+    "period": {
+      "start": "2024-12-31",
+      "end": "2024-12-31",
+      "kind": "quarter_end"
+    },
+    "value": 3575.0,
+    "unit": "households",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ta-202412",
+    "sourceLocator": "TA1!E288",
+    "qualityNotes": []
+  },
+  {
+    "boroughCode": "E09000033",
+    "metricId": "ta_households_quarter_end",
+    "period": {
+      "start": "2024-12-31",
+      "end": "2024-12-31",
+      "kind": "quarter_end"
+    },
+    "value": 3996.0,
+    "unit": "households",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ta-202412",
+    "sourceLocator": "TA1!E302",
+    "qualityNotes": []
+  },
+  {
+    "boroughCode": "E12000007",
+    "metricId": "ta_households_quarter_end",
+    "period": {
+      "start": "2025-03-31",
+      "end": "2025-03-31",
+      "kind": "quarter_end"
+    },
+    "value": 73090.0,
+    "unit": "households",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ta-202503",
+    "sourceLocator": "TA1!E9",
+    "qualityNotes": []
+  },
+  {
+    "boroughCode": "E09000002",
+    "metricId": "ta_households_quarter_end",
+    "period": {
+      "start": "2025-03-31",
+      "end": "2025-03-31",
+      "kind": "quarter_end"
+    },
+    "value": 1067.0,
+    "unit": "households",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ta-202503",
+    "sourceLocator": "TA1!E28",
+    "qualityNotes": []
+  },
+  {
+    "boroughCode": "E09000003",
+    "metricId": "ta_households_quarter_end",
+    "period": {
+      "start": "2025-03-31",
+      "end": "2025-03-31",
+      "kind": "quarter_end"
+    },
+    "value": 2819.0,
+    "unit": "households",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ta-202503",
+    "sourceLocator": "TA1!E29",
+    "qualityNotes": []
+  },
+  {
+    "boroughCode": "E09000004",
+    "metricId": "ta_households_quarter_end",
+    "period": {
+      "start": "2025-03-31",
+      "end": "2025-03-31",
+      "kind": "quarter_end"
+    },
+    "value": 387.0,
+    "unit": "households",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ta-202503",
+    "sourceLocator": "TA1!E36",
+    "qualityNotes": []
+  },
+  {
+    "boroughCode": "E09000005",
+    "metricId": "ta_households_quarter_end",
+    "period": {
+      "start": "2025-03-31",
+      "end": "2025-03-31",
+      "kind": "quarter_end"
+    },
+    "value": null,
+    "unit": "households",
+    "status": "missing",
+    "missingReason": "..",
+    "sourceId": "ta-202503",
+    "sourceLocator": "TA1!E49",
+    "qualityNotes": []
+  },
+  {
+    "boroughCode": "E09000006",
+    "metricId": "ta_households_quarter_end",
+    "period": {
+      "start": "2025-03-31",
+      "end": "2025-03-31",
+      "kind": "quarter_end"
+    },
+    "value": 1796.0,
+    "unit": "households",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ta-202503",
+    "sourceLocator": "TA1!E54",
+    "qualityNotes": []
+  },
+  {
+    "boroughCode": "E09000007",
+    "metricId": "ta_households_quarter_end",
+    "period": {
+      "start": "2025-03-31",
+      "end": "2025-03-31",
+      "kind": "quarter_end"
+    },
+    "value": null,
+    "unit": "households",
+    "status": "missing",
+    "missingReason": "..",
+    "sourceId": "ta-202503",
+    "sourceLocator": "TA1!E63",
+    "qualityNotes": []
+  },
+  {
+    "boroughCode": "E09000001",
+    "metricId": "ta_households_quarter_end",
+    "period": {
+      "start": "2025-03-31",
+      "end": "2025-03-31",
+      "kind": "quarter_end"
+    },
+    "value": 30.0,
+    "unit": "households",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ta-202503",
+    "sourceLocator": "TA1!E77",
+    "qualityNotes": []
+  },
+  {
+    "boroughCode": "E09000008",
+    "metricId": "ta_households_quarter_end",
+    "period": {
+      "start": "2025-03-31",
+      "end": "2025-03-31",
+      "kind": "quarter_end"
+    },
+    "value": 3562.0,
+    "unit": "households",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ta-202503",
+    "sourceLocator": "TA1!E83",
+    "qualityNotes": []
+  },
+  {
+    "boroughCode": "E09000009",
+    "metricId": "ta_households_quarter_end",
+    "period": {
+      "start": "2025-03-31",
+      "end": "2025-03-31",
+      "kind": "quarter_end"
+    },
+    "value": 3049.0,
+    "unit": "households",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ta-202503",
+    "sourceLocator": "TA1!E95",
+    "qualityNotes": []
+  },
+  {
+    "boroughCode": "E09000010",
+    "metricId": "ta_households_quarter_end",
+    "period": {
+      "start": "2025-03-31",
+      "end": "2025-03-31",
+      "kind": "quarter_end"
+    },
+    "value": 3033.0,
+    "unit": "households",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ta-202503",
+    "sourceLocator": "TA1!E107",
+    "qualityNotes": []
+  },
+  {
+    "boroughCode": "E09000011",
+    "metricId": "ta_households_quarter_end",
+    "period": {
+      "start": "2025-03-31",
+      "end": "2025-03-31",
+      "kind": "quarter_end"
+    },
+    "value": 1893.0,
+    "unit": "households",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ta-202503",
+    "sourceLocator": "TA1!E123",
+    "qualityNotes": []
+  },
+  {
+    "boroughCode": "E09000012",
+    "metricId": "ta_households_quarter_end",
+    "period": {
+      "start": "2025-03-31",
+      "end": "2025-03-31",
+      "kind": "quarter_end"
+    },
+    "value": 3567.0,
+    "unit": "households",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ta-202503",
+    "sourceLocator": "TA1!E125",
+    "qualityNotes": []
+  },
+  {
+    "boroughCode": "E09000013",
+    "metricId": "ta_households_quarter_end",
+    "period": {
+      "start": "2025-03-31",
+      "end": "2025-03-31",
+      "kind": "quarter_end"
+    },
+    "value": null,
+    "unit": "households",
+    "status": "missing",
+    "missingReason": "..",
+    "sourceId": "ta-202503",
+    "sourceLocator": "TA1!E127",
+    "qualityNotes": []
+  },
+  {
+    "boroughCode": "E09000014",
+    "metricId": "ta_households_quarter_end",
+    "period": {
+      "start": "2025-03-31",
+      "end": "2025-03-31",
+      "kind": "quarter_end"
+    },
+    "value": 2689.0,
+    "unit": "households",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ta-202503",
+    "sourceLocator": "TA1!E129",
+    "qualityNotes": []
+  },
+  {
+    "boroughCode": "E09000015",
+    "metricId": "ta_households_quarter_end",
+    "period": {
+      "start": "2025-03-31",
+      "end": "2025-03-31",
+      "kind": "quarter_end"
+    },
+    "value": null,
+    "unit": "households",
+    "status": "missing",
+    "missingReason": "..",
+    "sourceId": "ta-202503",
+    "sourceLocator": "TA1!E131",
+    "qualityNotes": []
+  },
+  {
+    "boroughCode": "E09000016",
+    "metricId": "ta_households_quarter_end",
+    "period": {
+      "start": "2025-03-31",
+      "end": "2025-03-31",
+      "kind": "quarter_end"
+    },
+    "value": 1334.0,
+    "unit": "households",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ta-202503",
+    "sourceLocator": "TA1!E136",
+    "qualityNotes": []
+  },
+  {
+    "boroughCode": "E09000017",
+    "metricId": "ta_households_quarter_end",
+    "period": {
+      "start": "2025-03-31",
+      "end": "2025-03-31",
+      "kind": "quarter_end"
+    },
+    "value": null,
+    "unit": "households",
+    "status": "missing",
+    "missingReason": "..",
+    "sourceId": "ta-202503",
+    "sourceLocator": "TA1!E140",
+    "qualityNotes": []
+  },
+  {
+    "boroughCode": "E09000018",
+    "metricId": "ta_households_quarter_end",
+    "period": {
+      "start": "2025-03-31",
+      "end": "2025-03-31",
+      "kind": "quarter_end"
+    },
+    "value": 491.0,
+    "unit": "households",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ta-202503",
+    "sourceLocator": "TA1!E143",
+    "qualityNotes": []
+  },
+  {
+    "boroughCode": "E09000019",
+    "metricId": "ta_households_quarter_end",
+    "period": {
+      "start": "2025-03-31",
+      "end": "2025-03-31",
+      "kind": "quarter_end"
+    },
+    "value": 1778.0,
+    "unit": "households",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ta-202503",
+    "sourceLocator": "TA1!E149",
+    "qualityNotes": []
+  },
+  {
+    "boroughCode": "E09000020",
+    "metricId": "ta_households_quarter_end",
+    "period": {
+      "start": "2025-03-31",
+      "end": "2025-03-31",
+      "kind": "quarter_end"
+    },
+    "value": 2019.0,
+    "unit": "households",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ta-202503",
+    "sourceLocator": "TA1!E150",
+    "qualityNotes": []
+  },
+  {
+    "boroughCode": "E09000021",
+    "metricId": "ta_households_quarter_end",
+    "period": {
+      "start": "2025-03-31",
+      "end": "2025-03-31",
+      "kind": "quarter_end"
+    },
+    "value": null,
+    "unit": "households",
+    "status": "missing",
+    "missingReason": "..",
+    "sourceId": "ta-202503",
+    "sourceLocator": "TA1!E153",
+    "qualityNotes": []
+  },
+  {
+    "boroughCode": "E09000022",
+    "metricId": "ta_households_quarter_end",
+    "period": {
+      "start": "2025-03-31",
+      "end": "2025-03-31",
+      "kind": "quarter_end"
+    },
+    "value": null,
+    "unit": "households",
+    "status": "missing",
+    "missingReason": "..",
+    "sourceId": "ta-202503",
+    "sourceLocator": "TA1!E156",
+    "qualityNotes": []
+  },
+  {
+    "boroughCode": "E09000023",
+    "metricId": "ta_households_quarter_end",
+    "period": {
+      "start": "2025-03-31",
+      "end": "2025-03-31",
+      "kind": "quarter_end"
+    },
+    "value": null,
+    "unit": "households",
+    "status": "missing",
+    "missingReason": "..",
+    "sourceId": "ta-202503",
+    "sourceLocator": "TA1!E161",
+    "qualityNotes": []
+  },
+  {
+    "boroughCode": "E09000024",
+    "metricId": "ta_households_quarter_end",
+    "period": {
+      "start": "2025-03-31",
+      "end": "2025-03-31",
+      "kind": "quarter_end"
+    },
+    "value": 697.0,
+    "unit": "households",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ta-202503",
+    "sourceLocator": "TA1!E173",
+    "qualityNotes": []
+  },
+  {
+    "boroughCode": "E09000025",
+    "metricId": "ta_households_quarter_end",
+    "period": {
+      "start": "2025-03-31",
+      "end": "2025-03-31",
+      "kind": "quarter_end"
+    },
+    "value": 6817.0,
+    "unit": "households",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ta-202503",
+    "sourceLocator": "TA1!E184",
+    "qualityNotes": []
+  },
+  {
+    "boroughCode": "E09000026",
+    "metricId": "ta_households_quarter_end",
+    "period": {
+      "start": "2025-03-31",
+      "end": "2025-03-31",
+      "kind": "quarter_end"
+    },
+    "value": 2821.0,
+    "unit": "households",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ta-202503",
+    "sourceLocator": "TA1!E211",
+    "qualityNotes": []
+  },
+  {
+    "boroughCode": "E09000027",
+    "metricId": "ta_households_quarter_end",
+    "period": {
+      "start": "2025-03-31",
+      "end": "2025-03-31",
+      "kind": "quarter_end"
+    },
+    "value": 598.0,
+    "unit": "households",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ta-202503",
+    "sourceLocator": "TA1!E216",
+    "qualityNotes": []
+  },
+  {
+    "boroughCode": "E09000028",
+    "metricId": "ta_households_quarter_end",
+    "period": {
+      "start": "2025-03-31",
+      "end": "2025-03-31",
+      "kind": "quarter_end"
+    },
+    "value": 4207.0,
+    "unit": "households",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ta-202503",
+    "sourceLocator": "TA1!E249",
+    "qualityNotes": []
+  },
+  {
+    "boroughCode": "E09000029",
+    "metricId": "ta_households_quarter_end",
+    "period": {
+      "start": "2025-03-31",
+      "end": "2025-03-31",
+      "kind": "quarter_end"
+    },
+    "value": 1069.0,
+    "unit": "households",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ta-202503",
+    "sourceLocator": "TA1!E263",
+    "qualityNotes": []
+  },
+  {
+    "boroughCode": "E09000030",
+    "metricId": "ta_households_quarter_end",
+    "period": {
+      "start": "2025-03-31",
+      "end": "2025-03-31",
+      "kind": "quarter_end"
+    },
+    "value": 3123.0,
+    "unit": "households",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ta-202503",
+    "sourceLocator": "TA1!E280",
+    "qualityNotes": []
+  },
+  {
+    "boroughCode": "E09000031",
+    "metricId": "ta_households_quarter_end",
+    "period": {
+      "start": "2025-03-31",
+      "end": "2025-03-31",
+      "kind": "quarter_end"
+    },
+    "value": 1574.0,
+    "unit": "households",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ta-202503",
+    "sourceLocator": "TA1!E287",
+    "qualityNotes": []
+  },
+  {
+    "boroughCode": "E09000032",
+    "metricId": "ta_households_quarter_end",
+    "period": {
+      "start": "2025-03-31",
+      "end": "2025-03-31",
+      "kind": "quarter_end"
+    },
+    "value": 3608.0,
+    "unit": "households",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ta-202503",
+    "sourceLocator": "TA1!E288",
+    "qualityNotes": []
+  },
+  {
+    "boroughCode": "E09000033",
+    "metricId": "ta_households_quarter_end",
+    "period": {
+      "start": "2025-03-31",
+      "end": "2025-03-31",
+      "kind": "quarter_end"
+    },
+    "value": 4254.0,
+    "unit": "households",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ta-202503",
+    "sourceLocator": "TA1!E302",
+    "qualityNotes": []
+  },
+  {
+    "boroughCode": "E09000002",
+    "metricId": "ta_gross_expenditure",
+    "period": {
+      "start": "2024-04-01",
+      "end": "2025-03-31",
+      "kind": "financial_year"
+    },
+    "value": 14203000.0,
+    "unit": "GBP",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ro4",
+    "sourceLocator": "RO4_LA_Data_202425!AL16,AS16,AZ16,BG16,BN16,BU16",
+    "qualityNotes": [
+      "Sum of six accommodation categories; administration excluded"
+    ]
+  },
+  {
+    "boroughCode": "E09000002",
+    "metricId": "ta_income_expenditure",
+    "period": {
+      "start": "2024-04-01",
+      "end": "2025-03-31",
+      "kind": "financial_year"
+    },
+    "value": 11599000.0,
+    "unit": "GBP",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ro4",
+    "sourceLocator": "RO4_LA_Data_202425!AO16,AV16,BC16,BJ16,BQ16,BX16",
+    "qualityNotes": [
+      "Sum of six accommodation categories; administration excluded"
+    ]
+  },
+  {
+    "boroughCode": "E09000002",
+    "metricId": "ta_net_expenditure",
+    "period": {
+      "start": "2024-04-01",
+      "end": "2025-03-31",
+      "kind": "financial_year"
+    },
+    "value": 2604000.0,
+    "unit": "GBP",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ro4",
+    "sourceLocator": "RO4_LA_Data_202425!AP16,AW16,BD16,BK16,BR16,BY16",
+    "qualityNotes": [
+      "Sum of six accommodation categories; administration excluded"
+    ]
+  },
+  {
+    "boroughCode": "E09000003",
+    "metricId": "ta_gross_expenditure",
+    "period": {
+      "start": "2024-04-01",
+      "end": "2025-03-31",
+      "kind": "financial_year"
+    },
+    "value": 70481160.0,
+    "unit": "GBP",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ro4",
+    "sourceLocator": "RO4_LA_Data_202425!AL17,AS17,AZ17,BG17,BN17,BU17",
+    "qualityNotes": [
+      "Sum of six accommodation categories; administration excluded"
+    ]
+  },
+  {
+    "boroughCode": "E09000003",
+    "metricId": "ta_income_expenditure",
+    "period": {
+      "start": "2024-04-01",
+      "end": "2025-03-31",
+      "kind": "financial_year"
+    },
+    "value": 59060390.0,
+    "unit": "GBP",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ro4",
+    "sourceLocator": "RO4_LA_Data_202425!AO17,AV17,BC17,BJ17,BQ17,BX17",
+    "qualityNotes": [
+      "Sum of six accommodation categories; administration excluded"
+    ]
+  },
+  {
+    "boroughCode": "E09000003",
+    "metricId": "ta_net_expenditure",
+    "period": {
+      "start": "2024-04-01",
+      "end": "2025-03-31",
+      "kind": "financial_year"
+    },
+    "value": 11420770.0,
+    "unit": "GBP",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ro4",
+    "sourceLocator": "RO4_LA_Data_202425!AP17,AW17,BD17,BK17,BR17,BY17",
+    "qualityNotes": [
+      "Sum of six accommodation categories; administration excluded"
+    ]
+  },
+  {
+    "boroughCode": "E09000004",
+    "metricId": "ta_gross_expenditure",
+    "period": {
+      "start": "2024-04-01",
+      "end": "2025-03-31",
+      "kind": "financial_year"
+    },
+    "value": 10683000.0,
+    "unit": "GBP",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ro4",
+    "sourceLocator": "RO4_LA_Data_202425!AL27,AS27,AZ27,BG27,BN27,BU27",
+    "qualityNotes": [
+      "Sum of six accommodation categories; administration excluded"
+    ]
+  },
+  {
+    "boroughCode": "E09000004",
+    "metricId": "ta_income_expenditure",
+    "period": {
+      "start": "2024-04-01",
+      "end": "2025-03-31",
+      "kind": "financial_year"
+    },
+    "value": 5235000.0,
+    "unit": "GBP",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ro4",
+    "sourceLocator": "RO4_LA_Data_202425!AO27,AV27,BC27,BJ27,BQ27,BX27",
+    "qualityNotes": [
+      "Sum of six accommodation categories; administration excluded"
+    ]
+  },
+  {
+    "boroughCode": "E09000004",
+    "metricId": "ta_net_expenditure",
+    "period": {
+      "start": "2024-04-01",
+      "end": "2025-03-31",
+      "kind": "financial_year"
+    },
+    "value": 5448000.0,
+    "unit": "GBP",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ro4",
+    "sourceLocator": "RO4_LA_Data_202425!AP27,AW27,BD27,BK27,BR27,BY27",
+    "qualityNotes": [
+      "Sum of six accommodation categories; administration excluded"
+    ]
+  },
+  {
+    "boroughCode": "E09000005",
+    "metricId": "ta_gross_expenditure",
+    "period": {
+      "start": "2024-04-01",
+      "end": "2025-03-31",
+      "kind": "financial_year"
+    },
+    "value": 67161000.0,
+    "unit": "GBP",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ro4",
+    "sourceLocator": "RO4_LA_Data_202425!AL40,AS40,AZ40,BG40,BN40,BU40",
+    "qualityNotes": [
+      "Sum of six accommodation categories; administration excluded"
+    ]
+  },
+  {
+    "boroughCode": "E09000005",
+    "metricId": "ta_income_expenditure",
+    "period": {
+      "start": "2024-04-01",
+      "end": "2025-03-31",
+      "kind": "financial_year"
+    },
+    "value": 34622000.0,
+    "unit": "GBP",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ro4",
+    "sourceLocator": "RO4_LA_Data_202425!AO40,AV40,BC40,BJ40,BQ40,BX40",
+    "qualityNotes": [
+      "Sum of six accommodation categories; administration excluded"
+    ]
+  },
+  {
+    "boroughCode": "E09000005",
+    "metricId": "ta_net_expenditure",
+    "period": {
+      "start": "2024-04-01",
+      "end": "2025-03-31",
+      "kind": "financial_year"
+    },
+    "value": 32539000.0,
+    "unit": "GBP",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ro4",
+    "sourceLocator": "RO4_LA_Data_202425!AP40,AW40,BD40,BK40,BR40,BY40",
+    "qualityNotes": [
+      "Sum of six accommodation categories; administration excluded"
+    ]
+  },
+  {
+    "boroughCode": "E09000006",
+    "metricId": "ta_gross_expenditure",
+    "period": {
+      "start": "2024-04-01",
+      "end": "2025-03-31",
+      "kind": "financial_year"
+    },
+    "value": 35721000.0,
+    "unit": "GBP",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ro4",
+    "sourceLocator": "RO4_LA_Data_202425!AL45,AS45,AZ45,BG45,BN45,BU45",
+    "qualityNotes": [
+      "Sum of six accommodation categories; administration excluded"
+    ]
+  },
+  {
+    "boroughCode": "E09000006",
+    "metricId": "ta_income_expenditure",
+    "period": {
+      "start": "2024-04-01",
+      "end": "2025-03-31",
+      "kind": "financial_year"
+    },
+    "value": 15442000.0,
+    "unit": "GBP",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ro4",
+    "sourceLocator": "RO4_LA_Data_202425!AO45,AV45,BC45,BJ45,BQ45,BX45",
+    "qualityNotes": [
+      "Sum of six accommodation categories; administration excluded"
+    ]
+  },
+  {
+    "boroughCode": "E09000006",
+    "metricId": "ta_net_expenditure",
+    "period": {
+      "start": "2024-04-01",
+      "end": "2025-03-31",
+      "kind": "financial_year"
+    },
+    "value": 20279000.0,
+    "unit": "GBP",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ro4",
+    "sourceLocator": "RO4_LA_Data_202425!AP45,AW45,BD45,BK45,BR45,BY45",
+    "qualityNotes": [
+      "Sum of six accommodation categories; administration excluded"
+    ]
+  },
+  {
+    "boroughCode": "E09000007",
+    "metricId": "ta_gross_expenditure",
+    "period": {
+      "start": "2024-04-01",
+      "end": "2025-03-31",
+      "kind": "financial_year"
+    },
+    "value": 33678000.0,
+    "unit": "GBP",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ro4",
+    "sourceLocator": "RO4_LA_Data_202425!AL59,AS59,AZ59,BG59,BN59,BU59",
+    "qualityNotes": [
+      "Sum of six accommodation categories; administration excluded"
+    ]
+  },
+  {
+    "boroughCode": "E09000007",
+    "metricId": "ta_income_expenditure",
+    "period": {
+      "start": "2024-04-01",
+      "end": "2025-03-31",
+      "kind": "financial_year"
+    },
+    "value": 11948000.0,
+    "unit": "GBP",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ro4",
+    "sourceLocator": "RO4_LA_Data_202425!AO59,AV59,BC59,BJ59,BQ59,BX59",
+    "qualityNotes": [
+      "Sum of six accommodation categories; administration excluded"
+    ]
+  },
+  {
+    "boroughCode": "E09000007",
+    "metricId": "ta_net_expenditure",
+    "period": {
+      "start": "2024-04-01",
+      "end": "2025-03-31",
+      "kind": "financial_year"
+    },
+    "value": 21730000.0,
+    "unit": "GBP",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ro4",
+    "sourceLocator": "RO4_LA_Data_202425!AP59,AW59,BD59,BK59,BR59,BY59",
+    "qualityNotes": [
+      "Sum of six accommodation categories; administration excluded"
+    ]
+  },
+  {
+    "boroughCode": "E09000001",
+    "metricId": "ta_gross_expenditure",
+    "period": {
+      "start": "2024-04-01",
+      "end": "2025-03-31",
+      "kind": "financial_year"
+    },
+    "value": 1487000.0,
+    "unit": "GBP",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ro4",
+    "sourceLocator": "RO4_LA_Data_202425!AL75,AS75,AZ75,BG75,BN75,BU75",
+    "qualityNotes": [
+      "Sum of six accommodation categories; administration excluded"
+    ]
+  },
+  {
+    "boroughCode": "E09000001",
+    "metricId": "ta_income_expenditure",
+    "period": {
+      "start": "2024-04-01",
+      "end": "2025-03-31",
+      "kind": "financial_year"
+    },
+    "value": 1739000.0,
+    "unit": "GBP",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ro4",
+    "sourceLocator": "RO4_LA_Data_202425!AO75,AV75,BC75,BJ75,BQ75,BX75",
+    "qualityNotes": [
+      "Sum of six accommodation categories; administration excluded"
+    ]
+  },
+  {
+    "boroughCode": "E09000001",
+    "metricId": "ta_net_expenditure",
+    "period": {
+      "start": "2024-04-01",
+      "end": "2025-03-31",
+      "kind": "financial_year"
+    },
+    "value": -252000.0,
+    "unit": "GBP",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ro4",
+    "sourceLocator": "RO4_LA_Data_202425!AP75,AW75,BD75,BK75,BR75,BY75",
+    "qualityNotes": [
+      "Sum of six accommodation categories; administration excluded"
+    ]
+  },
+  {
+    "boroughCode": "E09000008",
+    "metricId": "ta_gross_expenditure",
+    "period": {
+      "start": "2024-04-01",
+      "end": "2025-03-31",
+      "kind": "financial_year"
+    },
+    "value": 81219570.0,
+    "unit": "GBP",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ro4",
+    "sourceLocator": "RO4_LA_Data_202425!AL83,AS83,AZ83,BG83,BN83,BU83",
+    "qualityNotes": [
+      "Sum of six accommodation categories; administration excluded"
+    ]
+  },
+  {
+    "boroughCode": "E09000008",
+    "metricId": "ta_income_expenditure",
+    "period": {
+      "start": "2024-04-01",
+      "end": "2025-03-31",
+      "kind": "financial_year"
+    },
+    "value": 46832090.0,
+    "unit": "GBP",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ro4",
+    "sourceLocator": "RO4_LA_Data_202425!AO83,AV83,BC83,BJ83,BQ83,BX83",
+    "qualityNotes": [
+      "Sum of six accommodation categories; administration excluded"
+    ]
+  },
+  {
+    "boroughCode": "E09000008",
+    "metricId": "ta_net_expenditure",
+    "period": {
+      "start": "2024-04-01",
+      "end": "2025-03-31",
+      "kind": "financial_year"
+    },
+    "value": 34387480.0,
+    "unit": "GBP",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ro4",
+    "sourceLocator": "RO4_LA_Data_202425!AP83,AW83,BD83,BK83,BR83,BY83",
+    "qualityNotes": [
+      "Sum of six accommodation categories; administration excluded"
+    ]
+  },
+  {
+    "boroughCode": "E09000009",
+    "metricId": "ta_gross_expenditure",
+    "period": {
+      "start": "2024-04-01",
+      "end": "2025-03-31",
+      "kind": "financial_year"
+    },
+    "value": 72919100.0,
+    "unit": "GBP",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ro4",
+    "sourceLocator": "RO4_LA_Data_202425!AL108,AS108,AZ108,BG108,BN108,BU108",
+    "qualityNotes": [
+      "Sum of six accommodation categories; administration excluded"
+    ]
+  },
+  {
+    "boroughCode": "E09000009",
+    "metricId": "ta_income_expenditure",
+    "period": {
+      "start": "2024-04-01",
+      "end": "2025-03-31",
+      "kind": "financial_year"
+    },
+    "value": 60159180.0,
+    "unit": "GBP",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ro4",
+    "sourceLocator": "RO4_LA_Data_202425!AO108,AV108,BC108,BJ108,BQ108,BX108",
+    "qualityNotes": [
+      "Sum of six accommodation categories; administration excluded"
+    ]
+  },
+  {
+    "boroughCode": "E09000009",
+    "metricId": "ta_net_expenditure",
+    "period": {
+      "start": "2024-04-01",
+      "end": "2025-03-31",
+      "kind": "financial_year"
+    },
+    "value": 12759920.0,
+    "unit": "GBP",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ro4",
+    "sourceLocator": "RO4_LA_Data_202425!AP108,AW108,BD108,BK108,BR108,BY108",
+    "qualityNotes": [
+      "Sum of six accommodation categories; administration excluded"
+    ]
+  },
+  {
+    "boroughCode": "E09000010",
+    "metricId": "ta_gross_expenditure",
+    "period": {
+      "start": "2024-04-01",
+      "end": "2025-03-31",
+      "kind": "financial_year"
+    },
+    "value": 62487160.0,
+    "unit": "GBP",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ro4",
+    "sourceLocator": "RO4_LA_Data_202425!AL124,AS124,AZ124,BG124,BN124,BU124",
+    "qualityNotes": [
+      "Sum of six accommodation categories; administration excluded"
+    ]
+  },
+  {
+    "boroughCode": "E09000010",
+    "metricId": "ta_income_expenditure",
+    "period": {
+      "start": "2024-04-01",
+      "end": "2025-03-31",
+      "kind": "financial_year"
+    },
+    "value": 33215000.0,
+    "unit": "GBP",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ro4",
+    "sourceLocator": "RO4_LA_Data_202425!AO124,AV124,BC124,BJ124,BQ124,BX124",
+    "qualityNotes": [
+      "Sum of six accommodation categories; administration excluded"
+    ]
+  },
+  {
+    "boroughCode": "E09000010",
+    "metricId": "ta_net_expenditure",
+    "period": {
+      "start": "2024-04-01",
+      "end": "2025-03-31",
+      "kind": "financial_year"
+    },
+    "value": 29272159.999999996,
+    "unit": "GBP",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ro4",
+    "sourceLocator": "RO4_LA_Data_202425!AP124,AW124,BD124,BK124,BR124,BY124",
+    "qualityNotes": [
+      "Sum of six accommodation categories; administration excluded"
+    ]
+  },
+  {
+    "boroughCode": "E09000011",
+    "metricId": "ta_gross_expenditure",
+    "period": {
+      "start": "2024-04-01",
+      "end": "2025-03-31",
+      "kind": "financial_year"
+    },
+    "value": 29470000.0,
+    "unit": "GBP",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ro4",
+    "sourceLocator": "RO4_LA_Data_202425!AL149,AS149,AZ149,BG149,BN149,BU149",
+    "qualityNotes": [
+      "Sum of six accommodation categories; administration excluded"
+    ]
+  },
+  {
+    "boroughCode": "E09000011",
+    "metricId": "ta_income_expenditure",
+    "period": {
+      "start": "2024-04-01",
+      "end": "2025-03-31",
+      "kind": "financial_year"
+    },
+    "value": 21556000.0,
+    "unit": "GBP",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ro4",
+    "sourceLocator": "RO4_LA_Data_202425!AO149,AV149,BC149,BJ149,BQ149,BX149",
+    "qualityNotes": [
+      "Sum of six accommodation categories; administration excluded"
+    ]
+  },
+  {
+    "boroughCode": "E09000011",
+    "metricId": "ta_net_expenditure",
+    "period": {
+      "start": "2024-04-01",
+      "end": "2025-03-31",
+      "kind": "financial_year"
+    },
+    "value": 7914000.0,
+    "unit": "GBP",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ro4",
+    "sourceLocator": "RO4_LA_Data_202425!AP149,AW149,BD149,BK149,BR149,BY149",
+    "qualityNotes": [
+      "Sum of six accommodation categories; administration excluded"
+    ]
+  },
+  {
+    "boroughCode": "E09000012",
+    "metricId": "ta_gross_expenditure",
+    "period": {
+      "start": "2024-04-01",
+      "end": "2025-03-31",
+      "kind": "financial_year"
+    },
+    "value": 68187000.0,
+    "unit": "GBP",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ro4",
+    "sourceLocator": "RO4_LA_Data_202425!AL151,AS151,AZ151,BG151,BN151,BU151",
+    "qualityNotes": [
+      "Sum of six accommodation categories; administration excluded"
+    ]
+  },
+  {
+    "boroughCode": "E09000012",
+    "metricId": "ta_income_expenditure",
+    "period": {
+      "start": "2024-04-01",
+      "end": "2025-03-31",
+      "kind": "financial_year"
+    },
+    "value": 37054000.0,
+    "unit": "GBP",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ro4",
+    "sourceLocator": "RO4_LA_Data_202425!AO151,AV151,BC151,BJ151,BQ151,BX151",
+    "qualityNotes": [
+      "Sum of six accommodation categories; administration excluded"
+    ]
+  },
+  {
+    "boroughCode": "E09000012",
+    "metricId": "ta_net_expenditure",
+    "period": {
+      "start": "2024-04-01",
+      "end": "2025-03-31",
+      "kind": "financial_year"
+    },
+    "value": 31133000.0,
+    "unit": "GBP",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ro4",
+    "sourceLocator": "RO4_LA_Data_202425!AP151,AW151,BD151,BK151,BR151,BY151",
+    "qualityNotes": [
+      "Sum of six accommodation categories; administration excluded"
+    ]
+  },
+  {
+    "boroughCode": "E09000013",
+    "metricId": "ta_gross_expenditure",
+    "period": {
+      "start": "2024-04-01",
+      "end": "2025-03-31",
+      "kind": "financial_year"
+    },
+    "value": 37589000.0,
+    "unit": "GBP",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ro4",
+    "sourceLocator": "RO4_LA_Data_202425!AL153,AS153,AZ153,BG153,BN153,BU153",
+    "qualityNotes": [
+      "Sum of six accommodation categories; administration excluded"
+    ]
+  },
+  {
+    "boroughCode": "E09000013",
+    "metricId": "ta_income_expenditure",
+    "period": {
+      "start": "2024-04-01",
+      "end": "2025-03-31",
+      "kind": "financial_year"
+    },
+    "value": 19357000.0,
+    "unit": "GBP",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ro4",
+    "sourceLocator": "RO4_LA_Data_202425!AO153,AV153,BC153,BJ153,BQ153,BX153",
+    "qualityNotes": [
+      "Sum of six accommodation categories; administration excluded"
+    ]
+  },
+  {
+    "boroughCode": "E09000013",
+    "metricId": "ta_net_expenditure",
+    "period": {
+      "start": "2024-04-01",
+      "end": "2025-03-31",
+      "kind": "financial_year"
+    },
+    "value": 18232000.0,
+    "unit": "GBP",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ro4",
+    "sourceLocator": "RO4_LA_Data_202425!AP153,AW153,BD153,BK153,BR153,BY153",
+    "qualityNotes": [
+      "Sum of six accommodation categories; administration excluded"
+    ]
+  },
+  {
+    "boroughCode": "E09000014",
+    "metricId": "ta_gross_expenditure",
+    "period": {
+      "start": "2024-04-01",
+      "end": "2025-03-31",
+      "kind": "financial_year"
+    },
+    "value": 55526000.0,
+    "unit": "GBP",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ro4",
+    "sourceLocator": "RO4_LA_Data_202425!AL158,AS158,AZ158,BG158,BN158,BU158",
+    "qualityNotes": [
+      "Sum of six accommodation categories; administration excluded"
+    ]
+  },
+  {
+    "boroughCode": "E09000014",
+    "metricId": "ta_income_expenditure",
+    "period": {
+      "start": "2024-04-01",
+      "end": "2025-03-31",
+      "kind": "financial_year"
+    },
+    "value": 30359000.0,
+    "unit": "GBP",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ro4",
+    "sourceLocator": "RO4_LA_Data_202425!AO158,AV158,BC158,BJ158,BQ158,BX158",
+    "qualityNotes": [
+      "Sum of six accommodation categories; administration excluded"
+    ]
+  },
+  {
+    "boroughCode": "E09000014",
+    "metricId": "ta_net_expenditure",
+    "period": {
+      "start": "2024-04-01",
+      "end": "2025-03-31",
+      "kind": "financial_year"
+    },
+    "value": 25167000.0,
+    "unit": "GBP",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ro4",
+    "sourceLocator": "RO4_LA_Data_202425!AP158,AW158,BD158,BK158,BR158,BY158",
+    "qualityNotes": [
+      "Sum of six accommodation categories; administration excluded"
+    ]
+  },
+  {
+    "boroughCode": "E09000015",
+    "metricId": "ta_gross_expenditure",
+    "period": {
+      "start": "2024-04-01",
+      "end": "2025-03-31",
+      "kind": "financial_year"
+    },
+    "value": 23145000.0,
+    "unit": "GBP",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ro4",
+    "sourceLocator": "RO4_LA_Data_202425!AL160,AS160,AZ160,BG160,BN160,BU160",
+    "qualityNotes": [
+      "Sum of six accommodation categories; administration excluded"
+    ]
+  },
+  {
+    "boroughCode": "E09000015",
+    "metricId": "ta_income_expenditure",
+    "period": {
+      "start": "2024-04-01",
+      "end": "2025-03-31",
+      "kind": "financial_year"
+    },
+    "value": 14621000.0,
+    "unit": "GBP",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ro4",
+    "sourceLocator": "RO4_LA_Data_202425!AO160,AV160,BC160,BJ160,BQ160,BX160",
+    "qualityNotes": [
+      "Sum of six accommodation categories; administration excluded"
+    ]
+  },
+  {
+    "boroughCode": "E09000015",
+    "metricId": "ta_net_expenditure",
+    "period": {
+      "start": "2024-04-01",
+      "end": "2025-03-31",
+      "kind": "financial_year"
+    },
+    "value": 8524000.0,
+    "unit": "GBP",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ro4",
+    "sourceLocator": "RO4_LA_Data_202425!AP160,AW160,BD160,BK160,BR160,BY160",
+    "qualityNotes": [
+      "Sum of six accommodation categories; administration excluded"
+    ]
+  },
+  {
+    "boroughCode": "E09000016",
+    "metricId": "ta_gross_expenditure",
+    "period": {
+      "start": "2024-04-01",
+      "end": "2025-03-31",
+      "kind": "financial_year"
+    },
+    "value": 15993000.0,
+    "unit": "GBP",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ro4",
+    "sourceLocator": "RO4_LA_Data_202425!AL165,AS165,AZ165,BG165,BN165,BU165",
+    "qualityNotes": [
+      "Sum of six accommodation categories; administration excluded"
+    ]
+  },
+  {
+    "boroughCode": "E09000016",
+    "metricId": "ta_income_expenditure",
+    "period": {
+      "start": "2024-04-01",
+      "end": "2025-03-31",
+      "kind": "financial_year"
+    },
+    "value": 5522000.0,
+    "unit": "GBP",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ro4",
+    "sourceLocator": "RO4_LA_Data_202425!AO165,AV165,BC165,BJ165,BQ165,BX165",
+    "qualityNotes": [
+      "Sum of six accommodation categories; administration excluded"
+    ]
+  },
+  {
+    "boroughCode": "E09000016",
+    "metricId": "ta_net_expenditure",
+    "period": {
+      "start": "2024-04-01",
+      "end": "2025-03-31",
+      "kind": "financial_year"
+    },
+    "value": 10471000.0,
+    "unit": "GBP",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ro4",
+    "sourceLocator": "RO4_LA_Data_202425!AP165,AW165,BD165,BK165,BR165,BY165",
+    "qualityNotes": [
+      "Sum of six accommodation categories; administration excluded"
+    ]
+  },
+  {
+    "boroughCode": "E09000017",
+    "metricId": "ta_gross_expenditure",
+    "period": {
+      "start": "2024-04-01",
+      "end": "2025-03-31",
+      "kind": "financial_year"
+    },
+    "value": 21366000.0,
+    "unit": "GBP",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ro4",
+    "sourceLocator": "RO4_LA_Data_202425!AL172,AS172,AZ172,BG172,BN172,BU172",
+    "qualityNotes": [
+      "Sum of six accommodation categories; administration excluded"
+    ]
+  },
+  {
+    "boroughCode": "E09000017",
+    "metricId": "ta_income_expenditure",
+    "period": {
+      "start": "2024-04-01",
+      "end": "2025-03-31",
+      "kind": "financial_year"
+    },
+    "value": 8599000.0,
+    "unit": "GBP",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ro4",
+    "sourceLocator": "RO4_LA_Data_202425!AO172,AV172,BC172,BJ172,BQ172,BX172",
+    "qualityNotes": [
+      "Sum of six accommodation categories; administration excluded"
+    ]
+  },
+  {
+    "boroughCode": "E09000017",
+    "metricId": "ta_net_expenditure",
+    "period": {
+      "start": "2024-04-01",
+      "end": "2025-03-31",
+      "kind": "financial_year"
+    },
+    "value": 12767000.0,
+    "unit": "GBP",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ro4",
+    "sourceLocator": "RO4_LA_Data_202425!AP172,AW172,BD172,BK172,BR172,BY172",
+    "qualityNotes": [
+      "Sum of six accommodation categories; administration excluded"
+    ]
+  },
+  {
+    "boroughCode": "E09000018",
+    "metricId": "ta_gross_expenditure",
+    "period": {
+      "start": "2024-04-01",
+      "end": "2025-03-31",
+      "kind": "financial_year"
+    },
+    "value": 14882000.0,
+    "unit": "GBP",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ro4",
+    "sourceLocator": "RO4_LA_Data_202425!AL175,AS175,AZ175,BG175,BN175,BU175",
+    "qualityNotes": [
+      "Sum of six accommodation categories; administration excluded"
+    ]
+  },
+  {
+    "boroughCode": "E09000018",
+    "metricId": "ta_income_expenditure",
+    "period": {
+      "start": "2024-04-01",
+      "end": "2025-03-31",
+      "kind": "financial_year"
+    },
+    "value": 5167000.0,
+    "unit": "GBP",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ro4",
+    "sourceLocator": "RO4_LA_Data_202425!AO175,AV175,BC175,BJ175,BQ175,BX175",
+    "qualityNotes": [
+      "Sum of six accommodation categories; administration excluded"
+    ]
+  },
+  {
+    "boroughCode": "E09000018",
+    "metricId": "ta_net_expenditure",
+    "period": {
+      "start": "2024-04-01",
+      "end": "2025-03-31",
+      "kind": "financial_year"
+    },
+    "value": 9715000.0,
+    "unit": "GBP",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ro4",
+    "sourceLocator": "RO4_LA_Data_202425!AP175,AW175,BD175,BK175,BR175,BY175",
+    "qualityNotes": [
+      "Sum of six accommodation categories; administration excluded"
+    ]
+  },
+  {
+    "boroughCode": "E09000019",
+    "metricId": "ta_gross_expenditure",
+    "period": {
+      "start": "2024-04-01",
+      "end": "2025-03-31",
+      "kind": "financial_year"
+    },
+    "value": 27859910.0,
+    "unit": "GBP",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ro4",
+    "sourceLocator": "RO4_LA_Data_202425!AL183,AS183,AZ183,BG183,BN183,BU183",
+    "qualityNotes": [
+      "Sum of six accommodation categories; administration excluded"
+    ]
+  },
+  {
+    "boroughCode": "E09000019",
+    "metricId": "ta_income_expenditure",
+    "period": {
+      "start": "2024-04-01",
+      "end": "2025-03-31",
+      "kind": "financial_year"
+    },
+    "value": 16710110.0,
+    "unit": "GBP",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ro4",
+    "sourceLocator": "RO4_LA_Data_202425!AO183,AV183,BC183,BJ183,BQ183,BX183",
+    "qualityNotes": [
+      "Sum of six accommodation categories; administration excluded"
+    ]
+  },
+  {
+    "boroughCode": "E09000019",
+    "metricId": "ta_net_expenditure",
+    "period": {
+      "start": "2024-04-01",
+      "end": "2025-03-31",
+      "kind": "financial_year"
+    },
+    "value": 11149800.0,
+    "unit": "GBP",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ro4",
+    "sourceLocator": "RO4_LA_Data_202425!AP183,AW183,BD183,BK183,BR183,BY183",
+    "qualityNotes": [
+      "Sum of six accommodation categories; administration excluded"
+    ]
+  },
+  {
+    "boroughCode": "E09000020",
+    "metricId": "ta_gross_expenditure",
+    "period": {
+      "start": "2024-04-01",
+      "end": "2025-03-31",
+      "kind": "financial_year"
+    },
+    "value": 47582000.0,
+    "unit": "GBP",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ro4",
+    "sourceLocator": "RO4_LA_Data_202425!AL184,AS184,AZ184,BG184,BN184,BU184",
+    "qualityNotes": [
+      "Sum of six accommodation categories; administration excluded"
+    ]
+  },
+  {
+    "boroughCode": "E09000020",
+    "metricId": "ta_income_expenditure",
+    "period": {
+      "start": "2024-04-01",
+      "end": "2025-03-31",
+      "kind": "financial_year"
+    },
+    "value": 32205000.0,
+    "unit": "GBP",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ro4",
+    "sourceLocator": "RO4_LA_Data_202425!AO184,AV184,BC184,BJ184,BQ184,BX184",
+    "qualityNotes": [
+      "Sum of six accommodation categories; administration excluded"
+    ]
+  },
+  {
+    "boroughCode": "E09000020",
+    "metricId": "ta_net_expenditure",
+    "period": {
+      "start": "2024-04-01",
+      "end": "2025-03-31",
+      "kind": "financial_year"
+    },
+    "value": 15377000.0,
+    "unit": "GBP",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ro4",
+    "sourceLocator": "RO4_LA_Data_202425!AP184,AW184,BD184,BK184,BR184,BY184",
+    "qualityNotes": [
+      "Sum of six accommodation categories; administration excluded"
+    ]
+  },
+  {
+    "boroughCode": "E09000021",
+    "metricId": "ta_gross_expenditure",
+    "period": {
+      "start": "2024-04-01",
+      "end": "2025-03-31",
+      "kind": "financial_year"
+    },
+    "value": 23456000.0,
+    "unit": "GBP",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ro4",
+    "sourceLocator": "RO4_LA_Data_202425!AL189,AS189,AZ189,BG189,BN189,BU189",
+    "qualityNotes": [
+      "Sum of six accommodation categories; administration excluded"
+    ]
+  },
+  {
+    "boroughCode": "E09000021",
+    "metricId": "ta_income_expenditure",
+    "period": {
+      "start": "2024-04-01",
+      "end": "2025-03-31",
+      "kind": "financial_year"
+    },
+    "value": 9895000.0,
+    "unit": "GBP",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ro4",
+    "sourceLocator": "RO4_LA_Data_202425!AO189,AV189,BC189,BJ189,BQ189,BX189",
+    "qualityNotes": [
+      "Sum of six accommodation categories; administration excluded"
+    ]
+  },
+  {
+    "boroughCode": "E09000021",
+    "metricId": "ta_net_expenditure",
+    "period": {
+      "start": "2024-04-01",
+      "end": "2025-03-31",
+      "kind": "financial_year"
+    },
+    "value": 13561000.0,
+    "unit": "GBP",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ro4",
+    "sourceLocator": "RO4_LA_Data_202425!AP189,AW189,BD189,BK189,BR189,BY189",
+    "qualityNotes": [
+      "Sum of six accommodation categories; administration excluded"
+    ]
+  },
+  {
+    "boroughCode": "E09000022",
+    "metricId": "ta_gross_expenditure",
+    "period": {
+      "start": "2024-04-01",
+      "end": "2025-03-31",
+      "kind": "financial_year"
+    },
+    "value": 114402530.0,
+    "unit": "GBP",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ro4",
+    "sourceLocator": "RO4_LA_Data_202425!AL194,AS194,AZ194,BG194,BN194,BU194",
+    "qualityNotes": [
+      "Sum of six accommodation categories; administration excluded"
+    ]
+  },
+  {
+    "boroughCode": "E09000022",
+    "metricId": "ta_income_expenditure",
+    "period": {
+      "start": "2024-04-01",
+      "end": "2025-03-31",
+      "kind": "financial_year"
+    },
+    "value": 42844810.0,
+    "unit": "GBP",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ro4",
+    "sourceLocator": "RO4_LA_Data_202425!AO194,AV194,BC194,BJ194,BQ194,BX194",
+    "qualityNotes": [
+      "Sum of six accommodation categories; administration excluded"
+    ]
+  },
+  {
+    "boroughCode": "E09000022",
+    "metricId": "ta_net_expenditure",
+    "period": {
+      "start": "2024-04-01",
+      "end": "2025-03-31",
+      "kind": "financial_year"
+    },
+    "value": 71557720.0,
+    "unit": "GBP",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ro4",
+    "sourceLocator": "RO4_LA_Data_202425!AP194,AW194,BD194,BK194,BR194,BY194",
+    "qualityNotes": [
+      "Sum of six accommodation categories; administration excluded"
+    ]
+  },
+  {
+    "boroughCode": "E09000023",
+    "metricId": "ta_gross_expenditure",
+    "period": {
+      "start": "2024-04-01",
+      "end": "2025-03-31",
+      "kind": "financial_year"
+    },
+    "value": 92990000.0,
+    "unit": "GBP",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ro4",
+    "sourceLocator": "RO4_LA_Data_202425!AL206,AS206,AZ206,BG206,BN206,BU206",
+    "qualityNotes": [
+      "Sum of six accommodation categories; administration excluded"
+    ]
+  },
+  {
+    "boroughCode": "E09000023",
+    "metricId": "ta_income_expenditure",
+    "period": {
+      "start": "2024-04-01",
+      "end": "2025-03-31",
+      "kind": "financial_year"
+    },
+    "value": 54861000.0,
+    "unit": "GBP",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ro4",
+    "sourceLocator": "RO4_LA_Data_202425!AO206,AV206,BC206,BJ206,BQ206,BX206",
+    "qualityNotes": [
+      "Sum of six accommodation categories; administration excluded"
+    ]
+  },
+  {
+    "boroughCode": "E09000023",
+    "metricId": "ta_net_expenditure",
+    "period": {
+      "start": "2024-04-01",
+      "end": "2025-03-31",
+      "kind": "financial_year"
+    },
+    "value": 38129000.0,
+    "unit": "GBP",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ro4",
+    "sourceLocator": "RO4_LA_Data_202425!AP206,AW206,BD206,BK206,BR206,BY206",
+    "qualityNotes": [
+      "Sum of six accommodation categories; administration excluded"
+    ]
+  },
+  {
+    "boroughCode": "E09000024",
+    "metricId": "ta_gross_expenditure",
+    "period": {
+      "start": "2024-04-01",
+      "end": "2025-03-31",
+      "kind": "financial_year"
+    },
+    "value": 23620020.0,
+    "unit": "GBP",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ro4",
+    "sourceLocator": "RO4_LA_Data_202425!AL223,AS223,AZ223,BG223,BN223,BU223",
+    "qualityNotes": [
+      "Sum of six accommodation categories; administration excluded"
+    ]
+  },
+  {
+    "boroughCode": "E09000024",
+    "metricId": "ta_income_expenditure",
+    "period": {
+      "start": "2024-04-01",
+      "end": "2025-03-31",
+      "kind": "financial_year"
+    },
+    "value": 13931660.0,
+    "unit": "GBP",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ro4",
+    "sourceLocator": "RO4_LA_Data_202425!AO223,AV223,BC223,BJ223,BQ223,BX223",
+    "qualityNotes": [
+      "Sum of six accommodation categories; administration excluded"
+    ]
+  },
+  {
+    "boroughCode": "E09000024",
+    "metricId": "ta_net_expenditure",
+    "period": {
+      "start": "2024-04-01",
+      "end": "2025-03-31",
+      "kind": "financial_year"
+    },
+    "value": 9688360.0,
+    "unit": "GBP",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ro4",
+    "sourceLocator": "RO4_LA_Data_202425!AP223,AW223,BD223,BK223,BR223,BY223",
+    "qualityNotes": [
+      "Sum of six accommodation categories; administration excluded"
+    ]
+  },
+  {
+    "boroughCode": "E09000025",
+    "metricId": "ta_gross_expenditure",
+    "period": {
+      "start": "2024-04-01",
+      "end": "2025-03-31",
+      "kind": "financial_year"
+    },
+    "value": 146830000.0,
+    "unit": "GBP",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ro4",
+    "sourceLocator": "RO4_LA_Data_202425!AL235,AS235,AZ235,BG235,BN235,BU235",
+    "qualityNotes": [
+      "Sum of six accommodation categories; administration excluded"
+    ]
+  },
+  {
+    "boroughCode": "E09000025",
+    "metricId": "ta_income_expenditure",
+    "period": {
+      "start": "2024-04-01",
+      "end": "2025-03-31",
+      "kind": "financial_year"
+    },
+    "value": 78818000.0,
+    "unit": "GBP",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ro4",
+    "sourceLocator": "RO4_LA_Data_202425!AO235,AV235,BC235,BJ235,BQ235,BX235",
+    "qualityNotes": [
+      "Sum of six accommodation categories; administration excluded"
+    ]
+  },
+  {
+    "boroughCode": "E09000025",
+    "metricId": "ta_net_expenditure",
+    "period": {
+      "start": "2024-04-01",
+      "end": "2025-03-31",
+      "kind": "financial_year"
+    },
+    "value": 68012000.0,
+    "unit": "GBP",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ro4",
+    "sourceLocator": "RO4_LA_Data_202425!AP235,AW235,BD235,BK235,BR235,BY235",
+    "qualityNotes": [
+      "Sum of six accommodation categories; administration excluded"
+    ]
+  },
+  {
+    "boroughCode": "E09000026",
+    "metricId": "ta_gross_expenditure",
+    "period": {
+      "start": "2024-04-01",
+      "end": "2025-03-31",
+      "kind": "financial_year"
+    },
+    "value": 57257000.0,
+    "unit": "GBP",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ro4",
+    "sourceLocator": "RO4_LA_Data_202425!AL276,AS276,AZ276,BG276,BN276,BU276",
+    "qualityNotes": [
+      "Sum of six accommodation categories; administration excluded"
+    ]
+  },
+  {
+    "boroughCode": "E09000026",
+    "metricId": "ta_income_expenditure",
+    "period": {
+      "start": "2024-04-01",
+      "end": "2025-03-31",
+      "kind": "financial_year"
+    },
+    "value": 35643000.0,
+    "unit": "GBP",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ro4",
+    "sourceLocator": "RO4_LA_Data_202425!AO276,AV276,BC276,BJ276,BQ276,BX276",
+    "qualityNotes": [
+      "Sum of six accommodation categories; administration excluded"
+    ]
+  },
+  {
+    "boroughCode": "E09000026",
+    "metricId": "ta_net_expenditure",
+    "period": {
+      "start": "2024-04-01",
+      "end": "2025-03-31",
+      "kind": "financial_year"
+    },
+    "value": 21614000.0,
+    "unit": "GBP",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ro4",
+    "sourceLocator": "RO4_LA_Data_202425!AP276,AW276,BD276,BK276,BR276,BY276",
+    "qualityNotes": [
+      "Sum of six accommodation categories; administration excluded"
+    ]
+  },
+  {
+    "boroughCode": "E09000027",
+    "metricId": "ta_gross_expenditure",
+    "period": {
+      "start": "2024-04-01",
+      "end": "2025-03-31",
+      "kind": "financial_year"
+    },
+    "value": 14879000.0,
+    "unit": "GBP",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ro4",
+    "sourceLocator": "RO4_LA_Data_202425!AL281,AS281,AZ281,BG281,BN281,BU281",
+    "qualityNotes": [
+      "Sum of six accommodation categories; administration excluded"
+    ]
+  },
+  {
+    "boroughCode": "E09000027",
+    "metricId": "ta_income_expenditure",
+    "period": {
+      "start": "2024-04-01",
+      "end": "2025-03-31",
+      "kind": "financial_year"
+    },
+    "value": 6431000.0,
+    "unit": "GBP",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ro4",
+    "sourceLocator": "RO4_LA_Data_202425!AO281,AV281,BC281,BJ281,BQ281,BX281",
+    "qualityNotes": [
+      "Sum of six accommodation categories; administration excluded"
+    ]
+  },
+  {
+    "boroughCode": "E09000027",
+    "metricId": "ta_net_expenditure",
+    "period": {
+      "start": "2024-04-01",
+      "end": "2025-03-31",
+      "kind": "financial_year"
+    },
+    "value": 8448000.0,
+    "unit": "GBP",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ro4",
+    "sourceLocator": "RO4_LA_Data_202425!AP281,AW281,BD281,BK281,BR281,BY281",
+    "qualityNotes": [
+      "Sum of six accommodation categories; administration excluded"
+    ]
+  },
+  {
+    "boroughCode": "E09000028",
+    "metricId": "ta_gross_expenditure",
+    "period": {
+      "start": "2024-04-01",
+      "end": "2025-03-31",
+      "kind": "financial_year"
+    },
+    "value": 64290000.0,
+    "unit": "GBP",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ro4",
+    "sourceLocator": "RO4_LA_Data_202425!AL319,AS319,AZ319,BG319,BN319,BU319",
+    "qualityNotes": [
+      "Sum of six accommodation categories; administration excluded"
+    ]
+  },
+  {
+    "boroughCode": "E09000028",
+    "metricId": "ta_income_expenditure",
+    "period": {
+      "start": "2024-04-01",
+      "end": "2025-03-31",
+      "kind": "financial_year"
+    },
+    "value": 28598000.0,
+    "unit": "GBP",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ro4",
+    "sourceLocator": "RO4_LA_Data_202425!AO319,AV319,BC319,BJ319,BQ319,BX319",
+    "qualityNotes": [
+      "Sum of six accommodation categories; administration excluded"
+    ]
+  },
+  {
+    "boroughCode": "E09000028",
+    "metricId": "ta_net_expenditure",
+    "period": {
+      "start": "2024-04-01",
+      "end": "2025-03-31",
+      "kind": "financial_year"
+    },
+    "value": 35692000.0,
+    "unit": "GBP",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ro4",
+    "sourceLocator": "RO4_LA_Data_202425!AP319,AW319,BD319,BK319,BR319,BY319",
+    "qualityNotes": [
+      "Sum of six accommodation categories; administration excluded"
+    ]
+  },
+  {
+    "boroughCode": "E09000029",
+    "metricId": "ta_gross_expenditure",
+    "period": {
+      "start": "2024-04-01",
+      "end": "2025-03-31",
+      "kind": "financial_year"
+    },
+    "value": 14125000.0,
+    "unit": "GBP",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ro4",
+    "sourceLocator": "RO4_LA_Data_202425!AL341,AS341,AZ341,BG341,BN341,BU341",
+    "qualityNotes": [
+      "Sum of six accommodation categories; administration excluded"
+    ]
+  },
+  {
+    "boroughCode": "E09000029",
+    "metricId": "ta_income_expenditure",
+    "period": {
+      "start": "2024-04-01",
+      "end": "2025-03-31",
+      "kind": "financial_year"
+    },
+    "value": 6114000.0,
+    "unit": "GBP",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ro4",
+    "sourceLocator": "RO4_LA_Data_202425!AO341,AV341,BC341,BJ341,BQ341,BX341",
+    "qualityNotes": [
+      "Sum of six accommodation categories; administration excluded"
+    ]
+  },
+  {
+    "boroughCode": "E09000029",
+    "metricId": "ta_net_expenditure",
+    "period": {
+      "start": "2024-04-01",
+      "end": "2025-03-31",
+      "kind": "financial_year"
+    },
+    "value": 8011000.0,
+    "unit": "GBP",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ro4",
+    "sourceLocator": "RO4_LA_Data_202425!AP341,AW341,BD341,BK341,BR341,BY341",
+    "qualityNotes": [
+      "Sum of six accommodation categories; administration excluded"
+    ]
+  },
+  {
+    "boroughCode": "E09000030",
+    "metricId": "ta_gross_expenditure",
+    "period": {
+      "start": "2024-04-01",
+      "end": "2025-03-31",
+      "kind": "financial_year"
+    },
+    "value": 63548000.0,
+    "unit": "GBP",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ro4",
+    "sourceLocator": "RO4_LA_Data_202425!AL362,AS362,AZ362,BG362,BN362,BU362",
+    "qualityNotes": [
+      "Sum of six accommodation categories; administration excluded"
+    ]
+  },
+  {
+    "boroughCode": "E09000030",
+    "metricId": "ta_income_expenditure",
+    "period": {
+      "start": "2024-04-01",
+      "end": "2025-03-31",
+      "kind": "financial_year"
+    },
+    "value": 45537000.0,
+    "unit": "GBP",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ro4",
+    "sourceLocator": "RO4_LA_Data_202425!AO362,AV362,BC362,BJ362,BQ362,BX362",
+    "qualityNotes": [
+      "Sum of six accommodation categories; administration excluded"
+    ]
+  },
+  {
+    "boroughCode": "E09000030",
+    "metricId": "ta_net_expenditure",
+    "period": {
+      "start": "2024-04-01",
+      "end": "2025-03-31",
+      "kind": "financial_year"
+    },
+    "value": 18011000.0,
+    "unit": "GBP",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ro4",
+    "sourceLocator": "RO4_LA_Data_202425!AP362,AW362,BD362,BK362,BR362,BY362",
+    "qualityNotes": [
+      "Sum of six accommodation categories; administration excluded"
+    ]
+  },
+  {
+    "boroughCode": "E09000031",
+    "metricId": "ta_gross_expenditure",
+    "period": {
+      "start": "2024-04-01",
+      "end": "2025-03-31",
+      "kind": "financial_year"
+    },
+    "value": 42432000.0,
+    "unit": "GBP",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ro4",
+    "sourceLocator": "RO4_LA_Data_202425!AL370,AS370,AZ370,BG370,BN370,BU370",
+    "qualityNotes": [
+      "Sum of six accommodation categories; administration excluded"
+    ]
+  },
+  {
+    "boroughCode": "E09000031",
+    "metricId": "ta_income_expenditure",
+    "period": {
+      "start": "2024-04-01",
+      "end": "2025-03-31",
+      "kind": "financial_year"
+    },
+    "value": 19411000.0,
+    "unit": "GBP",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ro4",
+    "sourceLocator": "RO4_LA_Data_202425!AO370,AV370,BC370,BJ370,BQ370,BX370",
+    "qualityNotes": [
+      "Sum of six accommodation categories; administration excluded"
+    ]
+  },
+  {
+    "boroughCode": "E09000031",
+    "metricId": "ta_net_expenditure",
+    "period": {
+      "start": "2024-04-01",
+      "end": "2025-03-31",
+      "kind": "financial_year"
+    },
+    "value": 23021000.0,
+    "unit": "GBP",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ro4",
+    "sourceLocator": "RO4_LA_Data_202425!AP370,AW370,BD370,BK370,BR370,BY370",
+    "qualityNotes": [
+      "Sum of six accommodation categories; administration excluded"
+    ]
+  },
+  {
+    "boroughCode": "E09000032",
+    "metricId": "ta_gross_expenditure",
+    "period": {
+      "start": "2024-04-01",
+      "end": "2025-03-31",
+      "kind": "financial_year"
+    },
+    "value": 57084000.0,
+    "unit": "GBP",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ro4",
+    "sourceLocator": "RO4_LA_Data_202425!AL371,AS371,AZ371,BG371,BN371,BU371",
+    "qualityNotes": [
+      "Sum of six accommodation categories; administration excluded"
+    ]
+  },
+  {
+    "boroughCode": "E09000032",
+    "metricId": "ta_income_expenditure",
+    "period": {
+      "start": "2024-04-01",
+      "end": "2025-03-31",
+      "kind": "financial_year"
+    },
+    "value": 26070000.0,
+    "unit": "GBP",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ro4",
+    "sourceLocator": "RO4_LA_Data_202425!AO371,AV371,BC371,BJ371,BQ371,BX371",
+    "qualityNotes": [
+      "Sum of six accommodation categories; administration excluded"
+    ]
+  },
+  {
+    "boroughCode": "E09000032",
+    "metricId": "ta_net_expenditure",
+    "period": {
+      "start": "2024-04-01",
+      "end": "2025-03-31",
+      "kind": "financial_year"
+    },
+    "value": 31014000.0,
+    "unit": "GBP",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ro4",
+    "sourceLocator": "RO4_LA_Data_202425!AP371,AW371,BD371,BK371,BR371,BY371",
+    "qualityNotes": [
+      "Sum of six accommodation categories; administration excluded"
+    ]
+  },
+  {
+    "boroughCode": "E09000033",
+    "metricId": "ta_gross_expenditure",
+    "period": {
+      "start": "2024-04-01",
+      "end": "2025-03-31",
+      "kind": "financial_year"
+    },
+    "value": 138493880.0,
+    "unit": "GBP",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ro4",
+    "sourceLocator": "RO4_LA_Data_202425!AL398,AS398,AZ398,BG398,BN398,BU398",
+    "qualityNotes": [
+      "Sum of six accommodation categories; administration excluded"
+    ]
+  },
+  {
+    "boroughCode": "E09000033",
+    "metricId": "ta_income_expenditure",
+    "period": {
+      "start": "2024-04-01",
+      "end": "2025-03-31",
+      "kind": "financial_year"
+    },
+    "value": 66002479.99999999,
+    "unit": "GBP",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ro4",
+    "sourceLocator": "RO4_LA_Data_202425!AO398,AV398,BC398,BJ398,BQ398,BX398",
+    "qualityNotes": [
+      "Sum of six accommodation categories; administration excluded"
+    ]
+  },
+  {
+    "boroughCode": "E09000033",
+    "metricId": "ta_net_expenditure",
+    "period": {
+      "start": "2024-04-01",
+      "end": "2025-03-31",
+      "kind": "financial_year"
+    },
+    "value": 72491400.0,
+    "unit": "GBP",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "ro4",
+    "sourceLocator": "RO4_LA_Data_202425!AP398,AW398,BD398,BK398,BR398,BY398",
+    "qualityNotes": [
+      "Sum of six accommodation categories; administration excluded"
+    ]
+  },
+  {
+    "boroughCode": "E12000007",
+    "metricId": "allVacants",
+    "period": {
+      "start": "2024-10-07",
+      "end": "2024-10-07",
+      "kind": "snapshot"
+    },
+    "value": 93602.0,
+    "unit": "dwellings",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "vacants",
+    "sourceLocator": "All_vacants!W234",
+    "qualityNotes": [
+      "Not an actionable pool"
+    ]
+  },
+  {
+    "boroughCode": "E09000002",
+    "metricId": "allVacants",
+    "period": {
+      "start": "2024-10-07",
+      "end": "2024-10-07",
+      "kind": "snapshot"
+    },
+    "value": 1576.0,
+    "unit": "dwellings",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "vacants",
+    "sourceLocator": "All_vacants!W235",
+    "qualityNotes": [
+      "Not an actionable pool"
+    ]
+  },
+  {
+    "boroughCode": "E09000003",
+    "metricId": "allVacants",
+    "period": {
+      "start": "2024-10-07",
+      "end": "2024-10-07",
+      "kind": "snapshot"
+    },
+    "value": 5185.0,
+    "unit": "dwellings",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "vacants",
+    "sourceLocator": "All_vacants!W236",
+    "qualityNotes": [
+      "Not an actionable pool"
+    ]
+  },
+  {
+    "boroughCode": "E09000004",
+    "metricId": "allVacants",
+    "period": {
+      "start": "2024-10-07",
+      "end": "2024-10-07",
+      "kind": "snapshot"
+    },
+    "value": 1932.0,
+    "unit": "dwellings",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "vacants",
+    "sourceLocator": "All_vacants!W237",
+    "qualityNotes": [
+      "Not an actionable pool"
+    ]
+  },
+  {
+    "boroughCode": "E09000005",
+    "metricId": "allVacants",
+    "period": {
+      "start": "2024-10-07",
+      "end": "2024-10-07",
+      "kind": "snapshot"
+    },
+    "value": 2604.0,
+    "unit": "dwellings",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "vacants",
+    "sourceLocator": "All_vacants!W238",
+    "qualityNotes": [
+      "Not an actionable pool"
+    ]
+  },
+  {
+    "boroughCode": "E09000006",
+    "metricId": "allVacants",
+    "period": {
+      "start": "2024-10-07",
+      "end": "2024-10-07",
+      "kind": "snapshot"
+    },
+    "value": 3722.0,
+    "unit": "dwellings",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "vacants",
+    "sourceLocator": "All_vacants!W239",
+    "qualityNotes": [
+      "Not an actionable pool"
+    ]
+  },
+  {
+    "boroughCode": "E09000007",
+    "metricId": "allVacants",
+    "period": {
+      "start": "2024-10-07",
+      "end": "2024-10-07",
+      "kind": "snapshot"
+    },
+    "value": 4208.0,
+    "unit": "dwellings",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "vacants",
+    "sourceLocator": "All_vacants!W240",
+    "qualityNotes": [
+      "Not an actionable pool"
+    ]
+  },
+  {
+    "boroughCode": "E09000001",
+    "metricId": "allVacants",
+    "period": {
+      "start": "2024-10-07",
+      "end": "2024-10-07",
+      "kind": "snapshot"
+    },
+    "value": 197.0,
+    "unit": "dwellings",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "vacants",
+    "sourceLocator": "All_vacants!W241",
+    "qualityNotes": [
+      "Not an actionable pool"
+    ]
+  },
+  {
+    "boroughCode": "E09000008",
+    "metricId": "allVacants",
+    "period": {
+      "start": "2024-10-07",
+      "end": "2024-10-07",
+      "kind": "snapshot"
+    },
+    "value": 3651.0,
+    "unit": "dwellings",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "vacants",
+    "sourceLocator": "All_vacants!W242",
+    "qualityNotes": [
+      "Not an actionable pool"
+    ]
+  },
+  {
+    "boroughCode": "E09000009",
+    "metricId": "allVacants",
+    "period": {
+      "start": "2024-10-07",
+      "end": "2024-10-07",
+      "kind": "snapshot"
+    },
+    "value": 3462.0,
+    "unit": "dwellings",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "vacants",
+    "sourceLocator": "All_vacants!W243",
+    "qualityNotes": [
+      "Not an actionable pool"
+    ]
+  },
+  {
+    "boroughCode": "E09000010",
+    "metricId": "allVacants",
+    "period": {
+      "start": "2024-10-07",
+      "end": "2024-10-07",
+      "kind": "snapshot"
+    },
+    "value": 3626.0,
+    "unit": "dwellings",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "vacants",
+    "sourceLocator": "All_vacants!W244",
+    "qualityNotes": [
+      "Not an actionable pool"
+    ]
+  },
+  {
+    "boroughCode": "E09000011",
+    "metricId": "allVacants",
+    "period": {
+      "start": "2024-10-07",
+      "end": "2024-10-07",
+      "kind": "snapshot"
+    },
+    "value": 2864.0,
+    "unit": "dwellings",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "vacants",
+    "sourceLocator": "All_vacants!W245",
+    "qualityNotes": [
+      "Not an actionable pool"
+    ]
+  },
+  {
+    "boroughCode": "E09000012",
+    "metricId": "allVacants",
+    "period": {
+      "start": "2024-10-07",
+      "end": "2024-10-07",
+      "kind": "snapshot"
+    },
+    "value": 2513.0,
+    "unit": "dwellings",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "vacants",
+    "sourceLocator": "All_vacants!W246",
+    "qualityNotes": [
+      "Not an actionable pool"
+    ]
+  },
+  {
+    "boroughCode": "E09000013",
+    "metricId": "allVacants",
+    "period": {
+      "start": "2024-10-07",
+      "end": "2024-10-07",
+      "kind": "snapshot"
+    },
+    "value": 1182.0,
+    "unit": "dwellings",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "vacants",
+    "sourceLocator": "All_vacants!W247",
+    "qualityNotes": [
+      "Not an actionable pool"
+    ]
+  },
+  {
+    "boroughCode": "E09000014",
+    "metricId": "allVacants",
+    "period": {
+      "start": "2024-10-07",
+      "end": "2024-10-07",
+      "kind": "snapshot"
+    },
+    "value": 3332.0,
+    "unit": "dwellings",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "vacants",
+    "sourceLocator": "All_vacants!W248",
+    "qualityNotes": [
+      "Not an actionable pool"
+    ]
+  },
+  {
+    "boroughCode": "E09000015",
+    "metricId": "allVacants",
+    "period": {
+      "start": "2024-10-07",
+      "end": "2024-10-07",
+      "kind": "snapshot"
+    },
+    "value": 2889.0,
+    "unit": "dwellings",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "vacants",
+    "sourceLocator": "All_vacants!W249",
+    "qualityNotes": [
+      "Not an actionable pool"
+    ]
+  },
+  {
+    "boroughCode": "E09000016",
+    "metricId": "allVacants",
+    "period": {
+      "start": "2024-10-07",
+      "end": "2024-10-07",
+      "kind": "snapshot"
+    },
+    "value": 2122.0,
+    "unit": "dwellings",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "vacants",
+    "sourceLocator": "All_vacants!W250",
+    "qualityNotes": [
+      "Not an actionable pool"
+    ]
+  },
+  {
+    "boroughCode": "E09000017",
+    "metricId": "allVacants",
+    "period": {
+      "start": "2024-10-07",
+      "end": "2024-10-07",
+      "kind": "snapshot"
+    },
+    "value": 1899.0,
+    "unit": "dwellings",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "vacants",
+    "sourceLocator": "All_vacants!W251",
+    "qualityNotes": [
+      "Not an actionable pool"
+    ]
+  },
+  {
+    "boroughCode": "E09000018",
+    "metricId": "allVacants",
+    "period": {
+      "start": "2024-10-07",
+      "end": "2024-10-07",
+      "kind": "snapshot"
+    },
+    "value": 3583.0,
+    "unit": "dwellings",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "vacants",
+    "sourceLocator": "All_vacants!W252",
+    "qualityNotes": [
+      "Not an actionable pool"
+    ]
+  },
+  {
+    "boroughCode": "E09000019",
+    "metricId": "allVacants",
+    "period": {
+      "start": "2024-10-07",
+      "end": "2024-10-07",
+      "kind": "snapshot"
+    },
+    "value": 2077.0,
+    "unit": "dwellings",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "vacants",
+    "sourceLocator": "All_vacants!W253",
+    "qualityNotes": [
+      "Not an actionable pool"
+    ]
+  },
+  {
+    "boroughCode": "E09000020",
+    "metricId": "allVacants",
+    "period": {
+      "start": "2024-10-07",
+      "end": "2024-10-07",
+      "kind": "snapshot"
+    },
+    "value": 3157.0,
+    "unit": "dwellings",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "vacants",
+    "sourceLocator": "All_vacants!W254",
+    "qualityNotes": [
+      "Not an actionable pool"
+    ]
+  },
+  {
+    "boroughCode": "E09000021",
+    "metricId": "allVacants",
+    "period": {
+      "start": "2024-10-07",
+      "end": "2024-10-07",
+      "kind": "snapshot"
+    },
+    "value": 3303.0,
+    "unit": "dwellings",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "vacants",
+    "sourceLocator": "All_vacants!W255",
+    "qualityNotes": [
+      "Not an actionable pool"
+    ]
+  },
+  {
+    "boroughCode": "E09000022",
+    "metricId": "allVacants",
+    "period": {
+      "start": "2024-10-07",
+      "end": "2024-10-07",
+      "kind": "snapshot"
+    },
+    "value": 3815.0,
+    "unit": "dwellings",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "vacants",
+    "sourceLocator": "All_vacants!W256",
+    "qualityNotes": [
+      "Not an actionable pool"
+    ]
+  },
+  {
+    "boroughCode": "E09000023",
+    "metricId": "allVacants",
+    "period": {
+      "start": "2024-10-07",
+      "end": "2024-10-07",
+      "kind": "snapshot"
+    },
+    "value": 2253.0,
+    "unit": "dwellings",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "vacants",
+    "sourceLocator": "All_vacants!W257",
+    "qualityNotes": [
+      "Not an actionable pool"
+    ]
+  },
+  {
+    "boroughCode": "E09000024",
+    "metricId": "allVacants",
+    "period": {
+      "start": "2024-10-07",
+      "end": "2024-10-07",
+      "kind": "snapshot"
+    },
+    "value": 2857.0,
+    "unit": "dwellings",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "vacants",
+    "sourceLocator": "All_vacants!W258",
+    "qualityNotes": [
+      "Not an actionable pool"
+    ]
+  },
+  {
+    "boroughCode": "E09000025",
+    "metricId": "allVacants",
+    "period": {
+      "start": "2024-10-07",
+      "end": "2024-10-07",
+      "kind": "snapshot"
+    },
+    "value": 4004.0,
+    "unit": "dwellings",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "vacants",
+    "sourceLocator": "All_vacants!W259",
+    "qualityNotes": [
+      "Not an actionable pool"
+    ]
+  },
+  {
+    "boroughCode": "E09000026",
+    "metricId": "allVacants",
+    "period": {
+      "start": "2024-10-07",
+      "end": "2024-10-07",
+      "kind": "snapshot"
+    },
+    "value": 2664.0,
+    "unit": "dwellings",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "vacants",
+    "sourceLocator": "All_vacants!W260",
+    "qualityNotes": [
+      "Not an actionable pool"
+    ]
+  },
+  {
+    "boroughCode": "E09000027",
+    "metricId": "allVacants",
+    "period": {
+      "start": "2024-10-07",
+      "end": "2024-10-07",
+      "kind": "snapshot"
+    },
+    "value": 1807.0,
+    "unit": "dwellings",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "vacants",
+    "sourceLocator": "All_vacants!W261",
+    "qualityNotes": [
+      "Not an actionable pool"
+    ]
+  },
+  {
+    "boroughCode": "E09000028",
+    "metricId": "allVacants",
+    "period": {
+      "start": "2024-10-07",
+      "end": "2024-10-07",
+      "kind": "snapshot"
+    },
+    "value": 5120.0,
+    "unit": "dwellings",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "vacants",
+    "sourceLocator": "All_vacants!W262",
+    "qualityNotes": [
+      "Not an actionable pool"
+    ]
+  },
+  {
+    "boroughCode": "E09000029",
+    "metricId": "allVacants",
+    "period": {
+      "start": "2024-10-07",
+      "end": "2024-10-07",
+      "kind": "snapshot"
+    },
+    "value": 2486.0,
+    "unit": "dwellings",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "vacants",
+    "sourceLocator": "All_vacants!W263",
+    "qualityNotes": [
+      "Not an actionable pool"
+    ]
+  },
+  {
+    "boroughCode": "E09000030",
+    "metricId": "allVacants",
+    "period": {
+      "start": "2024-10-07",
+      "end": "2024-10-07",
+      "kind": "snapshot"
+    },
+    "value": 3415.0,
+    "unit": "dwellings",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "vacants",
+    "sourceLocator": "All_vacants!W264",
+    "qualityNotes": [
+      "Not an actionable pool"
+    ]
+  },
+  {
+    "boroughCode": "E09000031",
+    "metricId": "allVacants",
+    "period": {
+      "start": "2024-10-07",
+      "end": "2024-10-07",
+      "kind": "snapshot"
+    },
+    "value": 2564.0,
+    "unit": "dwellings",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "vacants",
+    "sourceLocator": "All_vacants!W265",
+    "qualityNotes": [
+      "Not an actionable pool"
+    ]
+  },
+  {
+    "boroughCode": "E09000032",
+    "metricId": "allVacants",
+    "period": {
+      "start": "2024-10-07",
+      "end": "2024-10-07",
+      "kind": "snapshot"
+    },
+    "value": 1385.0,
+    "unit": "dwellings",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "vacants",
+    "sourceLocator": "All_vacants!W266",
+    "qualityNotes": [
+      "Not an actionable pool"
+    ]
+  },
+  {
+    "boroughCode": "E09000033",
+    "metricId": "allVacants",
+    "period": {
+      "start": "2024-10-07",
+      "end": "2024-10-07",
+      "kind": "snapshot"
+    },
+    "value": 2148.0,
+    "unit": "dwellings",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "vacants",
+    "sourceLocator": "All_vacants!W267",
+    "qualityNotes": [
+      "Not an actionable pool"
+    ]
+  },
+  {
+    "boroughCode": "E09000001",
+    "metricId": "councilVacants",
+    "period": {
+      "start": "2025-03-31",
+      "end": "2025-03-31",
+      "kind": "snapshot"
+    },
+    "value": 22.0,
+    "unit": "dwellings",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "vacants",
+    "sourceLocator": "LA_owned_vacants!AA127",
+    "qualityNotes": [
+      "Not an actionable pool"
+    ]
+  },
+  {
+    "boroughCode": "E09000002",
+    "metricId": "councilVacants",
+    "period": {
+      "start": "2025-03-31",
+      "end": "2025-03-31",
+      "kind": "snapshot"
+    },
+    "value": 536.0,
+    "unit": "dwellings",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "vacants",
+    "sourceLocator": "LA_owned_vacants!AA128",
+    "qualityNotes": [
+      "Not an actionable pool"
+    ]
+  },
+  {
+    "boroughCode": "E09000003",
+    "metricId": "councilVacants",
+    "period": {
+      "start": "2025-03-31",
+      "end": "2025-03-31",
+      "kind": "snapshot"
+    },
+    "value": 149.0,
+    "unit": "dwellings",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "vacants",
+    "sourceLocator": "LA_owned_vacants!AA129",
+    "qualityNotes": [
+      "Not an actionable pool"
+    ]
+  },
+  {
+    "boroughCode": "E09000004",
+    "metricId": "councilVacants",
+    "period": {
+      "start": "2025-03-31",
+      "end": "2025-03-31",
+      "kind": "snapshot"
+    },
+    "value": 70.0,
+    "unit": "dwellings",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "vacants",
+    "sourceLocator": "LA_owned_vacants!AA130",
+    "qualityNotes": [
+      "Not an actionable pool"
+    ]
+  },
+  {
+    "boroughCode": "E09000005",
+    "metricId": "councilVacants",
+    "period": {
+      "start": "2025-03-31",
+      "end": "2025-03-31",
+      "kind": "snapshot"
+    },
+    "value": 391.0,
+    "unit": "dwellings",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "vacants",
+    "sourceLocator": "LA_owned_vacants!AA131",
+    "qualityNotes": [
+      "Not an actionable pool"
+    ]
+  },
+  {
+    "boroughCode": "E09000006",
+    "metricId": "councilVacants",
+    "period": {
+      "start": "2025-03-31",
+      "end": "2025-03-31",
+      "kind": "snapshot"
+    },
+    "value": 0.0,
+    "unit": "dwellings",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "vacants",
+    "sourceLocator": "LA_owned_vacants!AA132",
+    "qualityNotes": [
+      "Not an actionable pool"
+    ]
+  },
+  {
+    "boroughCode": "E09000007",
+    "metricId": "councilVacants",
+    "period": {
+      "start": "2025-03-31",
+      "end": "2025-03-31",
+      "kind": "snapshot"
+    },
+    "value": 951.0,
+    "unit": "dwellings",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "vacants",
+    "sourceLocator": "LA_owned_vacants!AA133",
+    "qualityNotes": [
+      "Not an actionable pool"
+    ]
+  },
+  {
+    "boroughCode": "E09000008",
+    "metricId": "councilVacants",
+    "period": {
+      "start": "2025-03-31",
+      "end": "2025-03-31",
+      "kind": "snapshot"
+    },
+    "value": 295.0,
+    "unit": "dwellings",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "vacants",
+    "sourceLocator": "LA_owned_vacants!AA134",
+    "qualityNotes": [
+      "Not an actionable pool"
+    ]
+  },
+  {
+    "boroughCode": "E09000009",
+    "metricId": "councilVacants",
+    "period": {
+      "start": "2025-03-31",
+      "end": "2025-03-31",
+      "kind": "snapshot"
+    },
+    "value": 757.0,
+    "unit": "dwellings",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "vacants",
+    "sourceLocator": "LA_owned_vacants!AA135",
+    "qualityNotes": [
+      "Not an actionable pool"
+    ]
+  },
+  {
+    "boroughCode": "E09000010",
+    "metricId": "councilVacants",
+    "period": {
+      "start": "2025-03-31",
+      "end": "2025-03-31",
+      "kind": "snapshot"
+    },
+    "value": 457.0,
+    "unit": "dwellings",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "vacants",
+    "sourceLocator": "LA_owned_vacants!AA136",
+    "qualityNotes": [
+      "Not an actionable pool"
+    ]
+  },
+  {
+    "boroughCode": "E09000011",
+    "metricId": "councilVacants",
+    "period": {
+      "start": "2025-03-31",
+      "end": "2025-03-31",
+      "kind": "snapshot"
+    },
+    "value": 272.0,
+    "unit": "dwellings",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "vacants",
+    "sourceLocator": "LA_owned_vacants!AA137",
+    "qualityNotes": [
+      "Not an actionable pool"
+    ]
+  },
+  {
+    "boroughCode": "E09000012",
+    "metricId": "councilVacants",
+    "period": {
+      "start": "2025-03-31",
+      "end": "2025-03-31",
+      "kind": "snapshot"
+    },
+    "value": 159.0,
+    "unit": "dwellings",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "vacants",
+    "sourceLocator": "LA_owned_vacants!AA138",
+    "qualityNotes": [
+      "Not an actionable pool"
+    ]
+  },
+  {
+    "boroughCode": "E09000013",
+    "metricId": "councilVacants",
+    "period": {
+      "start": "2025-03-31",
+      "end": "2025-03-31",
+      "kind": "snapshot"
+    },
+    "value": 206.0,
+    "unit": "dwellings",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "vacants",
+    "sourceLocator": "LA_owned_vacants!AA139",
+    "qualityNotes": [
+      "Not an actionable pool"
+    ]
+  },
+  {
+    "boroughCode": "E09000014",
+    "metricId": "councilVacants",
+    "period": {
+      "start": "2025-03-31",
+      "end": "2025-03-31",
+      "kind": "snapshot"
+    },
+    "value": 1033.0,
+    "unit": "dwellings",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "vacants",
+    "sourceLocator": "LA_owned_vacants!AA140",
+    "qualityNotes": [
+      "Not an actionable pool"
+    ]
+  },
+  {
+    "boroughCode": "E09000015",
+    "metricId": "councilVacants",
+    "period": {
+      "start": "2025-03-31",
+      "end": "2025-03-31",
+      "kind": "snapshot"
+    },
+    "value": 168.0,
+    "unit": "dwellings",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "vacants",
+    "sourceLocator": "LA_owned_vacants!AA141",
+    "qualityNotes": [
+      "Not an actionable pool"
+    ]
+  },
+  {
+    "boroughCode": "E09000016",
+    "metricId": "councilVacants",
+    "period": {
+      "start": "2025-03-31",
+      "end": "2025-03-31",
+      "kind": "snapshot"
+    },
+    "value": 110.0,
+    "unit": "dwellings",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "vacants",
+    "sourceLocator": "LA_owned_vacants!AA142",
+    "qualityNotes": [
+      "Not an actionable pool"
+    ]
+  },
+  {
+    "boroughCode": "E09000017",
+    "metricId": "councilVacants",
+    "period": {
+      "start": "2025-03-31",
+      "end": "2025-03-31",
+      "kind": "snapshot"
+    },
+    "value": 201.0,
+    "unit": "dwellings",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "vacants",
+    "sourceLocator": "LA_owned_vacants!AA143",
+    "qualityNotes": [
+      "Not an actionable pool"
+    ]
+  },
+  {
+    "boroughCode": "E09000018",
+    "metricId": "councilVacants",
+    "period": {
+      "start": "2025-03-31",
+      "end": "2025-03-31",
+      "kind": "snapshot"
+    },
+    "value": 288.0,
+    "unit": "dwellings",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "vacants",
+    "sourceLocator": "LA_owned_vacants!AA144",
+    "qualityNotes": [
+      "Not an actionable pool"
+    ]
+  },
+  {
+    "boroughCode": "E09000019",
+    "metricId": "councilVacants",
+    "period": {
+      "start": "2025-03-31",
+      "end": "2025-03-31",
+      "kind": "snapshot"
+    },
+    "value": 444.0,
+    "unit": "dwellings",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "vacants",
+    "sourceLocator": "LA_owned_vacants!AA145",
+    "qualityNotes": [
+      "Not an actionable pool"
+    ]
+  },
+  {
+    "boroughCode": "E09000020",
+    "metricId": "councilVacants",
+    "period": {
+      "start": "2025-03-31",
+      "end": "2025-03-31",
+      "kind": "snapshot"
+    },
+    "value": 193.0,
+    "unit": "dwellings",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "vacants",
+    "sourceLocator": "LA_owned_vacants!AA146",
+    "qualityNotes": [
+      "Not an actionable pool"
+    ]
+  },
+  {
+    "boroughCode": "E09000021",
+    "metricId": "councilVacants",
+    "period": {
+      "start": "2025-03-31",
+      "end": "2025-03-31",
+      "kind": "snapshot"
+    },
+    "value": 243.0,
+    "unit": "dwellings",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "vacants",
+    "sourceLocator": "LA_owned_vacants!AA147",
+    "qualityNotes": [
+      "Not an actionable pool"
+    ]
+  },
+  {
+    "boroughCode": "E09000022",
+    "metricId": "councilVacants",
+    "period": {
+      "start": "2025-03-31",
+      "end": "2025-03-31",
+      "kind": "snapshot"
+    },
+    "value": 543.0,
+    "unit": "dwellings",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "vacants",
+    "sourceLocator": "LA_owned_vacants!AA148",
+    "qualityNotes": [
+      "Not an actionable pool"
+    ]
+  },
+  {
+    "boroughCode": "E09000023",
+    "metricId": "councilVacants",
+    "period": {
+      "start": "2025-03-31",
+      "end": "2025-03-31",
+      "kind": "snapshot"
+    },
+    "value": 183.0,
+    "unit": "dwellings",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "vacants",
+    "sourceLocator": "LA_owned_vacants!AA149",
+    "qualityNotes": [
+      "Not an actionable pool"
+    ]
+  },
+  {
+    "boroughCode": "E09000024",
+    "metricId": "councilVacants",
+    "period": {
+      "start": "2025-03-31",
+      "end": "2025-03-31",
+      "kind": "snapshot"
+    },
+    "value": 3.0,
+    "unit": "dwellings",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "vacants",
+    "sourceLocator": "LA_owned_vacants!AA150",
+    "qualityNotes": [
+      "Not an actionable pool"
+    ]
+  },
+  {
+    "boroughCode": "E09000025",
+    "metricId": "councilVacants",
+    "period": {
+      "start": "2025-03-31",
+      "end": "2025-03-31",
+      "kind": "snapshot"
+    },
+    "value": 671.0,
+    "unit": "dwellings",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "vacants",
+    "sourceLocator": "LA_owned_vacants!AA151",
+    "qualityNotes": [
+      "Not an actionable pool"
+    ]
+  },
+  {
+    "boroughCode": "E09000026",
+    "metricId": "councilVacants",
+    "period": {
+      "start": "2025-03-31",
+      "end": "2025-03-31",
+      "kind": "snapshot"
+    },
+    "value": 19.0,
+    "unit": "dwellings",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "vacants",
+    "sourceLocator": "LA_owned_vacants!AA152",
+    "qualityNotes": [
+      "Not an actionable pool"
+    ]
+  },
+  {
+    "boroughCode": "E09000027",
+    "metricId": "councilVacants",
+    "period": {
+      "start": "2025-03-31",
+      "end": "2025-03-31",
+      "kind": "snapshot"
+    },
+    "value": 0.0,
+    "unit": "dwellings",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "vacants",
+    "sourceLocator": "LA_owned_vacants!AA153",
+    "qualityNotes": [
+      "Not an actionable pool"
+    ]
+  },
+  {
+    "boroughCode": "E09000028",
+    "metricId": "councilVacants",
+    "period": {
+      "start": "2025-03-31",
+      "end": "2025-03-31",
+      "kind": "snapshot"
+    },
+    "value": 1285.0,
+    "unit": "dwellings",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "vacants",
+    "sourceLocator": "LA_owned_vacants!AA154",
+    "qualityNotes": [
+      "Not an actionable pool"
+    ]
+  },
+  {
+    "boroughCode": "E09000029",
+    "metricId": "councilVacants",
+    "period": {
+      "start": "2025-03-31",
+      "end": "2025-03-31",
+      "kind": "snapshot"
+    },
+    "value": 39.0,
+    "unit": "dwellings",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "vacants",
+    "sourceLocator": "LA_owned_vacants!AA155",
+    "qualityNotes": [
+      "Not an actionable pool"
+    ]
+  },
+  {
+    "boroughCode": "E09000030",
+    "metricId": "councilVacants",
+    "period": {
+      "start": "2025-03-31",
+      "end": "2025-03-31",
+      "kind": "snapshot"
+    },
+    "value": 151.0,
+    "unit": "dwellings",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "vacants",
+    "sourceLocator": "LA_owned_vacants!AA156",
+    "qualityNotes": [
+      "Not an actionable pool"
+    ]
+  },
+  {
+    "boroughCode": "E09000031",
+    "metricId": "councilVacants",
+    "period": {
+      "start": "2025-03-31",
+      "end": "2025-03-31",
+      "kind": "snapshot"
+    },
+    "value": 263.0,
+    "unit": "dwellings",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "vacants",
+    "sourceLocator": "LA_owned_vacants!AA157",
+    "qualityNotes": [
+      "Not an actionable pool"
+    ]
+  },
+  {
+    "boroughCode": "E09000032",
+    "metricId": "councilVacants",
+    "period": {
+      "start": "2025-03-31",
+      "end": "2025-03-31",
+      "kind": "snapshot"
+    },
+    "value": 291.0,
+    "unit": "dwellings",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "vacants",
+    "sourceLocator": "LA_owned_vacants!AA158",
+    "qualityNotes": [
+      "Not an actionable pool"
+    ]
+  },
+  {
+    "boroughCode": "E09000033",
+    "metricId": "councilVacants",
+    "period": {
+      "start": "2025-03-31",
+      "end": "2025-03-31",
+      "kind": "snapshot"
+    },
+    "value": 462.0,
+    "unit": "dwellings",
+    "status": "observed",
+    "missingReason": null,
+    "sourceId": "vacants",
+    "sourceLocator": "LA_owned_vacants!AA159",
+    "qualityNotes": [
+      "Not an actionable pool"
+    ]
+  }
+]
