@@ -19,9 +19,8 @@ import { HousingBlocks } from "@/components/explore/HousingBlocks";
 type Search = { b?: string };
 
 export const Route = createFileRoute("/explore")({
-  validateSearch: (search: Record<string, unknown>): Search => ({
-    b: typeof search["b"] === "string" ? search["b"] : undefined,
-  }),
+  validateSearch: (search: Record<string, unknown>): Search =>
+    typeof search["b"] === "string" ? { b: search["b"] } : {},
   head: () => ({
     meta: [
       { title: "Explore the boroughs — HOUSEOPOLY" },
