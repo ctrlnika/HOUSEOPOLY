@@ -11,7 +11,7 @@ export function validateConfig(c:Config){
  if(!Number.isFinite(c.openingTA)||c.openingTA<0||!Number.isFinite(c.unitCost)||c.unitCost<=0||!Number.isFinite(c.envelope)||c.envelope<0)throw Error('Invalid baseline');
  for(const [k,v] of Object.entries(c.assumptions))if(!Number.isFinite(v)||(k!=='growth'&&v<0))throw Error('Invalid assumption: '+k);
  if(c.assumptions.growth<=-1||c.assumptions.lag<1||!Number.isInteger(c.assumptions.lag)||c.assumptions.suitability>1||c.assumptions.repairShare>1)throw Error('Invalid timing or proportion');
- for(const k of ['voidCost','purchaseCost','repairCost','retrofitCost'])if(!(c.assumptions[k]>0))throw Error('Invalid unit cost');
+ for(const k of ['voidCost','purchaseCost','repairCost','retrofitCost'] as const)if(!(c.assumptions[k]>0))throw Error('Invalid unit cost');
 }
 export function stepYear(opening:State,policy:Policy,c:Config):Year{
  validateConfig(c);const a=c.assumptions,year=opening.year+1,available=c.envelope+opening.reserve;
