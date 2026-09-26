@@ -161,6 +161,97 @@
   );
 }
 
+@layer components {
+  .pixel-game {
+    background-color: var(--color-background);
+    background-image:
+      linear-gradient(color-mix(in oklab, var(--color-border) 24%, transparent) 1px, transparent 1px),
+      linear-gradient(90deg, color-mix(in oklab, var(--color-border) 24%, transparent) 1px, transparent 1px);
+    background-size: 16px 16px;
+  }
+
+  .pixel-panel {
+    border: 3px solid var(--color-border);
+    background: var(--color-surface);
+    box-shadow: 8px 8px 0 var(--color-border);
+  }
+
+  .pixel-year {
+    display: grid;
+    min-height: 3.5rem;
+    place-items: center;
+    border: 2px solid var(--color-border);
+    background: var(--color-background);
+    font-family: var(--font-pixel);
+    color: var(--color-muted-foreground);
+  }
+
+  .pixel-year span { font-size: 0.9rem; }
+  .pixel-year small { font-size: 0.55rem; }
+  .pixel-year.is-current { border-color: var(--color-alert); color: var(--color-alert); }
+  .pixel-year.is-done { border-color: var(--color-signal); background: var(--color-signal); color: var(--color-primary-foreground); }
+
+  .pixel-world {
+    position: relative;
+    min-height: 22rem;
+    overflow: hidden;
+    border: 3px solid var(--color-border);
+    background: var(--color-surface);
+  }
+
+  .pixel-skyline {
+    position: absolute;
+    inset: 0;
+    opacity: 0.35;
+    background-image:
+      linear-gradient(to top, var(--color-background) 0 18%, transparent 18%),
+      repeating-linear-gradient(90deg, transparent 0 8%, var(--color-border) 8% 14%, transparent 14% 18%);
+  }
+
+  .pixel-building {
+    min-height: 7.5rem;
+    width: clamp(4.5rem, 18vw, 8rem);
+    border: 4px solid currentColor;
+    background: var(--color-background);
+    padding: 0.75rem;
+    box-shadow: 5px 5px 0 currentColor;
+  }
+
+  .pixel-building span { display: block; aspect-ratio: 1.6; border: 1px solid currentColor; }
+
+  .pixel-transfer {
+    position: absolute;
+    inset: 0;
+    z-index: 20;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    background: color-mix(in oklab, var(--color-background) 92%, transparent);
+    font-family: var(--font-pixel);
+    color: var(--color-signal);
+  }
+
+  .pixel-transfer span { animation: pixel-hop 550ms steps(2, end) infinite alternate; font-size: 1.6rem; }
+  .pixel-transfer span:nth-child(2n) { animation-delay: 120ms; color: var(--color-alert); }
+  .pixel-transfer strong { position: absolute; bottom: 2rem; font-size: 0.7rem; }
+
+  .pixel-event {
+    border: 3px solid var(--color-modelled);
+    background: var(--color-surface);
+    padding: 1.25rem;
+    box-shadow: 6px 6px 0 var(--color-modelled);
+  }
+  .pixel-event.is-alert { border-color: var(--color-alert); box-shadow: 6px 6px 0 var(--color-alert); }
+  .pixel-event.is-signal { border-color: var(--color-signal); box-shadow: 6px 6px 0 var(--color-signal); }
+  .pixel-report { border: 3px solid var(--color-foreground); background: var(--color-background); box-shadow: 9px 9px 0 var(--color-border); }
+}
+
+@keyframes pixel-hop {
+  from { transform: translateY(0); }
+  to { transform: translateY(-12px); }
+}
+
 @media (prefers-reduced-motion: reduce) {
   html {
     scroll-behavior: auto;
