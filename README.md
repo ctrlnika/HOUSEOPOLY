@@ -11,6 +11,8 @@
 
 An editorial data experience and satirical strategy game exposing London's **£1.4B+ annual temporary accommodation crisis** across all 33 boroughs using real statutory records.
 
+**Live site:** <https://houseopoly.lovable.app>
+
 ---
 
 ## The Concept
