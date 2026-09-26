@@ -374,6 +374,11 @@ export function buildAuction(b: Borough): AuctionSetup {
   const headliner =
     [...counts.entries()].sort((x, y) => y[1] - x[1])[0]?.[0] ?? "vance";
 
+  // Capital pot: deliberately short of the saleroom total, so the choice of
+  // *which* homes to save is the game. Illustrative, not a published budget.
+  const total = lots.reduce((s, l) => s + l.outbidPrice, 0);
+  const budget = round(total * 0.4, 100000);
+
   return { borough: b, budget, unitCost: b.unitCostEff, lots, headliner: speculatorById(headliner) };
 }
 
