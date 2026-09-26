@@ -41,7 +41,8 @@ export function AllocationBar({
         <label htmlFor={id} className="text-sm font-bold uppercase tracking-[0.14em]">
           {label}
         </label>
-        <span className={`display tabular text-2xl ${textColour}`}>{money(value * 1e6)}</span>
+        {/* Deterministic £m formatting: Intl compact notation differs between server and browser. */}
+        <span className={`display tabular text-2xl ${textColour}`}>£{value.toFixed(1)}m</span>
       </div>
 
       <div className="relative mt-3 h-8 border-2 border-border bg-surface-2">
