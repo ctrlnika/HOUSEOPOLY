@@ -10,6 +10,7 @@
 
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as IndexRouteImport } from './routes/index'
+import { Route as AuctionRouteImport } from './routes/auction'
 import { Route as ChallengeRouteImport } from './routes/challenge'
 import { Route as ExploreRouteImport } from './routes/explore'
 import { Route as MethodologyRouteImport } from './routes/methodology'
@@ -17,6 +18,11 @@ import { Route as MethodologyRouteImport } from './routes/methodology'
 const IndexRoute = IndexRouteImport.update({
   id: '/',
   path: '/',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const AuctionRoute = AuctionRouteImport.update({
+  id: '/auction',
+  path: '/auction',
   getParentRoute: () => rootRouteImport,
 } as any)
 const ChallengeRoute = ChallengeRouteImport.update({
@@ -37,12 +43,14 @@ const MethodologyRoute = MethodologyRouteImport.update({
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
+  '/auction': typeof AuctionRoute
   '/challenge': typeof ChallengeRoute
   '/explore': typeof ExploreRoute
   '/methodology': typeof MethodologyRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
+  '/auction': typeof AuctionRoute
   '/challenge': typeof ChallengeRoute
   '/explore': typeof ExploreRoute
   '/methodology': typeof MethodologyRoute
@@ -50,20 +58,22 @@ export interface FileRoutesByTo {
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
+  '/auction': typeof AuctionRoute
   '/challenge': typeof ChallengeRoute
   '/explore': typeof ExploreRoute
   '/methodology': typeof MethodologyRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/' | '/challenge' | '/explore' | '/methodology'
+  fullPaths: '/' | '/auction' | '/challenge' | '/explore' | '/methodology'
   fileRoutesByTo: FileRoutesByTo
-  to: '/' | '/challenge' | '/explore' | '/methodology'
-  id: '__root__' | '/' | '/challenge' | '/explore' | '/methodology'
+  to: '/' | '/auction' | '/challenge' | '/explore' | '/methodology'
+  id: '__root__' | '/' | '/auction' | '/challenge' | '/explore' | '/methodology'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
+  AuctionRoute: typeof AuctionRoute
   ChallengeRoute: typeof ChallengeRoute
   ExploreRoute: typeof ExploreRoute
   MethodologyRoute: typeof MethodologyRoute
@@ -76,6 +86,13 @@ declare module '@tanstack/react-router' {
       path: '/'
       fullPath: '/'
       preLoaderRoute: typeof IndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/auction': {
+      id: '/auction'
+      path: '/auction'
+      fullPath: '/auction'
+      preLoaderRoute: typeof AuctionRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/challenge': {
@@ -104,6 +121,7 @@ declare module '@tanstack/react-router' {
 
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
+  AuctionRoute: AuctionRoute,
   ChallengeRoute: ChallengeRoute,
   ExploreRoute: ExploreRoute,
   MethodologyRoute: MethodologyRoute,
