@@ -1,20 +1,8 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useEffect, useMemo, useState } from "react";
-import {
-  boroughAssumptions,
-  boroughs,
-  dateLabel,
-  defaultAssumptions,
-  fmt,
-  getBorough,
-  makeConfig,
-  money,
-} from "@/lib/data";
-import { compare, runScenario, type Assumptions, type Policy } from "@/lib/model/engine";
-import { Counter, SectionHeading, Source, Tag } from "@/components/site/bits";
-import { AllocationBar, AssumptionEditor } from "@/components/explore/controls";
-import { Trajectory } from "@/components/explore/Trajectory";
-import { HousingBlocks } from "@/components/explore/HousingBlocks";
+import { boroughs, dateLabel, fmt, getBorough, londonReference, money } from "@/lib/data";
+import { LondonMap, MapLegend, useLondonGeo } from "@/components/map/LondonMap";
+import { Source, Tag } from "@/components/site/bits";
 
 type Search = { b?: string };
 
@@ -23,314 +11,316 @@ export const Route = createFileRoute("/explore")({
     typeof search["b"] === "string" ? { b: search["b"] } : {},
   head: () => ({
     meta: [
-      { title: "Explore the boroughs — HOUSEOPOLY" },
+      { title: "Temporary Accommodation Explorer — HOUSEOPOLY" },
       {
         name: "description",
         content:
-          "Pick any London borough, move the levers on re-lets, repairs and acquisition, and watch five years of modelled consequences.",
+          "Choose a London borough and see its temporary accommodation rate, recent change, spending and vacant homes in one clear story.",
       },
-      { property: "og:title", content: "Explore the boroughs — HOUSEOPOLY" },
+      { property: "og:title", content: "Temporary Accommodation Explorer — HOUSEOPOLY" },
       {
         property: "og:description",
         content:
-          "Real borough data, editable assumptions, and a five-year model of what housing money buys.",
+          "Explore the real temporary accommodation story for every London borough in one place.",
       },
+      { property: "og:type", content: "website" },
+      { name: "twitter:card", content: "summary_large_image" },
     ],
   }),
   component: Explore,
 });
 
-const ZERO: Policy = { ta: 0, voids: 0, acquire: 0, repairs: 0 };
+const observed = boroughs.filter((borough) => borough.rate != null);
+const maxRate = Math.max(...observed.map((borough) => borough.rate ?? 0));
+const maxVacants = Math.max(...observed.map((borough) => borough.allVacants ?? 0));
+
+function changeSummary(values: { date: string; value: number | null }[]) {
+  const valid = values.filter(
+    (entry): entry is { date: string; value: number } => entry.value != null,
+  );
+  const first = valid[0];
+  const last = valid.at(-1);
+  if (!first || !last || first === last || first.value === 0) return null;
+  return {
+    percent: ((last.value - first.value) / first.value) * 100,
+    count: last.value - first.value,
+    from: first.date,
+    to: last.date,
+  };
+}
+
+function signed(value: number, digits = 0) {
+  const rounded = value.toFixed(digits);
+  return `${value > 0 ? "+" : ""}${rounded}`;
+}
 
 function Explore() {
   const { b: searchCode } = Route.useSearch();
   const [code, setCode] = useState(searchCode ?? "E09000025");
+  const [showMap, setShowMap] = useState(false);
+  const { geo, error } = useLondonGeo();
+
   useEffect(() => {
     if (searchCode) setCode(searchCode);
   }, [searchCode]);
 
   const borough = getBorough(code);
-  const [a, setA] = useState<Assumptions>(() => boroughAssumptions(getBorough(code)));
-  const [spend, setSpend] = useState<Policy>({ ...ZERO });
+  const change = changeSummary(borough.history);
+  const rateComparison =
+    borough.rate == null ? null : ((borough.rate - londonReference.ratePer1000) / londonReference.ratePer1000) * 100;
+  const spendPerHousehold = borough.taUnitCost;
 
-  function select(next: string) {
-    setCode(next);
-    setA(boroughAssumptions(getBorough(next)));
-    setSpend({ ...ZERO });
-  }
-  function reset() {
-    setA(boroughAssumptions(borough));
-    setSpend({ ...ZERO });
-  }
-
-  const config = useMemo(() => makeConfig(borough, a), [borough, a]);
-  const { player, baseline, result } = useMemo(() => {
-    const policy = { ...spend, ta: 0 };
-    const p = runScenario(policy, config);
-    const base = runScenario({ ...ZERO }, config);
-    return { player: p, baseline: base, result: compare(p, base) };
-  }, [spend, config]);
-
-  const yearFive = player[4]!;
-  const envelopeM = (config.envelope * 0.35) / 1e6;
-  const restoredHomes = Math.min(
-    a["voidPool"] ?? 0,
-    Math.floor(spend.voids / (a["voidCost"] ?? 1)) * 5,
-  );
-
-  const [live, setLive] = useState("");
-  useEffect(() => {
-    const t = setTimeout(
-      () => setLive(`Year five: ${fmt(yearFive.state.ta)} households in temporary accommodation.`),
-      600,
-    );
-    return () => clearTimeout(t);
-  }, [yearFive.state.ta]);
+  const selectedPosition = useMemo(() => {
+    if (borough.rate == null || borough.allVacants == null) return null;
+    return {
+      x: 54 + (borough.allVacants / maxVacants) * 782,
+      y: 32 + (1 - borough.rate / maxRate) * 296,
+    };
+  }, [borough]);
 
   return (
-    <section className="mx-auto max-w-[1400px] px-4 py-12 md:px-8">
-      <div className="flex flex-wrap items-end justify-between gap-6">
-        <SectionHeading eyebrow="The borough sandbox" title={<>Room to change<br />{borough.name}.</>}>
-          <p>Move one lever. Follow the consequences over five years.</p>
-        </SectionHeading>
-        <label className="flex flex-col gap-2 text-xs uppercase tracking-[0.18em] text-muted-foreground">
-          Choose an authority
+    <div className="border-b-2 border-border">
+      <section className="mx-auto max-w-[1200px] px-4 py-10 md:px-8 md:py-16">
+        <header className="max-w-3xl">
+          <span className="eyebrow text-signal">Temporary Accommodation Explorer</span>
+          <h1 className="display mt-4 text-5xl sm:text-6xl md:text-8xl">
+            One borough.<br />The whole story.
+          </h1>
+          <p className="mt-5 max-w-2xl text-base leading-relaxed text-muted-foreground md:text-lg">
+            Choose a borough to see how many households are affected, whether the number is rising,
+            what it costs and how many homes stand vacant.
+          </p>
+        </header>
+
+        <label className="mt-9 block max-w-2xl" htmlFor="borough-select">
+          <span className="mb-2 block text-sm font-bold uppercase tracking-[0.16em]">
+            Explore a borough
+          </span>
           <select
+            id="borough-select"
             value={borough.code}
-            onChange={(e) => select(e.target.value)}
-            className="display border-2 border-signal bg-background px-4 py-3 text-xl text-foreground"
+            onChange={(event) => setCode(event.target.value)}
+            className="display w-full border-2 border-signal bg-background px-4 py-4 text-2xl text-foreground sm:text-3xl"
           >
-            {boroughs.map((x) => (
-              <option key={x.code} value={x.code}>
-                {x.name}
+            {boroughs.map((option) => (
+              <option key={option.code} value={option.code}>
+                {option.name}
               </option>
             ))}
           </select>
         </label>
-      </div>
 
-      {borough.modelled.length > 0 && (
-        <p className="mt-6 flex flex-wrap items-center gap-3 border-2 border-modelled bg-surface p-4 text-sm">
-          <Tag kind="modelled" />
-          <span className="text-muted-foreground">
-            {borough.name} does not report every figure in this release. Where a value is missing it
-            is filled from the London average and labelled modelled — never treated as observed, and
-            never shown as zero.
-          </span>
-        </p>
-      )}
-
-      {/* Observed facts */}
-      <div className="mt-8 grid gap-px border-2 border-border bg-border sm:grid-cols-2 lg:grid-cols-4">
-        {[
-          {
-            label: "Households in TA",
-            value: fmt(borough.taEff),
-            detail: "31 March 2025",
-            src: "ta-202503",
-            modelled: borough.ta == null,
-          },
-          {
-            label: "Gross direct TA spending",
-            value: money(borough.grossEff),
-            detail: "2024–25 · excludes administration",
-            src: "ro4",
-            modelled: borough.gross == null,
-          },
-          {
-            label: "Council-owned vacancies",
-            value: fmt(borough.councilVacants),
-            detail: "31 March 2025 · eligibility unknown",
-            src: "vacants",
-            modelled: borough.councilVacants == null,
-          },
-          {
-            label: "All-tenure empty dwellings",
-            value: fmt(borough.allVacants),
-            detail: "7 October 2024 · not a council pool",
-            src: "vacants",
-            modelled: borough.allVacants == null,
-          },
-        ].map((f) => (
-          <article key={f.label} className="bg-background p-5">
-            <Tag kind={f.modelled ? "modelled" : "observed"} />
-            <h3 className="mt-3 text-xs font-bold uppercase tracking-[0.14em] text-muted-foreground">
-              {f.label}
-            </h3>
-            <strong className="display mt-2 block text-4xl">{f.value}</strong>
-            <p className="mt-1 text-xs text-muted-foreground">{f.detail}</p>
-            <div className="mt-2">
-              <Source id={f.src} />
-            </div>
-          </article>
-        ))}
-      </div>
-
-      {/* Levers + consequences */}
-      <div className="mt-10 grid gap-8 lg:grid-cols-[1fr_1.1fr]">
-        <div>
-          <div className="flex items-center justify-between gap-4">
-            <h2 className="display text-3xl">Your annual policy</h2>
-            <button onClick={reset} className="text-xs uppercase tracking-[0.16em] text-signal">
-              Reset to baseline ↺
-            </button>
-          </div>
-          <p className="mt-2 text-sm text-muted-foreground">
-            Repeated every year for five years from April 2025. Baseline: no additional
-            intervention. All delivery and repair inputs are assumptions.
-          </p>
-
-          <div className="mt-6 space-y-4">
-            <AllocationBar
-              label="Return empty council homes"
-              value={spend.voids / 1e6}
-              max={Math.max(1, Math.round(envelopeM * 0.4))}
-              onChange={(v) => setSpend({ ...spend, voids: v * 1e6 })}
-              hint={`${fmt(a["voidPool"])} assumed eligible homes · ${money(a["voidCost"] ?? 0)} each · ${a["lag"]}-year lag. Illustrative pool, not a verified council list.`}
-            />
-            <AllocationBar
-              label="Acquire settled homes"
-              tone="modelled"
-              value={spend.acquire / 1e6}
-              max={Math.max(1, Math.round(envelopeM))}
-              step={0.5}
-              onChange={(v) => setSpend({ ...spend, acquire: v * 1e6 })}
-              hint={`${money(a["purchaseCost"] ?? 0)} all-in per home · ${Math.round((a["suitability"] ?? 0) * 100)}% suitable · ${a["lag"]}-year lag.`}
-            />
-            <AllocationBar
-              label="Repair & improve homes"
-              tone="alert"
-              value={spend.repairs / 1e6}
-              max={Math.max(1, Math.round(envelopeM * 0.4))}
-              onChange={(v) => setSpend({ ...spend, repairs: v * 1e6 })}
-              hint={`${Math.round((a["repairShare"] ?? 0) * 100)}% repairs / ${Math.round((1 - (a["repairShare"] ?? 0)) * 100)}% retrofit. Illustrative backlog; occupied-home repairs create no extra housing.`}
-            />
-          </div>
-
-          <div className="mt-6 grid gap-4 sm:grid-cols-2">
-            <HousingBlocks
-              label="Empty homes returned"
-              total={a["voidPool"] ?? 0}
-              occupied={restoredHomes}
-              caption="Over five years, at your funding level."
-            />
-            <HousingBlocks
-              label="Repair backlog cleared"
-              tone="alert"
-              total={a["repairBacklog"] ?? 0}
-              occupied={Math.max(0, (a["repairBacklog"] ?? 0) - result.backlog)}
-              caption="Occupied homes brought back to standard."
-              unitLabel="cases"
-            />
-          </div>
-
-          <p className="mt-6 border-l-2 border-alert pl-4 text-sm text-muted-foreground">
-            Accommodation still has to be paid for. Any funding gap is carried into the results; it
-            never removes households from the system.
-          </p>
-        </div>
-
-        {/* Results */}
-        <div className="border-2 border-border bg-surface p-5 md:p-7">
-          <div className="flex flex-wrap items-center gap-3">
-            <Tag kind="modelled">Modelled · year five</Tag>
-            <span className="text-xs text-muted-foreground">Projection, not a forecast</span>
-          </div>
-          <div className="mt-5 flex flex-wrap items-end justify-between gap-4 border-b-2 border-border pb-5">
+        <article className="mt-10 border-y-2 border-border py-8 md:py-10" aria-live="polite">
+          <div className="flex flex-wrap items-end justify-between gap-4">
             <div>
-              <strong className="display block text-6xl text-signal">
-                <Counter value={yearFive.state.ta} format={(n) => fmt(n)} />
-              </strong>
-              <span className="mt-1 block text-sm text-muted-foreground">
-                households still in temporary accommodation
-              </span>
+              <Tag kind="observed">Observed · 31 March 2025</Tag>
+              <h2 className="display mt-4 text-5xl md:text-7xl">{borough.name}</h2>
             </div>
-            <div className="text-right">
-              <strong className="display block text-3xl text-alert">
-                <Counter value={result.householdDifference} format={(n) => fmt(n)} /> fewer
-              </strong>
-              <span className="text-xs text-muted-foreground">than the modelled baseline</span>
-            </div>
+            {borough.rate != null && rateComparison != null && (
+              <p className="max-w-xs border-l-2 border-alert pl-4 text-sm text-muted-foreground">
+                <strong className="text-foreground">
+                  {Math.abs(rateComparison).toFixed(0)}% {rateComparison >= 0 ? "above" : "below"}
+                </strong>{" "}
+                the observed London borough rate.
+              </p>
+            )}
           </div>
 
-          <div className="mt-6">
-            <Trajectory player={player} baseline={baseline} opening={borough.taEff} />
-          </div>
-
-          <dl className="mt-6 grid gap-px border-2 border-border bg-border sm:grid-cols-2">
-            {[
-              ["Additional settled placements", fmt(result.additionalPlacements)],
-              ["Gross TA cost avoided", money(result.grossAvoided)],
-              ["Interventions spent", money(result.interventionCost)],
-              [
-                result.netSaving >= 0 ? "Net programme saving" : "Net additional programme cost",
-                money(Math.abs(result.netSaving)),
-              ],
-              ["Modelled repair backlog", fmt(result.backlog)],
-              ["Additional funding required", money(result.funding)],
-            ].map(([label, value]) => (
-              <div key={label} className="bg-background p-4">
-                <dd className="display text-3xl">{value}</dd>
-                <dt className="mt-1 text-xs uppercase tracking-[0.12em] text-muted-foreground">
-                  {label}
-                </dt>
+          {borough.rate == null || borough.ta == null ? (
+            <div className="mt-8 border-2 border-modelled p-6">
+              <h3 className="display text-3xl text-modelled">TA figure not reported</h3>
+              <p className="mt-3 max-w-2xl text-sm leading-relaxed text-muted-foreground">
+                This release does not contain a temporary accommodation count for {borough.name}.
+                HOUSEOPOLY does not fill the gap with an estimate here. Other reported figures remain below.
+              </p>
+            </div>
+          ) : (
+            <div className="mt-8 grid gap-8 lg:grid-cols-[1.25fr_1fr] lg:items-end">
+              <div>
+                <strong className="display tabular block text-[clamp(5rem,14vw,10rem)] leading-none text-signal">
+                  {borough.rate.toFixed(1)}
+                </strong>
+                <p className="mt-3 max-w-lg text-lg">
+                  households in temporary accommodation for every 1,000 households
+                </p>
+                <p className="mt-2 text-xs text-muted-foreground">
+                  {fmt(borough.ta)} households in total · <Source id="ta-202503" />
+                </p>
               </div>
-            ))}
+
+              <div className="border-l-2 border-border pl-5">
+                <span className="eyebrow">Change over the available year</span>
+                {change ? (
+                  <>
+                    <strong className={`display tabular mt-3 block text-5xl ${change.percent > 0 ? "text-alert" : "text-signal"}`}>
+                      {signed(change.percent, 1)}%
+                    </strong>
+                    <p className="mt-2 text-sm text-muted-foreground">
+                      {signed(change.count)} households, from {dateLabel(change.from)} to {dateLabel(change.to)}.
+                    </p>
+                  </>
+                ) : (
+                  <p className="mt-3 text-sm text-muted-foreground">Not available in this release.</p>
+                )}
+              </div>
+            </div>
+          )}
+        </article>
+
+        <section className="py-10" aria-labelledby="money-homes-heading">
+          <div className="flex flex-wrap items-end justify-between gap-4">
+            <div>
+              <span className="eyebrow">What does that mean?</span>
+              <h2 id="money-homes-heading" className="display mt-3 text-4xl md:text-5xl">
+                The money and the homes
+              </h2>
+            </div>
+            <p className="max-w-md text-sm text-muted-foreground">
+              Reported values only. A vacant home is not necessarily suitable or available for a household in need.
+            </p>
+          </div>
+
+          <dl className="mt-7 grid border-2 border-border md:grid-cols-2">
+            <div className="border-b-2 border-border p-5 md:border-b-0 md:border-r-2 md:p-7">
+              <dt className="text-xs font-bold uppercase tracking-[0.14em] text-muted-foreground">
+                Gross direct TA spending
+              </dt>
+              <dd className="display tabular mt-3 text-5xl text-alert md:text-6xl">
+                {borough.gross == null ? "Not reported" : money(borough.gross)}
+              </dd>
+              <p className="mt-3 text-xs text-muted-foreground">2024–25 · accommodation only · <Source id="ro4" /></p>
+            </div>
+            <div className="p-5 md:p-7">
+              <dt className="text-xs font-bold uppercase tracking-[0.14em] text-muted-foreground">
+                Approximate annual cost per occupied household
+              </dt>
+              <dd className="display tabular mt-3 text-5xl md:text-6xl">
+                {spendPerHousehold == null ? "Not available" : money(spendPerHousehold)}
+              </dd>
+              <p className="mt-3 text-xs text-muted-foreground">
+                Calculated: gross spend ÷ average of four quarter-end TA counts. Not cost per distinct family.
+              </p>
+            </div>
           </dl>
 
-          <p className="mt-4 text-xs text-muted-foreground">
-            This scenario uses the assumptions below; it is not a forecast of council performance.
-            Costs include capital and added-home operation, in fixed 2024–25 prices.
+          <dl className="grid border-x-2 border-b-2 border-border sm:grid-cols-2">
+            <div className="border-b-2 border-border p-5 sm:border-b-0 sm:border-r-2 md:p-7">
+              <dt className="text-xs font-bold uppercase tracking-[0.14em] text-muted-foreground">
+                All-tenure vacant dwellings
+              </dt>
+              <dd className="display tabular mt-2 text-4xl">{fmt(borough.allVacants)}</dd>
+              <p className="mt-2 text-xs text-muted-foreground">7 October 2024 · not a verified housing pool</p>
+            </div>
+            <div className="p-5 md:p-7">
+              <dt className="text-xs font-bold uppercase tracking-[0.14em] text-muted-foreground">
+                Council-owned vacant dwellings
+              </dt>
+              <dd className="display tabular mt-2 text-4xl">{fmt(borough.councilVacants)}</dd>
+              <p className="mt-2 text-xs text-muted-foreground">31 March 2025 · eligibility unknown · <Source id="vacants" /></p>
+            </div>
+          </dl>
+        </section>
+
+        <section className="border-t-2 border-border py-10" aria-labelledby="compare-heading">
+          <span className="eyebrow">Across London</span>
+          <h2 id="compare-heading" className="display mt-3 text-4xl md:text-5xl">
+            Pressure and empty homes
+          </h2>
+          <p className="mt-3 max-w-2xl text-sm leading-relaxed text-muted-foreground">
+            Each dot is a borough with reported data. Select a dot to change the borough above. Vacant homes are context,
+            not a claim that they can all be used for temporary accommodation.
           </p>
-        </div>
-      </div>
 
-      <p role="status" className="sr-only">
-        {live}
-      </p>
+          <div className="mt-6 overflow-x-auto border-2 border-border bg-surface p-3 sm:p-5">
+            <svg
+              viewBox="0 0 880 380"
+              className="min-w-[620px] w-full"
+              role="group"
+              aria-label="London boroughs plotted by temporary accommodation rate and all-tenure vacant dwellings"
+            >
+              <line x1="54" y1="328" x2="836" y2="328" className="stroke-border" strokeWidth="2" />
+              <line x1="54" y1="32" x2="54" y2="328" className="stroke-border" strokeWidth="2" />
+              <line
+                x1="54"
+                y1={32 + (1 - londonReference.ratePer1000 / maxRate) * 296}
+                x2="836"
+                y2={32 + (1 - londonReference.ratePer1000 / maxRate) * 296}
+                className="stroke-muted-foreground"
+                strokeDasharray="7 7"
+              />
+              <text x="62" y={24 + (1 - londonReference.ratePer1000 / maxRate) * 296} className="fill-muted-foreground text-[11px]">
+                London borough rate
+              </text>
+              {observed.map((point) => {
+                if (point.allVacants == null || point.rate == null) return null;
+                const x = 54 + (point.allVacants / maxVacants) * 782;
+                const y = 32 + (1 - point.rate / maxRate) * 296;
+                const selected = point.code === borough.code;
+                return (
+                  <circle
+                    key={point.code}
+                    cx={x}
+                    cy={y}
+                    r={selected ? 10 : 6}
+                    role="button"
+                    tabIndex={0}
+                    aria-label={`${point.name}: ${point.rate.toFixed(1)} per 1,000 and ${fmt(point.allVacants)} vacant dwellings`}
+                    className={`${selected ? "fill-alert stroke-foreground" : "fill-signal stroke-background"} cursor-pointer transition-[r] hover:fill-alert focus:outline-none`}
+                    strokeWidth="3"
+                    onClick={() => setCode(point.code)}
+                    onKeyDown={(event) => {
+                      if (event.key === "Enter" || event.key === " ") {
+                        event.preventDefault();
+                        setCode(point.code);
+                      }
+                    }}
+                  >
+                    <title>{point.name}</title>
+                  </circle>
+                );
+              })}
+              {selectedPosition && (
+                <text x={Math.min(selectedPosition.x + 14, 760)} y={selectedPosition.y - 12} className="fill-foreground text-[13px] font-bold">
+                  {borough.name}
+                </text>
+              )}
+              <text x="445" y="366" textAnchor="middle" className="fill-muted-foreground text-[12px]">
+                All-tenure vacant dwellings →
+              </text>
+              <text x="18" y="180" textAnchor="middle" transform="rotate(-90 18 180)" className="fill-muted-foreground text-[12px]">
+                TA households per 1,000 →
+              </text>
+            </svg>
+          </div>
+        </section>
 
-      <AssumptionEditor a={a} setA={setA} />
-
-      <details className="mt-4 border-2 border-border p-5">
-        <summary className="cursor-pointer text-sm font-bold uppercase tracking-[0.16em]">
-          Observed history and the annual cost proxy
-        </summary>
-        <p className="mt-3 text-sm text-muted-foreground">
-          Gross direct TA cost ÷ mean of four quarter-end stocks = annual occupied-household cost
-          proxy. For {borough.name}: {borough.gross == null ? "not reported" : money(borough.gross)}{" "}
-          ÷ {fmt(borough.annualAverage)} ={" "}
-          {borough.taUnitCost == null
-            ? `${money(borough.unitCostEff)} (London average, modelled)`
-            : money(borough.taUnitCost)}
-          . This is not cost per distinct household served.
-        </p>
-        <div className="mt-4 overflow-auto">
-          <table className="w-full text-sm">
-            <thead className="eyebrow">
-              <tr className="border-b-2 border-border text-left">
-                <th className="py-1">Quarter end</th>
-                <th className="py-1 text-right">Observed TA households</th>
-              </tr>
-            </thead>
-            <tbody>
-              {borough.history.map((h) => (
-                <tr key={h.date} className="border-b border-border">
-                  <th className="py-1 text-left font-medium">{dateLabel(h.date)}</th>
-                  <td className="tabular py-1 text-right">{fmt(h.value)}</td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
-        </div>
-        <div className="mt-3">
-          <Source id="ta-202503">MHCLG quarterly tables</Source>
-        </div>
-        <p className="mt-3 text-sm text-muted-foreground">
-          RO4 income: {borough.income == null ? "not reported" : money(borough.income)}. Net direct
-          expenditure: {borough.net == null ? "not reported" : money(borough.net)}. The scenario
-          consistently uses gross costs.
-        </p>
-      </details>
-    </section>
+        <section className="border-t-2 border-border pt-8">
+          <button
+            type="button"
+            onClick={() => setShowMap((current) => !current)}
+            aria-expanded={showMap}
+            className="flex w-full items-center justify-between py-2 text-left"
+          >
+            <span>
+              <span className="eyebrow block">Prefer the map?</span>
+              <span className="display mt-2 block text-3xl">Choose a borough on the map</span>
+            </span>
+            <span aria-hidden="true" className="display text-3xl text-signal">{showMap ? "−" : "+"}</span>
+          </button>
+          {showMap && (
+            <div className="mt-5 border-2 border-border bg-surface p-3 sm:p-5">
+              {geo ? (
+                <LondonMap geo={geo} selected={borough.code} onSelect={setCode} />
+              ) : (
+                <div className="grid h-64 place-items-center text-sm text-muted-foreground">
+                  {error ? "Map unavailable. Use the borough selector above." : "Loading London boundaries…"}
+                </div>
+              )}
+              <div className="mt-4 border-t-2 border-border pt-4"><MapLegend /></div>
+            </div>
+          )}
+        </section>
+      </section>
+    </div>
   );
 }
