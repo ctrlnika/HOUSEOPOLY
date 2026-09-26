@@ -280,14 +280,6 @@ function Setup({
           >
             Enter the saleroom
           </button>
-
-          <p className="text-xs text-muted-foreground">
-            Prefer the long game?{" "}
-            <Link to="/challenge" search={{}} className="text-signal">
-              Play the five-year strategy mode
-            </Link>
-            .
-          </p>
         </aside>
       </div>
     </div>
@@ -600,13 +592,6 @@ function FinalCard({
           className="border-2 border-border px-5 py-3 pixel text-[0.65rem]"
         >
           Explore this borough
-        </Link>
-        <Link
-          to="/challenge"
-          search={{}}
-          className="border-2 border-border px-5 py-3 pixel text-[0.65rem]"
-        >
-          Five-year mode
         </Link>
       </div>
     </div>
