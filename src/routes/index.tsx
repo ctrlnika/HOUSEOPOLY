@@ -19,7 +19,7 @@ export const Route = createFileRoute("/")({
       {
         name: "description",
         content:
-          "London councils spend billions a year on temporary accommodation while council homes sit empty. Explore the real borough data, then take the Housing Director challenge.",
+          "London councils spend billions a year on temporary accommodation while council homes sit empty. Explore the real borough data, then play Council vs Speculator.",
       },
       { property: "og:title", content: "HOUSEOPOLY — London's housing crisis, in numbers you can move" },
       {
@@ -325,13 +325,6 @@ function Landing() {
               className="border-2 border-alert bg-alert px-8 py-5 text-center text-accent-foreground"
             >
               <span className="display text-2xl">Enter the saleroom →</span>
-            </Link>
-            <Link
-              to="/challenge"
-              search={{}}
-              className="border-2 border-border px-8 py-3 text-center text-sm text-muted-foreground"
-            >
-              Or play the five-year strategy mode
             </Link>
           </div>
         </div>

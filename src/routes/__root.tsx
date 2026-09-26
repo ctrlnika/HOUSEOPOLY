@@ -119,8 +119,8 @@ const NAV = [
   { to: "/", label: "The picture" },
   { to: "/explore", label: "Explore" },
   { to: "/auction", label: "Play" },
-  { to: "/challenge", label: "5-year mode" },
-  { to: "/methodology", label: "Method" },
+  
+  { to: "/sources", label: "Sources" },
 ] as const;
 
 function Wordmark() {
@@ -181,8 +181,8 @@ function RootComponent() {
             </p>
           </div>
           <div className="flex flex-col gap-1 text-xs text-muted-foreground md:text-right">
-            <Link to="/methodology" className="text-signal">
-              Data &amp; model notes ↗
+            <Link to="/sources" className="text-signal">
+              Sources ↗
             </Link>
             <span>Snapshot 2024–25 · Model 1.0</span>
           </div>
