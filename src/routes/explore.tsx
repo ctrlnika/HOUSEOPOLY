@@ -92,23 +92,9 @@ function Explore() {
           </p>
         </header>
 
-        <label className="mt-9 block max-w-2xl" htmlFor="borough-select">
-          <span className="mb-2 block text-sm font-bold uppercase tracking-[0.16em]">
-            Explore a borough
-          </span>
-          <select
-            id="borough-select"
-            value={borough.code}
-            onChange={(event) => setCode(event.target.value)}
-            className="display w-full border-2 border-signal bg-background px-4 py-4 text-2xl text-foreground sm:text-3xl"
-          >
-            {boroughs.map((option) => (
-              <option key={option.code} value={option.code}>
-                {option.name}
-              </option>
-            ))}
-          </select>
-        </label>
+        <div className="mt-9">
+          <BoroughPicker boroughs={boroughs} value={borough.code} onChange={setCode} />
+        </div>
 
         <article className="mt-10 border-y-2 border-border py-8 md:py-10" aria-live="polite">
           <div className="flex flex-wrap items-end justify-between gap-4">
