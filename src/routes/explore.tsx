@@ -3,6 +3,7 @@ import { useEffect, useMemo, useState } from "react";
 import { boroughs, dateLabel, fmt, getBorough, londonReference, money } from "@/lib/data";
 import { LondonMap, MapLegend, useLondonGeo } from "@/components/map/LondonMap";
 import { Source, Tag } from "@/components/site/bits";
+import { BoroughPicker } from "@/components/explore/BoroughPicker";
 
 type Search = { b?: string };
 
